@@ -1,0 +1,731 @@
+--- !ruby/object:RPG::Map
+parallax_name: ''
+height: 13
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: EV001
+    x: 5
+    y: 6
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: '!$mazeduedes'
+        character_index: 0
+        direction: 8
+        pattern: 2
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: true
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 242, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 261, p: [Mara]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 5, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Accept the offer?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [294, 294, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::BGM {name: Jimmy W - Midi Canoe - 09 Through the Mandala, volume: 75, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Bohdi3, 0, 0, 0, -30, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The creation of phenomena is taken care of by]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Dependent Origination no longer, as I have']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [freed all souls from this karmic cycle.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Energy can not be created nor destoyed,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [but it can be gathered.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Upon gathering all of the life that pass through]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [this realm I will create a new world in my]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [image.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: Jimmy W - Midi Canoe - 09 Through the Mandala, volume: 70, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 283, p: ['', '']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 43, false, false]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::BGM {name: opt out - Three Glimpses into an Opal - 06 Shores of Purusha, volume: 80, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Bohdi, 0, 0, 0, -30, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['With the down fall of ascended Mara,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [threads of Dependent Origination have been]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['restored. You feel a warmth fall over you, a']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [graditude of millions of souls barely satisfied.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [They all watch one being cry.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, memory1-9, 0, 0, 0, -30, 100, 75, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['You awaken, next to a grazing horse.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, memory5-6, 0, 0, 0, -30, 100, 75, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['As you walk through the forest, you see the sun']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [begin to rise.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, memory5-5, 0, 0, 0, -30, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [steam = SteamUserStatsLite.instance]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [steam.set_achievement 'NEW_ACHIEVEMENT_1_5']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [steam.update]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 105, p: [1, false]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [An experience created by Rick.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [Music by Jimmy W.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [Sound effects by Quixote/Justin.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['Special thanks to, ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [Mick]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [Caf]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [Brandon]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [Beth]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [Chii]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [Bumstead]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [Dibs]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [Ryan Humes]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [Thank you for playing.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [999]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [999]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [999]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 354, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: true
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 482
+        variable_value: 1
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: '!Hexagram'
+        character_index: 0
+        direction: 8
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: true
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 242, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 261, p: [Mara]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 5, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Accept the offer?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [294, 294, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::BGM {name: Jimmy W - Midi Canoe - 09 Through the Mandala, volume: 75, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Bohdi3, 0, 0, 0, -30, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The creation of phenomena is taken care of by]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Dependent Origination no longer, as I have']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [freed all souls from this karmic cycle.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Energy can not be created nor destoyed,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [but it can be gathered.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Upon gathering all of the life that pass through]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [this realm I will create a new world in my]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [image.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: Jimmy W - Midi Canoe - 09 Through the Mandala, volume: 70, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 283, p: ['', '']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 43, false, false]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::BGM {name: opt out - Three Glimpses into an Opal - 06 Shores of Purusha, volume: 80, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Bohdi, 0, 0, 0, -30, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['With the down fall of ascended Mara,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [threads of Dependent Origination have been]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['restored. You feel a warmth fall over you, a']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [graditude of millions of souls barely satisfied.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, memory1-9, 0, 0, 0, -30, 100, 75, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['You awaken, next to a grazing horse.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, memory5-6, 0, 0, 0, -30, 100, 75, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['As you walk through the forest, you see the sun']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [begin to rise.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Trueend, 0, 0, 0, -30, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['The sky is filled with blinding lights, the bodhi tree']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [is welcoming you at last.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Sit under the tree?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, Trueend, 0, 0, 0, -30, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 105, p: [1, false]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [An experience created by Rick.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Music by Jimmy W.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Sound effects by Quixote/Justin.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['Special thanks to, ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Mick]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Caf]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Brandon]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Beth]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Chii]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Bumstead]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Dibs]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Ryan Humes]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Thank you for playing.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [999]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [999]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [999]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 354, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, memory5-5, 0, 0, 0, -30, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 105, p: [1, false]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [An experience created by Rick.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Music by Jimmy W.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Sound effects by Quixote/Justin.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['Special thanks to, ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Mick]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Caf]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Brandon]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Beth]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Chii]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Bumstead]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Dibs]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Ryan Humes]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Thank you for playing.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [999]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [999]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [999]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, Trueendmaybe, 0, 0, 0, -30, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 354, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  4: !ruby/object:RPG::Event
+    id: 4
+    name: EV004
+    x: 8
+    y: 12
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 4
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [11, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [15]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 250, p: [!ruby/object:RPG::SE {name: walk_tile, pitch: 100, volume: 50}]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [11, 8]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [15]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: walk_tile, pitch: 100, volume: 50}]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: EV002
+    x: 5
+    y: 3
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: true
+      through: true
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: true
+        self_switch_valid: false
+        item_valid: true
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 474
+        variable_value: 1
+        self_switch_ch: A
+        item_id: 29
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: '!$mazeducks'
+        character_index: 0
+        direction: 8
+        pattern: 2
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: true
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [465, 465, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 8, 11, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You are going to a new location.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: EV003
+    x: 6
+    y: 2
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: '!$mazechii'
+        character_index: 0
+        direction: 2
+        pattern: 2
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: true
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [CAWCAWCAW]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: true
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 26
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: '!$mazechii'
+        character_index: 0
+        direction: 2
+        pattern: 2
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: true
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This portal will take you back to the library]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [should you have unfinished there.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+parallax_sx: 1
+bgm: !ruby/object:RPG::BGM {name: Jimmy W - Midi Canoe - 01 Transmission Canoe, volume: 100, pitch: 100}
+tileset_id: 42
+encounter_step: 30
+width: 17
+data: !ruby/object:Table
+  dim: 3
+  x: 17
+  y: 13
+  z: 4
+  data:
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0000
+  - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0000
+  - 0000 0003 0003 0003 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0000
+  - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0000
+  - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0000
+  - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0000 0003 0003 0003 0000
+  - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0000
+  - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0000
+  - 0000 0003 0003 0003 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0000
+  - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0000
+  - 0000 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0003 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+bgs: !ruby/object:RPG::BGS {name: '', volume: 80, pitch: 100}
+parallax_loop_y: true
+autoplay_bgm: true
+encounter_list: []
+autoplay_bgs: false
+parallax_show: false
+scroll_type: 0
+parallax_loop_x: true
+disable_dashing: false
+parallax_sy: 2
+display_name: ''
+specify_battleback: false
+note: '[fple:FPLE_floor30]'
+battleback1_name: ''
+battleback2_name: ''

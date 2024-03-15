@@ -1,0 +1,218 @@
+--- !ruby/object:RPG::Map
+parallax_name: ''
+height: 13
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: EV001
+    x: 3
+    y: 8
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: true
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 294
+        variable_value: 1
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 3
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: opt out - Three Glimpses into an Opal - 03 Hiraeth, volume: 75, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Tree, 0, 0, 0, -30, 95, 80, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With Mara's reason and the last shepherds]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['accepting this, energy is no longer free']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [flowing. The Kleshas of man being the spear]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [head to break the cycle and create a new...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [world under one creator. The Bodhi tree]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['is no more, and the tower has collapsed']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [into a swamp. Mara's prison becoming]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the very algae flowing through this soup.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Bohdi3, 0, 0, 0, -30, 100, 75, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['you will be my son, judge the living and the']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [dead before and after their bodily resurrection.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Be the Prophet of my new world.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Karma is now in our hands. we are now]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the creators, not fate.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, memorycrowsofchii, 0, 0, 0, -30, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [steam = SteamUserStatsLite.instance]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [steam.set_achievement 'NEW_ACHIEVEMENT_1_6']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [steam.update]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 105, p: [1, false]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [An experience created by Rick.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Music by Jimmy W.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Sound effects by Quixote/Justin.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Special thanks to, ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Mick]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Caf]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Brandon]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Beth]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Chii]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Bumstead]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Dibs]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Ryan Humes]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Thank you for playing.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [999]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [999]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [999]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 354, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+parallax_sx: 0
+bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
+tileset_id: 1
+encounter_step: 30
+width: 17
+data: !ruby/object:Table
+  dim: 3
+  x: 17
+  y: 13
+  z: 4
+  data:
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+bgs: !ruby/object:RPG::BGS {name: '', volume: 80, pitch: 100}
+parallax_loop_y: false
+autoplay_bgm: false
+encounter_list: []
+autoplay_bgs: false
+parallax_show: false
+scroll_type: 0
+parallax_loop_x: false
+disable_dashing: false
+parallax_sy: 0
+display_name: ''
+specify_battleback: false
+note: ''
+battleback1_name: ''
+battleback2_name: ''
