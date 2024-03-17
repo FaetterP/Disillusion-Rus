@@ -1,8 +1,498 @@
 ---
 1: !ruby/object:RPG::MapInfo
-  scroll_x: 272
-  name: MAP001
-  expanded: false
+  scroll_x: 640
+  name: Area1
+  expanded: true
   order: 1
+  scroll_y: 740
+  parent_id: 0
+2: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: MAP002
+  expanded: true
+  order: 2
+  scroll_y: 400
+  parent_id: 1
+3: !ruby/object:RPG::MapInfo
+  scroll_x: 336
+  name: start
+  expanded: true
+  order: 3
+  scroll_y: 320
+  parent_id: 2
+4: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: intro2
+  expanded: true
+  order: 4
+  scroll_y: 208
+  parent_id: 3
+5: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: FPLE_floor1
+  expanded: true
+  order: 6
+  scroll_y: 320
+  parent_id: 0
+6: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_FLOOR2
+  expanded: false
+  order: 7
+  scroll_y: 208
+  parent_id: 5
+7: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor3
+  expanded: false
+  order: 8
   scroll_y: 208
   parent_id: 0
+8: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: FPLE_floor5
+  expanded: true
+  order: 9
+  scroll_y: 400
+  parent_id: 0
+9: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Intro
+  expanded: false
+  order: 5
+  scroll_y: 208
+  parent_id: 4
+10: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: FPLE_floor6
+  expanded: false
+  order: 10
+  scroll_y: 400
+  parent_id: 8
+11: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: FPLE_floor7
+  expanded: false
+  order: 11
+  scroll_y: 320
+  parent_id: 0
+12: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: FPLE_floor8
+  expanded: false
+  order: 12
+  scroll_y: 240
+  parent_id: 0
+13: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor9
+  expanded: false
+  order: 13
+  scroll_y: 208
+  parent_id: 0
+14: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: FPLE_floor10
+  expanded: false
+  order: 14
+  scroll_y: 320
+  parent_id: 0
+15: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor11
+  expanded: true
+  order: 15
+  scroll_y: 208
+  parent_id: 0
+16: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Return to town
+  expanded: false
+  order: 16
+  scroll_y: 208
+  parent_id: 15
+17: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor11real
+  expanded: false
+  order: 17
+  scroll_y: 208
+  parent_id: 0
+18: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor12
+  expanded: false
+  order: 18
+  scroll_y: 272
+  parent_id: 0
+19: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: FPLE_floor13
+  expanded: false
+  order: 19
+  scroll_y: 272
+  parent_id: 0
+20: !ruby/object:RPG::MapInfo
+  scroll_x: 304
+  name: FPLE_floor14
+  expanded: false
+  order: 20
+  scroll_y: 272
+  parent_id: 0
+21: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: FPLE_floor15
+  expanded: false
+  order: 21
+  scroll_y: 320
+  parent_id: 0
+22: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor16
+  expanded: false
+  order: 22
+  scroll_y: 272
+  parent_id: 0
+23: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor17
+  expanded: false
+  order: 23
+  scroll_y: 208
+  parent_id: 0
+24: !ruby/object:RPG::MapInfo
+  scroll_x: 368
+  name: FPLE_floor18
+  expanded: false
+  order: 26
+  scroll_y: 272
+  parent_id: 25
+25: !ruby/object:RPG::MapInfo
+  scroll_x: 320
+  name: FPLE_floor19
+  expanded: true
+  order: 24
+  scroll_y: 320
+  parent_id: 0
+26: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor20
+  expanded: false
+  order: 25
+  scroll_y: 208
+  parent_id: 25
+27: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorbonus
+  expanded: false
+  order: 27
+  scroll_y: 208
+  parent_id: 25
+28: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorbranch1
+  expanded: false
+  order: 28
+  scroll_y: 208
+  parent_id: 0
+29: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorbranch2
+  expanded: false
+  order: 29
+  scroll_y: 208
+  parent_id: 0
+30: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorbranch3
+  expanded: false
+  order: 30
+  scroll_y: 208
+  parent_id: 0
+31: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorbranch4
+  expanded: false
+  order: 31
+  scroll_y: 208
+  parent_id: 0
+32: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor21
+  expanded: false
+  order: 32
+  scroll_y: 208
+  parent_id: 0
+33: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor22
+  expanded: true
+  order: 33
+  scroll_y: 272
+  parent_id: 0
+34: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor23
+  expanded: false
+  order: 34
+  scroll_y: 208
+  parent_id: 33
+35: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor24
+  expanded: false
+  order: 35
+  scroll_y: 320
+  parent_id: 0
+36: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorwhale
+  expanded: true
+  order: 36
+  scroll_y: 208
+  parent_id: 0
+37: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: townpart3
+  expanded: false
+  order: 40
+  scroll_y: 208
+  parent_id: 39
+38: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_flooreyes
+  expanded: false
+  order: 38
+  scroll_y: 208
+  parent_id: 0
+39: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor25
+  expanded: true
+  order: 39
+  scroll_y: 208
+  parent_id: 0
+40: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor26
+  expanded: false
+  order: 41
+  scroll_y: 208
+  parent_id: 0
+41: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor27
+  expanded: true
+  order: 42
+  scroll_y: 272
+  parent_id: 0
+42: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor28
+  expanded: false
+  order: 45
+  scroll_y: 272
+  parent_id: 0
+43: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor29
+  expanded: false
+  order: 46
+  scroll_y: 272
+  parent_id: 0
+44: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor30
+  expanded: true
+  order: 47
+  scroll_y: 208
+  parent_id: 0
+45: !ruby/object:RPG::MapInfo
+  scroll_x: 1216
+  name: FPLE_floorhuge
+  expanded: true
+  order: 68
+  scroll_y: 2716
+  parent_id: 68
+46: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: blank
+  expanded: true
+  order: 43
+  scroll_y: 208
+  parent_id: 41
+47: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorbranch5
+  expanded: false
+  order: 48
+  scroll_y: 208
+  parent_id: 44
+48: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: FPLE_floorbranchmickzone
+  expanded: false
+  order: 49
+  scroll_y: 480
+  parent_id: 0
+49: !ruby/object:RPG::MapInfo
+  scroll_x: 480
+  name: FPLE_floorbranchmickzone2
+  expanded: false
+  order: 50
+  scroll_y: 480
+  parent_id: 0
+50: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: blank2
+  expanded: false
+  order: 44
+  scroll_y: 208
+  parent_id: 46
+51: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorcrow
+  expanded: false
+  order: 37
+  scroll_y: 208
+  parent_id: 36
+52: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floormeadow
+  expanded: false
+  order: 51
+  scroll_y: 208
+  parent_id: 0
+53: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floormeadow2
+  expanded: false
+  order: 52
+  scroll_y: 208
+  parent_id: 0
+54: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorschool
+  expanded: false
+  order: 53
+  scroll_y: 208
+  parent_id: 0
+55: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floornurse
+  expanded: true
+  order: 54
+  scroll_y: 208
+  parent_id: 0
+56: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorhospital
+  expanded: false
+  order: 56
+  scroll_y: 208
+  parent_id: 0
+57: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorhospital2
+  expanded: false
+  order: 57
+  scroll_y: 208
+  parent_id: 0
+58: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorforest
+  expanded: false
+  order: 58
+  scroll_y: 208
+  parent_id: 0
+59: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorprison
+  expanded: false
+  order: 59
+  scroll_y: 208
+  parent_id: 0
+60: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorocean
+  expanded: true
+  order: 60
+  scroll_y: 208
+  parent_id: 0
+61: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorocean2
+  expanded: false
+  order: 61
+  scroll_y: 208
+  parent_id: 60
+62: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorschool2
+  expanded: false
+  order: 55
+  scroll_y: 208
+  parent_id: 55
+63: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorchurch
+  expanded: false
+  order: 62
+  scroll_y: 208
+  parent_id: 0
+64: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorlibrary
+  expanded: false
+  order: 63
+  scroll_y: 208
+  parent_id: 0
+65: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: FPLE_floorjapanesetown
+  expanded: false
+  order: 64
+  scroll_y: 400
+  parent_id: 0
+66: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorbonezone
+  expanded: true
+  order: 65
+  scroll_y: 208
+  parent_id: 0
+67: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floor17
+  expanded: true
+  order: 66
+  scroll_y: 208
+  parent_id: 66
+68: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorhospital
+  expanded: true
+  order: 67
+  scroll_y: 208
+  parent_id: 67
+69: !ruby/object:RPG::MapInfo
+  scroll_x: 400
+  name: FPLE_floorjapanesetown
+  expanded: false
+  order: 69
+  scroll_y: 400
+  parent_id: 45
+70: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorhospital2
+  expanded: true
+  order: 70
+  scroll_y: 208
+  parent_id: 68
+71: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: FPLE_floorbranch2
+  expanded: false
+  order: 71
+  scroll_y: 208
+  parent_id: 70

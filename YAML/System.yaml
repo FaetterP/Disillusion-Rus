@@ -11,10 +11,10 @@ elements:
 - Wind
 - Holy
 - Dark
-start_y: 6
+start_y: 11
 airship: !ruby/object:RPG::System::Vehicle
   start_y: 0
-  bgm: !ruby/object:RPG::BGM {name: Airship, volume: 100, pitch: 100}
+  bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
   start_x: 0
   character_index: 3
   character_name: Vehicle
@@ -25,52 +25,52 @@ test_battlers:
   level: 1
   equips:
   - 1
-  - 46
+  - 0
+  - 0
   - 0
   - 1
-  - 0
 _: 7829367
-edit_map_id: 1
+edit_map_id: 4
 battle_end_me: !ruby/object:RPG::ME
-  name: Victory1
+  name: ''
   pitch: 100
   volume: 100
 party_members:
 - 1
-start_x: 8
+start_x: 7
 ship: !ruby/object:RPG::System::Vehicle
   start_y: 0
-  bgm: !ruby/object:RPG::BGM {name: Ship, volume: 100, pitch: 100}
+  bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
   start_x: 0
   character_index: 1
   character_name: Vehicle
   start_map_id: 0
 battler_hue: 0
 sounds:
-- !ruby/object:RPG::SE {name: Cursor2, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Decision3, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Cancel2, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Buzzer1, pitch: 100, volume: 40}
+- !ruby/object:RPG::SE {name: Cursor1, pitch: 50, volume: 40}
+- !ruby/object:RPG::SE {name: Buzzer1, pitch: 50, volume: 80}
 - !ruby/object:RPG::SE {name: Buzzer1, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Equip1, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Save, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Load, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Battle1, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Run, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Attack3, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Damage4, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Collapse1, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Collapse3, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Collapse4, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Damage5, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Collapse2, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Recovery, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Miss, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Evasion1, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Evasion2, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Reflection, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Shop, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Item3, pitch: 100, volume: 80}
-- !ruby/object:RPG::SE {name: Item3, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Buzzer1, pitch: 50, volume: 80}
+- !ruby/object:RPG::SE {name: Load, pitch: 150, volume: 80}
+- !ruby/object:RPG::SE {name: Load, pitch: 50, volume: 80}
+- !ruby/object:RPG::SE {name: '', pitch: 50, volume: 80}
+- !ruby/object:RPG::SE {name: '', pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Sound1, pitch: 50, volume: 40}
+- !ruby/object:RPG::SE {name: Collapse1, pitch: 100, volume: 30}
+- !ruby/object:RPG::SE {name: '', pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: '', pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: '', pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: '', pitch: 50, volume: 40}
+- !ruby/object:RPG::SE {name: '', pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: '', pitch: 100, volume: 85}
+- !ruby/object:RPG::SE {name: '', pitch: 50, volume: 80}
+- !ruby/object:RPG::SE {name: '', pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: '', pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: '', pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: '', pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: '', pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: '', pitch: 100, volume: 80}
 variables:
 - 
 - ''
@@ -173,13 +173,415 @@ variables:
 - ''
 - ''
 - ''
-battle_bgm: !ruby/object:RPG::BGM {name: Battle1, volume: 100, pitch: 100}
-version_id: 18841760
-start_map_id: 1
-battler_name: Assassin
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- terrain tag id
+- playerx
+- player y
+- normal
+- easy
+- Easteregg1
+- chii
+- Devas
+- Deva2
+- devil
+- devas3
+- chii statue
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- Dibs
+- '8'
+- '7'
+- '6'
+- '5'
+- '4'
+- '3'
+- text over flower2
+- text over flower1
+- spareflowers
+- kill flowers
+- exp guyu
+- bub
+- maras offer yes
+- horse
+- buikldign
+- tunnel
+- pork
+- riggly
+- Town hob
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- rat
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- scare
+- one time crow event
+- prizon
+- caferyu
+- Lbary gate final
+- gave sweet corn to budah
+- kiil oob
+- caf is in hog hell
+- ''
+- hog hell
+- last menthol lost to caf
+- the last menthol
+- bonezone
+- bhool bhulaiya maze
+- queen bee is dead
+- umasu
+- fishlord2
+- fishlord
+- ghost 2
+- ghost 1 hospis
+- old man
+- mel is dead
+- chii final
+- bad luck
+- mel neutral
+- mel stays
+- Mel is gone
+- floor 15 part 2 2
+- floor 15 part 2 mean to mel
+- melupset2
+- HAppymel
+- Upset mel
+- Mel taught you about Devas
+- mel taught you about golem
+- +crow int
+- '- crow int'
+- muse come2
+- muse comment 1
+- muses job
+- MUse joins you
+battle_bgm: !ruby/object:RPG::BGM {name: '', volume: 70, pitch: 100}
+version_id: 10745736
+start_map_id: 4
+battler_name: lilguy
 magic_number: 77696160
 switches:
 - 
+- blue guy
+- movieloop
 - ''
 - ''
 - ''
@@ -258,6 +660,7 @@ switches:
 - ''
 - ''
 - ''
+- music
 - ''
 - ''
 - ''
@@ -274,18 +677,15 @@ switches:
 - ''
 - ''
 - ''
-- ''
-- ''
-- ''
-- ''
+- steps
 - ''
 - ''
 gameover_me: !ruby/object:RPG::ME
-  name: Gameover1
+  name: ''
   pitch: 100
   volume: 100
-game_title: Project1
-title_bgm: !ruby/object:RPG::BGM {name: Theme1, volume: 100, pitch: 100}
+game_title: Disillusion
+title_bgm: !ruby/object:RPG::BGM {name: Jimmy W - Midi Canoe - 06 Pan, volume: 70, pitch: 100}
 terms: !ruby/object:RPG::System::Terms
   params:
   - MaxHP
@@ -297,11 +697,11 @@ terms: !ruby/object:RPG::System::Terms
   - AGI
   - LUK
   etypes:
-  - Weapon
-  - Shield
-  - Headgear
-  - Bodygear
-  - Accessory
+  - Right Hand
+  - Left Hand
+  - Head
+  - Body
+  - Legs
   commands:
   - Fight
   - Escape
@@ -328,26 +728,26 @@ terms: !ruby/object:RPG::System::Terms
   - Cancel
   - ''
   basic:
-  - Level
+  - Knowledge
   - LV
-  - HP
-  - HP
-  - MP
-  - MP
-  - TP
-  - TP
-test_troop_id: 1
+  - Soul
+  - Hp
+  - Wisdom
+  - Mp
+  - ''
+  - ''
+test_troop_id: 61
 boat: !ruby/object:RPG::System::Vehicle
   start_y: 0
-  bgm: !ruby/object:RPG::BGM {name: Ship, volume: 100, pitch: 100}
+  bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
   start_x: 0
   character_index: 0
   character_name: Vehicle
   start_map_id: 0
 skill_types:
 - ''
-- Special
-- Magic
+- 'Physical '
+- Wisdom
 weapon_types:
 - ''
 - Axe
@@ -368,18 +768,18 @@ armor_types:
 - Heavy Armour
 - Small Shield
 - Large Shield
-currency_unit: G
-window_tone: !ruby/object:Tone {r: -34.0, g: 0.0, b: 68.0, a: 0.0}
+currency_unit: Dust
+window_tone: !ruby/object:Tone {r: 0.0, g: 0.0, b: 0.0, a: 0.0}
 japanese: false
-opt_draw_title: true
+opt_draw_title: false
 opt_use_midi: false
 opt_transparent: false
 opt_followers: true
 opt_slip_death: false
 opt_extra_exp: false
-opt_display_tp: true
-battleback1_name: Grassland
-battleback2_name: Grassland
-title1_name: Plain
-title2_name: Forest
+opt_display_tp: false
+battleback1_name: ''
+battleback2_name: ''
+title1_name: 08b5791edcee0a3be779e9a6624d7e39cf28f82e
+title2_name: ''
 opt_floor_death: false

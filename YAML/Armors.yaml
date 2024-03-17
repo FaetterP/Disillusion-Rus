@@ -1,9 +1,9 @@
 ---
 - 
 - !ruby/object:RPG::Armor
-  description: Very lightweight clothes.
-  name: Casual Clothes
-  icon_index: 168
+  description: Old stiff socks. Gives 1 DEF
+  name: Socks
+  icon_index: 0
   price: 100
   note: ''
   id: 1
@@ -11,7 +11,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
     data_id: 1
-    value: 0
+    value: 0.03
   params:
   - 0
   - 0
@@ -21,12 +21,12 @@
   - 0
   - 0
   - 0
-  etype_id: 3
+  etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: Made with the best leather.
-  name: Leather Top
-  icon_index: 168
+  description: Hands off. Gives 3 MAT
+  name: Spiked Bra
+  icon_index: 0
   price: 300
   note: ''
   id: 2
@@ -39,112 +39,20 @@
   - 0
   - 0
   - 0
-  - 5
   - 0
+  - 3
   - 0
   - 0
   - 0
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: Worn clothing that can withstand a harsh journey.
-  name: Adventurer's Garb
-  icon_index: 168
+  description: It looks happy. Gives 3 DEF
+  name: Smiley Face Shirt
+  icon_index: 0
   price: 2000
   note: ''
   id: 3
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
-  params:
-  - 0
-  - 0
-  - 0
-  - 10
-  - 0
-  - 0
-  - 0
-  - 0
-  etype_id: 3
-  atype_id: 1
-- !ruby/object:RPG::Armor
-  description: Hardened leather vest.
-  name: Hard Leather
-  icon_index: 168
-  price: 5000
-  note: ''
-  id: 4
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
-  params:
-  - 0
-  - 0
-  - 0
-  - 15
-  - 0
-  - 0
-  - 0
-  - 0
-  etype_id: 3
-  atype_id: 1
-- !ruby/object:RPG::Armor
-  description: Clothing made with reinforced steel.
-  name: Brigandine
-  icon_index: 168
-  price: 8000
-  note: ''
-  id: 5
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
-  params:
-  - 0
-  - 0
-  - 0
-  - 20
-  - 0
-  - 0
-  - 0
-  - 0
-  etype_id: 3
-  atype_id: 1
-- !ruby/object:RPG::Armor
-  description: Headband cloth that protects the head.
-  name: Bandana
-  icon_index: 162
-  price: 100
-  note: ''
-  id: 6
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
-  params:
-  - 0
-  - 0
-  - 0
-  - 1
-  - 0
-  - 0
-  - 0
-  - 0
-  etype_id: 2
-  atype_id: 1
-- !ruby/object:RPG::Armor
-  description: Headband made of leather to protect the head.
-  name: Leather Bandana
-  icon_index: 162
-  price: 500
-  note: ''
-  id: 7
   features:
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
@@ -159,15 +67,61 @@
   - 0
   - 0
   - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "Pit Snake Brand. Not approved by the safety\r\ndepartment. gives 4 MDF"
+  name: Pit Snake Shades
+  icon_index: 0
+  price: 5000
+  note: ''
+  id: 4
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 4
+  - 0
+  - 0
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: Hat made of fur.
-  name: Fur Hat
-  icon_index: 162
-  price: 1500
+  description: "Didn't that guy who wrote that songabout \r\nless rain wear this? Gives 7 MDF"
+  name: Bent fork necklace
+  icon_index: 0
+  price: 8000
   note: ''
-  id: 8
+  id: 5
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 7
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "Nuts that hang on the back of a trailer hitch\r\ngives 6 DEF"
+  name: Truck Nuts
+  icon_index: 0
+  price: 100
+  note: ''
+  id: 6
   features:
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
@@ -182,12 +136,58 @@
   - 0
   - 0
   - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: "Cat ear headband, you look ridiculous \r\nGives 1 DEF and 7 MAT"
+  name: Cat ears
+  icon_index: 0
+  price: 500
+  note: ''
+  id: 7
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 7
+  - 0
+  - 0
+  - 0
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: Thick cloth wrapped repeatedly around one's head.
-  name: Turban
-  icon_index: 162
+  description: "It's a sticker of a laughing demon. \r\nIt's said to give you divine power. Does it?"
+  name: Demon sticker
+  icon_index: 0
+  price: 1
+  note: ''
+  id: 8
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: A goofy looking suit, worn by caf.
+  name: Goof Suit
+  icon_index: 7
   price: 4000
   note: ''
   id: 9
@@ -199,18 +199,18 @@
   params:
   - 0
   - 0
-  - 0
-  - 10
-  - 0
-  - 0
+  - 4
+  - 2
   - 0
   - 0
-  etype_id: 2
+  - 0
+  - 0
+  etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: Stylish hat with feathers from many beautiful birds.
-  name: Feather Cap
-  icon_index: 162
+  description: "A gift from caf after he became the ruler \r\nof pork purgatory. people call him big pig now"
+  name: Golden Pig Chain
+  icon_index: 237
   price: 6500
   note: ''
   id: 10
@@ -220,20 +220,20 @@
     data_id: 1
     value: 0
   params:
-  - 0
-  - 0
-  - 0
-  - 14
-  - 0
-  - 0
-  - 0
-  - 0
+  - 10
+  - 10
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: A robe made of thick cotten.
-  name: Cotton Robe
-  icon_index: 171
+  description: "scales from lord Oonbanoonboaa.\r\nmakes great armor. makes you weak to lightning."
+  name: Lord's scales
+  icon_index: 7
   price: 100
   note: ''
   id: 11
@@ -242,6 +242,10 @@
     code: 22
     data_id: 1
     value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 1.5
   params:
   - 0
   - 0
@@ -252,11 +256,11 @@
   - 0
   - 0
   etype_id: 3
-  atype_id: 2
+  atype_id: 1
 - !ruby/object:RPG::Armor
-  description: A cloak made of fine silk.
-  name: Silk Cloak
-  icon_index: 171
+  description: women fear me, fish fear me......
+  name: Lord's secret hat.
+  icon_index: 219
   price: 500
   note: ''
   id: 12
@@ -267,15 +271,15 @@
     value: 0
   params:
   - 0
+  - 40
+  - 0
+  - 1
+  - 7
+  - 2
   - 0
   - 0
-  - 9
-  - 3
-  - 4
-  - 0
-  - 0
-  etype_id: 3
-  atype_id: 2
+  etype_id: 2
+  atype_id: 1
 - !ruby/object:RPG::Armor
   description: A lined robe engraved with runes.
   name: Runed Robe
@@ -300,9 +304,9 @@
   etype_id: 3
   atype_id: 2
 - !ruby/object:RPG::Armor
-  description: Robe worn by a wise old man.
-  name: Hermit Robe
-  icon_index: 171
+  description: An altered version of Caf's pig chain.
+  name: Platinum pig Chain
+  icon_index: 239
   price: 8000
   note: ''
   id: 14
@@ -336,20 +340,20 @@
     data_id: 8
     value: 0.8
   params:
-  - 0
-  - 0
-  - 0
-  - 18
-  - 11
-  - 12
-  - 0
-  - 0
+  - 10
+  - 10
+  - 2
+  - 2
+  - 2
+  - 2
+  - 3
+  - 6
   etype_id: 3
   atype_id: 2
 - !ruby/object:RPG::Armor
   description: The power of the spirit king dwells in this robe.
   name: Elemental Cloak
-  icon_index: 171
+  icon_index: 7
   price: 13000
   note: ''
   id: 15
@@ -382,17 +386,21 @@
     code: 11
     data_id: 8
     value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 4
+    value: 0.0
   params:
+  - 20
+  - 20
+  - 2
+  - 2
+  - 2
+  - 2
   - 0
-  - 0
-  - 0
-  - 25
-  - 17
-  - 18
-  - 0
-  - 0
-  etype_id: 3
-  atype_id: 2
+  - 10
+  etype_id: 1
+  atype_id: 1
 - !ruby/object:RPG::Armor
   description: Hair ornaments made of copper.
   name: Copper Brace
