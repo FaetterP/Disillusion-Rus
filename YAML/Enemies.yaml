@@ -1,7 +1,7 @@
 ---
 - 
 - !ruby/object:RPG::Enemy
-  name: elppa
+  name: околбя
   gold: 5
   battler_hue: 0
   exp: 15
@@ -75,7 +75,7 @@
     kind: 0
     data_id: 1
 - !ruby/object:RPG::Enemy
-  name: Evan James Miracle
+  name: Эван Джеймс Чудесный
   gold: 10
   battler_hue: 0
   exp: 15
@@ -225,7 +225,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Ebakiron
+  name: Эбакирон
   gold: 15
   battler_hue: 0
   exp: 110
@@ -295,7 +295,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Katt
+  name: Котт
   gold: 4
   battler_hue: 0
   exp: 60
@@ -375,7 +375,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Rooster
+  name: Петух
   gold: 2
   battler_hue: 0
   exp: 70
@@ -437,7 +437,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Fly
+  name: Муха
   gold: 2
   battler_hue: 0
   exp: 60
@@ -501,7 +501,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: flute
+  name: флейта
   gold: 13
   battler_hue: 0
   exp: 150
@@ -581,7 +581,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: fleshree
+  name: плотрево
   gold: 0
   battler_hue: 0
   exp: 0
@@ -633,7 +633,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ftree3
+  name: плотрево3
   gold: 0
   battler_hue: 0
   exp: 0
@@ -685,7 +685,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Lex
+  name: Лекс
   gold: 0
   battler_hue: 0
   exp: 0
@@ -737,7 +737,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: RYAN
+  name: РАЙАН
   gold: 16
   battler_hue: 0
   exp: 99
@@ -839,7 +839,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Statue
+  name: Статуя
   gold: 0
   battler_hue: 0
   exp: 0
@@ -891,7 +891,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Bug Lord
+  name: Лорд жуков
   gold: 0
   battler_hue: 40
   exp: 70
@@ -943,7 +943,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Beets
+  name: Жуки
   gold: 30
   battler_hue: 0
   exp: 250
@@ -1017,7 +1017,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Beets
+  name: Жуки
   gold: 25
   battler_hue: 0
   exp: 100
@@ -1079,7 +1079,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Ibukorukor
+  name: Ибукорукор
   gold: 0
   battler_hue: 0
   exp: 0
@@ -1131,7 +1131,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Ibukorukor
+  name: Ибукорукор
   gold: 0
   battler_hue: 300
   exp: 250
@@ -1215,7 +1215,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Ibnegos
+  name: Ибнегос
   gold: 0
   battler_hue: 0
   exp: 50
@@ -1273,7 +1273,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Onibi
+  name: Ониби
   gold: 13
   battler_hue: 0
   exp: 46
@@ -1345,7 +1345,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Uzob Oruk
+  name: Уздоб Орук
   gold: 14
   battler_hue: 210
   exp: 170
@@ -1421,7 +1421,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Ihsum Ukiko
+  name: Исум Укико
   gold: 0
   battler_hue: 0
   exp: 0
@@ -1473,7 +1473,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Darger
+  name: Даргер
   gold: 17
   battler_hue: 50
   exp: 120
@@ -1553,7 +1553,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Osamu
+  name: Осаму
   gold: 0
   battler_hue: 150
   exp: 0
@@ -1605,7 +1605,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: churnobog
+  name: чернобог
   gold: 0
   battler_hue: 0
   exp: 800
@@ -1685,7 +1685,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: arm1
+  name: рука1
   gold: 0
   battler_hue: 0
   exp: 50
@@ -1743,7 +1743,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: arm2
+  name: рука2
   gold: 0
   battler_hue: 0
   exp: 50
@@ -1801,7 +1801,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Revan Eames Diracle
+  name: Реван Имс Чудесный
   gold: 33
   battler_hue: 180
   exp: 100
@@ -1883,7 +1883,7 @@
     kind: 0
     data_id: 1
 - !ruby/object:RPG::Enemy
-  name: Chrunobog
+  name: Чернобог
   gold: 12
   battler_hue: 0
   exp: 150
@@ -1963,7 +1963,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Von Heldeous
+  name: Фон Хельдиус
   gold: 0
   battler_hue: 0
   exp: 50
@@ -2073,7 +2073,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Brock Lee
+  name: Брок Ли
   gold: 14
   battler_hue: 280
   exp: 100
@@ -2147,7 +2147,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Brock Lee
+  name: Брок ли
   gold: 14
   battler_hue: 280
   exp: 100
@@ -2221,7 +2221,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Dibsy
+  name: Дибси
   gold: 23
   battler_hue: 0
   exp: 102
@@ -2291,7 +2291,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Raum
+  name: Раум
   gold: 0
   battler_hue: 0
   exp: 0
@@ -2343,7 +2343,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: '.... . .-.. .--.'
+  name: '.--. --- -- --- --. ..'
   gold: 32
   battler_hue: 0
   exp: 104
@@ -2401,7 +2401,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: .-.. --- ... -
+  name: .--. --- - . .-. -.-- .- -. -. -.--
   gold: 30
   battler_hue: 360
   exp: 102
@@ -2459,7 +2459,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: '- .. -- .'
+  name: '.--. .-. . -.. -- . -'
   gold: 30
   battler_hue: 0
   exp: 102
@@ -2517,7 +2517,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Eeer
+  name: Ееер
   gold: 40
   battler_hue: 0
   exp: 100
@@ -2581,7 +2581,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Reeeee
+  name: Реееее
   gold: 43
   battler_hue: 0
   exp: 100
@@ -2703,7 +2703,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Bohdi Tree
+  name: Дерево Бодхи
   gold: 0
   battler_hue: 0
   exp: 0
@@ -2755,7 +2755,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Angelic Mara
+  name: Ангельская Мара
   gold: 0
   battler_hue: 0
   exp: 2000
@@ -2867,7 +2867,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Er
+  name: Ер
   gold: 43
   battler_hue: 180
   exp: 200
@@ -3019,7 +3019,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Syan
+  name: Сайан
   gold: 0
   battler_hue: 60
   exp: 0
@@ -3083,7 +3083,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Flowey
+  name: Цветик
   gold: 1
   battler_hue: 0
   exp: 1
@@ -3135,7 +3135,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Flowey
+  name: Цветик
   gold: 0
   battler_hue: 0
   exp: 0
@@ -3203,7 +3203,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Flowey
+  name: Цветик
   gold: 1
   battler_hue: 0
   exp: 1
@@ -3265,7 +3265,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Queen Bee
+  name: Пчелиная матка
   gold: 0
   battler_hue: 0
   exp: 0
@@ -3341,7 +3341,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Evan James Miracle
+  name: Эван Джеймс Чудесный
   gold: 3
   battler_hue: 0
   exp: 15
@@ -3409,7 +3409,7 @@
     kind: 0
     data_id: 1
 - !ruby/object:RPG::Enemy
-  name: Spirit 1
+  name: Душа 1
   gold: 0
   battler_hue: 0
   exp: 0
@@ -3519,7 +3519,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: spirit 2
+  name: душа 2
   gold: 0
   battler_hue: 0
   exp: 0
@@ -3571,7 +3571,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: baal
+  name: баал
   gold: 0
   battler_hue: 0
   exp: 0
@@ -3623,7 +3623,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Shroom dug
+  name: Грибутка
   gold: 0
   battler_hue: 270
   exp: 0
@@ -3675,7 +3675,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Caf
+  name: Каф
   gold: 0
   battler_hue: 0
   exp: 0
@@ -3727,7 +3727,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Mick
+  name: Мик
   gold: 0
   battler_hue: 0
   exp: 0
@@ -3797,7 +3797,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Mel
+  name: Мел
   gold: 0
   battler_hue: 0
   exp: 0
@@ -3883,7 +3883,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Oonbanoonboo
+  name: Оонбануунбуу
   gold: 0
   battler_hue: 180
   exp: 0
@@ -3987,7 +3987,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ?????
+  name: "?????"
   gold: 0
   battler_hue: 180
   exp: 0
