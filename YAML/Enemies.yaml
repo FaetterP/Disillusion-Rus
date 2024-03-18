@@ -145,7 +145,7 @@
     kind: 0
     data_id: 1
 - !ruby/object:RPG::Enemy
-  name: Hob
+  name: Хоб
   gold: 20
   battler_hue: 0
   exp: 15
