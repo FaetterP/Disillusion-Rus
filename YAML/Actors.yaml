@@ -1,7 +1,7 @@
 ---
 - 
 - !ruby/object:RPG::Actor
-  name: Golem
+  name: Голем
   face_index: 0
   character_index: 7
   initial_level: 1
@@ -21,7 +21,7 @@
   description: ''
   max_level: 99
 - !ruby/object:RPG::Actor
-  name: Riggly
+  name: Риггли
   face_index: 0
   character_index: 0
   initial_level: 10
