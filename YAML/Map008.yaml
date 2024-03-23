@@ -2125,7 +2125,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Пока больше никаких вопросов, хорошо? от']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [этих стен здесь мне начинает болеть голова.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [как и у тебя.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [и от тебя тоже.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
@@ -2171,7 +2171,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Пока больше никаких вопросов, хорошо? от']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [этих стен здесь мне начинает болеть голова.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [как и у тебя.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [и от тебя тоже.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
@@ -2244,7 +2244,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Пока больше никаких вопросов, хорошо? от']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [этих стен здесь мне начинает болеть голова.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [как и у тебя.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [и от тебя тоже.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
@@ -2290,7 +2290,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Пока больше никаких вопросов, хорошо? от']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [этих стен здесь мне начинает болеть голова.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [как и у тебя.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [и от тебя тоже.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
