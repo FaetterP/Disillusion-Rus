@@ -268,9 +268,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Что такое Благородный Восьмеричный Путь?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Правильный взгляд, правильные решения, правильная речь,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['правильное поведение, правильный образ жизни, правильные,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['усилия, правильная осознанность, и правильное самадхи.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Правильное воззрение, правильное намерение, правильная речь,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['правильное поведение, правильный образ жизни, правильное,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['усилие, правильное памятование, и правильное самадхи.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['А теперь проваливай. Думаю, кто-то']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ждет тебя у ратуши.]}
