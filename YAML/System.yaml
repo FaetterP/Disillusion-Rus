@@ -688,8 +688,8 @@ game_title: Disillusion
 title_bgm: !ruby/object:RPG::BGM {name: Jimmy W - Midi Canoe - 06 Pan, volume: 70, pitch: 100}
 terms: !ruby/object:RPG::System::Terms
   params:
-  - MaxHP
-  - MaxMP
+  - МаксОЗ
+  - МаксОМ
   - ATK
   - DEF
   - MAT
@@ -703,37 +703,37 @@ terms: !ruby/object:RPG::System::Terms
   - Body
   - Legs
   commands:
-  - Fight
-  - Escape
-  - Attack
-  - Guard
-  - Items
-  - Skills
-  - Equipment
-  - Status
-  - Formation
-  - Save
-  - Game End
+  - Бой
+  - Сбежать
+  - Атака
+  - Защита
+  - Предметы
+  - Умения
+  - Снаряжение
+  - Статусы
+  - Формация
+  - Сохранить
+  - Конец игры
   - ''
-  - Weapons
-  - Armours
-  - Key Items
-  - Change
-  - Optimize
-  - Clear
-  - New Game
-  - Continue
-  - Shutdown
-  - To Title
-  - Cancel
+  - Оружия
+  - Брони
+  - Ключевые предметы
+  - Изменить
+  - Оптимизировать
+  - Очистить
+  - Новая игра
+  - Продолжить
+  - Выключить
+  - На главную
+  - Отмена
   - ''
   basic:
-  - Knowledge
-  - LV
-  - Soul
-  - Hp
-  - Wisdom
-  - Mp
+  - Знания
+  - УР
+  - Душа
+  - Оз
+  - Мудрость
+  - Ом
   - ''
   - ''
 test_troop_id: 61
@@ -768,7 +768,7 @@ armor_types:
 - Heavy Armour
 - Small Shield
 - Large Shield
-currency_unit: Dust
+currency_unit: Пыли
 window_tone: !ruby/object:Tone {r: 0.0, g: 0.0, b: 0.0, a: 0.0}
 japanese: false
 opt_draw_title: false
