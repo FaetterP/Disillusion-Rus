@@ -628,7 +628,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['знает всё - это я, а я прожил всего лишь']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [восемнадцать лет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я думаю, тебе пора проснуться'.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я думаю, тебе пора проснуться.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Верно.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}

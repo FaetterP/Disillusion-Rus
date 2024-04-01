@@ -666,12 +666,12 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*4]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Человеку, взбирающемуся на эту башню, скучно.'']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Человеку, взбирающемуся на эту башню, скучно.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Но почему мне все еще хочется это сделать??']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Пройди через это, я знаю, что ты сможешь это сделать.','Сдавайся, в этом нет смысла'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Пройди через это, я знаю, что ты сможешь это сделать.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я буду чувствовать себя лучше, если высосу всю твою энергию'.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я буду чувствовать себя лучше, если высосу всю твою энергию.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 2, true, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
       - !ruby/object:RPG::EventCommand
@@ -709,7 +709,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Сдавайся, в этом нет смысла']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Да, к чёрту. Я даже не помню как']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я добрался сюда. Думаю, я закончил'.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я добрался сюда. Думаю, я закончил.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Но удачи тебе.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 315, p: [0, 0, 0, 0, 15, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}

@@ -116,7 +116,7 @@
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "Гайки, которые крепятся к задней части прицепа\r\дают 6 DEF"
+  description: "Гайки, которые крепятся к задней части прицепа \r\nдают 6 DEF"
   name: Гайки от грузовика
   icon_index: 0
   price: 100
@@ -139,7 +139,7 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "Ободок с кошачьими ушками, ты выглядишь нелепо \r\Даёт 1 DEF и 7 MAT"
+  description: "Ободок с кошачьими ушками, ты выглядишь нелепо \r\nДаёт 1 DEF и 7 MAT"
   name: Кошачьи ушки
   icon_index: 0
   price: 500
