@@ -736,7 +736,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Пожалуйста, выберите свою сложность.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пожалуйста, выберите свою сложность.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['обычная- нет МИНИКАРТЫ, очень легко потеряться,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["но задумано, что вы будете играть именно"]}
@@ -1742,7 +1742,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Будьте осторожны, взбираясь на эту башню, она']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Будь осторожен, взбираясь на эту башню, она']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [довольно опасная]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Также небольшой совет.....]}
@@ -1751,7 +1751,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["но ты не научишься никаким новым навыкам,"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [пока не пообщаешься с новыми людьми..]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['просто будь осторожен с тем, с кем сталкиваешься, иначе']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['просто будь внимательнее со всеми, с кем сталкиваешься, иначе']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [никто не захочет тебя ничему учить.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
