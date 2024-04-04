@@ -47,7 +47,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 8, 22, 20, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 8, 7, 9, 4, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -111,11 +111,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [by helping you.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [There are beings that exist and live between]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [realms. being able to create their own]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['realms, being able to create their own']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [realms through the power of strong desires.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [They live much longer than a normal soul...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['these beings are called devas, they hold many']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['These beings are called devas, they hold many']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [secrets and tips to surviving this journey.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [If you want to make it to the top of this tower]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [you should seek one out.]}
@@ -123,12 +123,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Our souls are weak, me and you are not able']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [to stay in these realms for very long before we are]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [thrust back into samsara. A deva's soul is]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [strong allowing them to avoid the cycle for ...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [strong allowing them to avoid the cycle for]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [an insurmountable amount of time. Their age makes]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [them wise beyond belief. Many portals in the]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [tower have the potential to take you to locations]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [created by these beings but you would have...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['created by these beings, but you would have']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [better luck asking around. There are bound to]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [be souls who have met a deva. I wish you]}
@@ -137,14 +137,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Tell me.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Tell ya? well alright...']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Tell ya? Well alright...']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [There are beings that exist and live between]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [realms. being able to create their own]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['realms, being able to create their own']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [realms through the power of strong desires.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [They live much longer than a normal soul...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['these beings are called devas, they hold many']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['These beings are called devas, they hold many']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [secrets and tips to surviving this journey.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [If you want to make it to the top of this tower]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [you should seek one out.]}
@@ -152,12 +152,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Our souls are weak, me and you are not able']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [to stay in these realms for very long before we are]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [thrust back into samsara. A deva's soul is]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [strong allowing them to avoid the cycle for ...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [strong allowing them to avoid the cycle for]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [an insurmountable amount of time. Their age makes]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [them wise beyond belief. Many portals in the]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [tower have the potential to take you to locations]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [created by these beings but you would have...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['created by these beings, but you would have']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [better luck asking around. There are bound to]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [be souls who have met a deva. I wish you]}
@@ -257,7 +257,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The Door is locked to those who repeat]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the cycle.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   4: !ruby/object:RPG::Event
     id: 4
@@ -554,7 +556,7 @@ events:
       condition: !ruby/object:RPG::Event::Page::Condition
         switch1_valid: false
         switch2_valid: false
-        variable_valid: false
+        variable_valid: true
         self_switch_valid: false
         item_valid: false
         actor_valid: false
@@ -591,24 +593,25 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Seek a Devas? That guy is NUTS! off his']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['gourd! you do know what those are right?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Seek a Devas? That guy is NUTS! Off his']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['gourd! You do know what those are right?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Yes., No.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Yes.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, MEl2, 0, 0, 0, -30, 100, 110, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I doubt that! they are NOT SOMeone who]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['will talk to us, stay away from them, Okay?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I doubt that! They are NOT someone who]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['will talk to us, stay away from them, okay?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, MEl2, 0, 0, 0, -30, 100, 110, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['NOT SOMeone who will talk to us, stay away']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' from them, Okay?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Well, just know that they are NOT']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [someone who will talk to us.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['So stay away from them, okay?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}

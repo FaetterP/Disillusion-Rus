@@ -121,7 +121,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Редкий предмет, проданный кафом. восстанавливает\r\n100 ом и ОЗ и также повышает максимум ом на 10."
+  description: "Редкий предмет, проданный кафом. восстанавливает\r\n100 ом и ОЗ и повышает максимум ом на 10."
   name: Солодовый ликёр
   consumable: true
   occasion: 0
@@ -521,7 +521,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Восстанавливает 60 ОМ. Ты не можешь\r\nкупить это."
+  description: "Восстанавливает 60 ОМ. Ты не можешь\r\nэто купить."
   name: Сок маны XL
   consumable: true
   occasion: 0
@@ -577,7 +577,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: "Сардины и похлёбка. Восстанавливает 50 оз\r\nи излечивает от яда."
-  name: Суп из дины
+  name: Дин Чаудер
   consumable: true
   occasion: 0
   icon_index: 2
@@ -646,7 +646,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Ключ для двери
+  description: Ключ от двери
   name: Ключ2
   consumable: false
   occasion: 3
@@ -671,7 +671,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Ключ для двери
+  description: Ключ от двери
   name: Ключ1
   consumable: false
   occasion: 3
@@ -881,7 +881,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Предмет, который действует как ключ к \r\nбхул-бхулайе"
+  description: "Предмет, который действует как ключ к \r\nбхул бхулайе"
   name: канделябр
   consumable: false
   occasion: 3

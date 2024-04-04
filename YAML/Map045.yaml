@@ -161,7 +161,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -271,7 +271,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -326,7 +326,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -381,7 +381,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -436,7 +436,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -491,7 +491,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -546,7 +546,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -601,7 +601,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -1481,7 +1481,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -1536,7 +1536,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -1591,7 +1591,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -1646,7 +1646,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -1701,7 +1701,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -1756,7 +1756,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -1811,7 +1811,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -1866,7 +1866,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -1921,7 +1921,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -1976,7 +1976,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2031,7 +2031,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2086,7 +2086,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2141,7 +2141,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2196,7 +2196,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2251,7 +2251,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2306,7 +2306,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2361,7 +2361,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2416,7 +2416,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2471,7 +2471,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2526,7 +2526,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2581,7 +2581,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2636,7 +2636,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2691,7 +2691,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2746,7 +2746,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2801,7 +2801,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2856,7 +2856,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2911,7 +2911,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -2966,7 +2966,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -3021,7 +3021,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -3076,7 +3076,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -3131,7 +3131,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -3186,7 +3186,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -3241,7 +3241,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -3296,7 +3296,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -3351,7 +3351,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -3406,7 +3406,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 15, 5, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 64, 14, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -3499,7 +3499,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 69, 13, 23, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 69, 13, 23, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -3554,7 +3554,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 68, 15, 1, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 68, 8, 10, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -3609,7 +3609,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 71, 11, 12, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 71, 11, 12, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -3874,7 +3874,7 @@ data: !ruby/object:Table
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0001 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000

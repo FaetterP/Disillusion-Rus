@@ -140,8 +140,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Oh joyful day it is at last! you have returned]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [with food!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Oh joyful day it is at last!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You have returned with food!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -6213,7 +6213,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sweet corn!? that is the lords favorite!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sweet corn!? That is the lord''s favorite!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -6305,8 +6305,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Our lord requests an audience with you, please']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [follow me.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Our lord requests an audience with you,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [please follow me.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, LOrdOonbanoonboo, 0, 0, 0, -30, 100, 112, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -6315,8 +6315,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [360]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Give him the sweet corn?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Yes., No.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Yes.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [28, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, LOrdOonbanoonboo2, 0, 0, 0, -30, 100, 112, 255, 0]}
@@ -6333,14 +6333,15 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [AND FOR THIS LORD Oonbanoonboo WILL FILL YOU]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [WITH POWER"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['*gained 2 levels!*']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['*Gained 2 levels!*']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['*Gained Heathers Trident!*']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [steam = SteamUserStatsLite.instance]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [steam.set_achievement 'NEW_ACHIEVEMENT_1_11']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [steam.update]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [477, 477, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 20, 8, 14, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 20, 3, 15, 6, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
@@ -6350,7 +6351,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 127, p: [4, 0, 0, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, LOrdOonbanoonboo, 0, 0, 0, -30, 100, 112, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
@@ -6361,12 +6362,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, LOrdOonbanoonboomel, 0, 0, 0, -30, 100, 112, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['he says "YOU SHALL BE CURSED FOR 10,000']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['He says "YOU SHALL BE CURSED FOR 10,000']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [YEARS LEAVE THIS PLACE AND NEVER RETURN"]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [477, 477, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 20, 8, 14, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 20, 3, 15, 6, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}

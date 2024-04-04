@@ -50,31 +50,31 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [steam.update]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [7]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Town, 0, 0, 10, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Town, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You arive at a happy and quiet town.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Where would you like to go?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Town Hall, Shady home, The Wall, The Town Center], 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Town Hall]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Town Hall., Shady home., The Wall., The Town Center.], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Town Hall.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Town3, 0, 0, -4, 3, 80, 80, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Town3, 0, 0, 0, 0, 80, 80, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Looks like nobody is around]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Looks like nobody is around.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Shady home]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Shady home.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, toWN2, 1, 0, 320, 200, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Looks like nobody is home]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Looks like nobody is home.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 115, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, The Wall]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, The Wall.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallgappy, 0, 0, -4, -40, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
@@ -82,32 +82,32 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallgappyp2, 0, 0, -4, 4, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallgappyp2, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallhole, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallhole, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallholeguy_, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallholeguy_, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I saw some weirdo in the park.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, The Town Center]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, The Town Center.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Townpark, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Townpark, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [There is somebody here.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Townhob, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Townhob, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Who are you?']}
@@ -155,8 +155,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [you are that feller that has been making strides]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['in the tower yeh?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Yes., No.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Yes.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Silly one you are. Most don't return]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [if they stay for too long.]}
@@ -188,9 +188,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [has been goin in an out of that tower for years.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Think his name started with a C? He knows']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['somethin, probably keepin lotta secrets.']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [202, 202, 0, 0, 10]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['anyways, why don''t ya go peek around']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Anyways, why don''t ya go peek around']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [the town hall building if you still got questions.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [300, 300, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
@@ -198,7 +197,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Don''t lie, people can feel it if ya have']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['been in there, you know. Most don''t return']}
@@ -222,7 +221,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Why can''t I get into the Town Hall?']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [It was locked by a women called Mara.]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [lucky for you I can unlock it. I'll let ya in there.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Lucky for you I can unlock it. I'll let ya in there.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [300, 300, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'Where do all the crows come from?']}
@@ -231,9 +230,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [has been goin in an out of that tower for years.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Think his name started with a C? He knows']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['somethin, probably keepin lotta secrets.']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [202, 202, 0, 0, 10]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['anyways, why don''t ya go peek around']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Anyways, why don''t ya go peek around']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [the town hall building if you still got questions.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [300, 300, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
@@ -282,32 +280,32 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [7]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Town, 0, 0, 10, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Town, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You arive at a happy and quiet town.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Where would you like to go?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Town Hall, Shady home, The Wall, The Town Center], 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Town Hall]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Town Hall., Shady home., The Wall., The Town Center.], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Town Hall.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Town3, 0, 0, -4, 3, 80, 80, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Town3, 0, 0, 0, 0, 80, 80, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The door is unlocked.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [300, 300, 0, 0, 3]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Shady home]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Shady home.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, toWN2, 1, 0, 320, 200, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Looks like nobody is home]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Looks like nobody is home.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 115, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, The Wall]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, The Wall.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallgappy, 0, 0, -4, -40, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
@@ -315,26 +313,26 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallgappyp2, 0, 0, -4, 4, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallgappyp2, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallhole, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallhole, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallholeguy_, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallholeguy_, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I saw some weirdo in the park.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, The Town Center]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, The Town Center.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Townpark, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Townpark, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [It is empty.]}
@@ -384,24 +382,27 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This place does not feel safe to be in.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [regardless I suppose we should look around.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Regardless, I suppose we should look around.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, townhall, 0, 0, -4, 3, 80, 80, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, townhall, 0, 0, 0, 0, 80, 80, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Nobody is here, but there is a dark feeling in']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the air. You should search the area.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Search drawers, Search in the hole in the wall, Search behind the door, leave], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Search drawers]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Search drawers., Search in the hole in the wall., Search behind the door., Leave.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Search drawers.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [You find a book.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [2, book1, 0, 0, 0, 0, 100, 100, 255, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Next], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Next]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Next.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Next.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [2, book2, 0, 0, 0, 0, 100, 100, 255, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[Close], 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, Close]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[Close.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, Close.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 355, p: [steam = SteamUserStatsLite.instance]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 655, p: [steam.set_achievement 'NEW_ACHIEVEMENT_1_8']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 655, p: [steam.update]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
@@ -416,24 +417,24 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Search in the hole in the wall]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Search in the hole in the wall.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Someone Touched your hand, but other than']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Someone touched your hand, but other than']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [that there is nothing.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Search behind the door]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Search behind the door.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Nothing but dust.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, leave]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Leave.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, tower, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, tower, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [You prepare to continue your climb.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['      You travel to the tower']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['      You travel to the tower.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 32, 1, 10, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}

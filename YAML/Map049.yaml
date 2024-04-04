@@ -47,15 +47,41 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &1 !ruby/object:RPG::MoveCommand {code: 35, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You look like a strapping busy bee! you will]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['help us pollinate our friends, won''t you?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 301, p: [0, 59, false, false]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &2 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [steam = SteamUserStatsLite.instance]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [steam.set_achievement 'NEW_ACHIEVEMENT_1_13']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [steam.update]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 35, 3, 2, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 35, 3, 2, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [475, 475, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -823,7 +849,6 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I can't...]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [281, 281, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   17: !ruby/object:RPG::Event
     id: 17
@@ -979,41 +1004,6 @@ events:
           skippable: false
           wait: true
           list:
-          - &1 !ruby/object:RPG::MoveCommand {code: 35, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 49, true, false]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
-      - !ruby/object:RPG::EventCommand
-        i: 2
-        c: 205
-        p:
-        - -1
-        - !ruby/object:RPG::MoveRoute
-          repeat: false
-          skippable: false
-          wait: true
-          list:
-          - &2 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 214, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 602, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Collect the pollen]}
-      - !ruby/object:RPG::EventCommand
-        i: 1
-        c: 205
-        p:
-        - -1
-        - !ruby/object:RPG::MoveRoute
-          repeat: false
-          skippable: false
-          wait: true
-          list:
           - &3 !ruby/object:RPG::MoveCommand {code: 35, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*3]}
@@ -1035,6 +1025,25 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 602, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Collect the pollen]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &5 !ruby/object:RPG::MoveCommand {code: 35, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 49, true, false]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
       - !ruby/object:RPG::EventCommand
         i: 2
         c: 205
@@ -1045,9 +1054,25 @@ events:
           skippable: false
           wait: true
           list:
-          - &5 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - &6 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*5]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*6]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 214, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 602, p: []}
+      - !ruby/object:RPG::EventCommand
+        i: 2
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &7 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*7]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1401,41 +1426,6 @@ events:
           skippable: false
           wait: true
           list:
-          - &6 !ruby/object:RPG::MoveCommand {code: 35, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*6]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 49, true, false]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
-      - !ruby/object:RPG::EventCommand
-        i: 2
-        c: 205
-        p:
-        - -1
-        - !ruby/object:RPG::MoveRoute
-          repeat: false
-          skippable: false
-          wait: true
-          list:
-          - &7 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*7]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 214, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 602, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Collect the pollen]}
-      - !ruby/object:RPG::EventCommand
-        i: 1
-        c: 205
-        p:
-        - -1
-        - !ruby/object:RPG::MoveRoute
-          repeat: false
-          skippable: false
-          wait: true
-          list:
           - &8 !ruby/object:RPG::MoveCommand {code: 35, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*8]}
@@ -1457,6 +1447,25 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 602, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Collect the pollen]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &10 !ruby/object:RPG::MoveCommand {code: 35, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*10]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 49, true, false]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
       - !ruby/object:RPG::EventCommand
         i: 2
         c: 205
@@ -1467,9 +1476,25 @@ events:
           skippable: false
           wait: true
           list:
-          - &10 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - &11 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*10]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*11]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 214, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 602, p: []}
+      - !ruby/object:RPG::EventCommand
+        i: 2
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &12 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*12]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1535,41 +1560,6 @@ events:
           skippable: false
           wait: true
           list:
-          - &11 !ruby/object:RPG::MoveCommand {code: 35, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*11]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 49, true, false]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
-      - !ruby/object:RPG::EventCommand
-        i: 2
-        c: 205
-        p:
-        - -1
-        - !ruby/object:RPG::MoveRoute
-          repeat: false
-          skippable: false
-          wait: true
-          list:
-          - &12 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*12]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 214, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 602, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Collect the pollen]}
-      - !ruby/object:RPG::EventCommand
-        i: 1
-        c: 205
-        p:
-        - -1
-        - !ruby/object:RPG::MoveRoute
-          repeat: false
-          skippable: false
-          wait: true
-          list:
           - &13 !ruby/object:RPG::MoveCommand {code: 35, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*13]}
@@ -1588,6 +1578,41 @@ events:
           - &14 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*14]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 214, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 602, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Collect the pollen]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &15 !ruby/object:RPG::MoveCommand {code: 35, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*15]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 49, true, false]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
+      - !ruby/object:RPG::EventCommand
+        i: 2
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &16 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*16]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 602, p: []}

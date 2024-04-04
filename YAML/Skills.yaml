@@ -380,11 +380,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Наносит урон врагу.
-  name: Царапины
+  description: Damages the enemy.
+  name: Scratches
   occasion: 1
   icon_index: 0
-  message1: Царапается!
+  message1: Scratches!
   scope: 1
   animation_id: 7
   note: "Skill #1 will be used when you select\r\nthe Attack command."
@@ -464,7 +464,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 1
+  stype_id: 0
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -502,10 +502,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: сушка
+  name: drying
   occasion: 0
   icon_index: 0
-  message1: Играет на своей флейте
+  message1: Toots His flute
   scope: 1
   animation_id: 119
   note: ''
@@ -530,11 +530,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: "85% шанс отнять немного здоровья у случайного \r\nврага тратит 5 ом"
-  name: Иссушение
+  description: "85% chance to sap some health from a\r\n random enemy uses 5 mp"
+  name: Sap
   occasion: 1
   icon_index: 2
-  message1: ' использует Иссушение!'
+  message1: ' uses Sap!'
   scope: 3
   animation_id: 37
   note: ''
@@ -559,11 +559,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Огненный урон по 1 врагу. тратит 6 ом
-  name: Тост
+  description: Fire damage to 1 enemy. uses 6 mp
+  name: Toast
   occasion: 1
   icon_index: 210
-  message1: ' использует Тост!'
+  message1: ' uses Toast!'
   scope: 1
   animation_id: 57
   note: ''
@@ -588,11 +588,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Отравляет 1 Случайного врага.
-  name: Яд
+  description: Poisons 1 Random enemy.
+  name: Toxic
   occasion: 1
   icon_index: 70
-  message1: ' использует Яд!'
+  message1: ' uses Toxic!'
   scope: 3
   animation_id: 29
   note: ''
@@ -622,11 +622,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Ледяной урон по 1 врагу тратит 6 ом
-  name: Мороз
+  description: Frost damage to 1 enemy uses 6 mp
+  name: Frost
   occasion: 0
   icon_index: 212
-  message1: ' использует Мороз!'
+  message1: ' uses Frost!'
   scope: 1
   animation_id: 61
   note: ''
@@ -651,11 +651,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ' Грозовой урон по 1 врагу тратит 6 ом'
-  name: Молния
+  description: ' Thunder damage to 1 enemy uses 6 mp'
+  name: Zap
   occasion: 0
   icon_index: 213
-  message1: ' использует Молнию!'
+  message1: ' uses Zap!'
   scope: 1
   animation_id: 65
   note: ''
@@ -680,11 +680,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: "Счётчик За 3 хода\r\n70% шанс воспользоваться"
-  name: Застыть
+  description: "Стойка на 3 хода\r\n70% шанс на использование"
+  name: Стойка
   occasion: 1
   icon_index: 255
-  message1: Собирается считать!
+  message1: собирается встать в стойку!
   scope: 11
   animation_id: 0
   note: ''
@@ -714,11 +714,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: "Повышает защиту на 3 хода \r\n50% шанс воспользоваться тратит 3 ом"
-  name: Каменная плоть
+  description: "Raises defence for 3 turns \r\n50% chance to cast uses 3 mp"
+  name: Stoneflesh
   occasion: 0
   icon_index: 255
-  message1: Повышает защиту!
+  message1: Raises defence!
   scope: 11
   animation_id: 44
   note: ''
@@ -748,11 +748,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Отражает Магию на следующем ходу
-  name: Отражение магии
+  description: Отражает магию на следующем ходу
+  name: Отразить магию
   occasion: 0
   icon_index: 255
-  message1: собирается отражать магию!
+  message1: собирается отразить магию!
   scope: 1
   animation_id: 43
   note: ''
@@ -774,6 +774,773 @@
     critical: false
   success_rate: 100
   hit_type: 0
+  stype_id: 1
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: "Sacrifice 25% of your health and recover 25% \r\nof your magic."
+  name: Sacrifice
+  occasion: 0
+  icon_index: 2
+  message1: ' uses Sacrifice!'
+  scope: 11
+  animation_id: 37
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 26
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 12
+    data_id: 0
+    value1: 0.25
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 0
+    value1: -0.25
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 2
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: Dont belive
+  occasion: 0
+  icon_index: 564
+  message1: ' attacks!'
+  scope: 1
+  animation_id: 122
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 27
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 1
+    element_id: -1
+    formula: a.atk * 4 - b.def * 2
+    variance: 20
+    critical: true
+  success_rate: 100
+  hit_type: 1
+  stype_id: 0
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: close
+  occasion: 0
+  icon_index: 564
+  message1: ' attacks!'
+  scope: 1
+  animation_id: 123
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 28
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 1
+    element_id: -1
+    formula: a.atk * 4 - b.def * 2
+    variance: 20
+    critical: true
+  success_rate: 100
+  hit_type: 1
+  stype_id: 0
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: theway
+  occasion: 0
+  icon_index: 564
+  message1: ' attacks!'
+  scope: 1
+  animation_id: 126
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 29
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 1
+    element_id: -1
+    formula: a.atk * 4 - b.def * 2
+    variance: 20
+    critical: true
+  success_rate: 100
+  hit_type: 1
+  stype_id: 0
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: dont
+  occasion: 0
+  icon_index: 564
+  message1: ' attacks!'
+  scope: 1
+  animation_id: 125
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 30
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 1
+    element_id: -1
+    formula: a.atk * 4 - b.def * 2
+    variance: 20
+    critical: true
+  success_rate: 100
+  hit_type: 1
+  stype_id: 0
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: not now
+  occasion: 0
+  icon_index: 564
+  message1: ' attacks!'
+  scope: 1
+  animation_id: 124
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 31
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 1
+    element_id: -1
+    formula: a.atk * 4 - b.def * 2
+    variance: 20
+    critical: true
+  success_rate: 100
+  hit_type: 1
+  stype_id: 0
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: "Earth damage to 1 enemy. Do not \r\neat the rocks. uses 8 mp"
+  name: Stone Toss
+  occasion: 1
+  icon_index: 209
+  message1: ' uses Stone Toss!'
+  scope: 1
+  animation_id: 71
+  note: ''
+  mp_cost: 8
+  speed: 0
+  id: 32
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 1
+    element_id: 7
+    formula: 26 + a.mat * 0.46 - b.mdf * 0.46
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 2
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: "Water damage to 1 enemy. Do not \r\neat the bubbles. uses 6 mp"
+  name: Bubbles
+  occasion: 0
+  icon_index: 108
+  message1: ' uses Bubbles!'
+  scope: 1
+  animation_id: 69
+  note: ''
+  mp_cost: 6
+  speed: 0
+  id: 33
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 1
+    element_id: 6
+    formula: 23 + a.mat * 0.46 - b.mdf * 0.46
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 2
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Wind damage to 1 enemy. uses 6 mp
+  name: Gust
+  occasion: 0
+  icon_index: 107
+  message1: ''
+  scope: 1
+  animation_id: 73
+  note: ''
+  mp_cost: 6
+  speed: 0
+  id: 34
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 1
+    element_id: 8
+    formula: 23 + a.mat * 0.46 - b.mdf * 0.460
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 2
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: Blessing
+  occasion: 0
+  icon_index: 3
+  message1: ' casts Blessing!'
+  scope: 1
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 35
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 1
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 1
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: "a darkness based attack.\r\nSkilled users look away when casting. uses 11 mp"
+  name: Wraith
+  occasion: 0
+  icon_index: 0
+  message1: ' casts Wraith!'
+  scope: 1
+  animation_id: 77
+  note: ''
+  mp_cost: 11
+  speed: 0
+  id: 36
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 1
+    element_id: 10
+    formula: 24 + a.mat * 0.48 - b.mdf * 0.460
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 2
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Increase one ally's DEF. uses 8 mp
+  name: Breath Armour
+  occasion: 1
+  icon_index: 16
+  message1: ' casts Breath Armour!'
+  scope: 7
+  animation_id: 43
+  note: ''
+  mp_cost: 8
+  speed: 0
+  id: 37
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 31
+    data_id: 3
+    value1: 5.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 2
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Increase one ally's MDF. uses 7 mp
+  name: Divine Breath
+  occasion: 1
+  icon_index: 20
+  message1: ' casts Divine Breath!'
+  scope: 7
+  animation_id: 43
+  note: ''
+  mp_cost: 7
+  speed: 0
+  id: 38
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 31
+    data_id: 5
+    value1: 5.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 2
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Lower all enemies' ATK. uses 7 mp
+  name: Scare
+  occasion: 1
+  icon_index: 24
+  message1: ' casts Scare!'
+  scope: 2
+  animation_id: 47
+  note: ''
+  mp_cost: 9
+  speed: 0
+  id: 39
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 32
+    data_id: 2
+    value1: 5.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 2
+  stype_id: 2
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Lower all enemies' DEF. uses 8 mp
+  name: 'Fright '
+  occasion: 1
+  icon_index: 26
+  message1: ' casts Fright !'
+  scope: 2
+  animation_id: 47
+  note: ''
+  mp_cost: 8
+  speed: 0
+  id: 40
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 32
+    data_id: 3
+    value1: 5.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 2
+  stype_id: 2
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Lower all enemies' MDF. uses 7 mp
+  name: Magic Rod
+  occasion: 1
+  icon_index: 29
+  message1: ' casts Magic Rod!'
+  scope: 2
+  animation_id: 46
+  note: ''
+  mp_cost: 7
+  speed: 0
+  id: 41
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 32
+    data_id: 5
+    value1: 5.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 2
+  stype_id: 2
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Cancels enemy enchantments. uses 5 mp
+  name: Dispel
+  occasion: 1
+  icon_index: 159
+  message1: ' uses Dispel!'
+  scope: 1
+  animation_id: 46
+  note: ''
+  mp_cost: 5
+  speed: 0
+  id: 42
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 33
+    data_id: 2
+    value1: 0.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 33
+    data_id: 3
+    value1: 0.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 33
+    data_id: 4
+    value1: 0.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 33
+    data_id: 5
+    value1: 0.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 33
+    data_id: 6
+    value1: 0.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 33
+    data_id: 7
+    value1: 0.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 1
+  tp_cost: 10
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: Magic Barrier
+  occasion: 1
+  icon_index: 45
+  message1: ' casts Magic Barrier!'
+  scope: 11
+  animation_id: 44
+  note: ''
+  mp_cost: 10
+  speed: 0
+  id: 43
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 31
+    data_id: 5
+    value1: 3.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 31
+    data_id: 5
+    value1: 3.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 1
+  tp_cost: 25
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: For 5 turns, greatly increase user's MAT.
+  name: Enhance Spell
+  occasion: 1
+  icon_index: 23
+  message1: ' uses Enhance Spell!'
+  scope: 11
+  animation_id: 43
+  note: ''
+  mp_cost: 10
+  speed: 0
+  id: 44
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 31
+    data_id: 4
+    value1: 5.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 31
+    data_id: 4
+    value1: 5.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 2
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Increase one ally's ATK. uses 9 mp
+  name: Breath Weapon
+  occasion: 1
+  icon_index: 18
+  message1: ' casts Breath Weapon!'
+  scope: 7
+  animation_id: 43
+  note: ''
+  mp_cost: 9
+  speed: 0
+  id: 45
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 31
+    data_id: 2
+    value1: 5.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 2
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: do nothing.
+  name: Nothiing
+  occasion: 0
+  icon_index: 0
+  message1: ' does Nothiing!'
+  scope: 0
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 46
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 0
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Only lil bees know how to do this.
+  name: pollinate
+  occasion: 0
+  icon_index: 5
+  message1: ' casts pollinate!'
+  scope: 1
+  animation_id: 0
+  note: ''
+  mp_cost: 5
+  speed: 0
+  id: 47
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 3
+    element_id: 0
+    formula: 1 + a.atk * 0.04 + a.mat * 0.02 - b.def * 0.02 - b.mdf * 0.02
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 2
+  stype_id: 1
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Poison all enemies.
+  name: Poison Cloud
+  occasion: 1
+  icon_index: 70
+  message1: ' uses Poison Cloud!'
+  scope: 2
+  animation_id: 31
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 48
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 26
+    value1: 0.5
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 1
   stype_id: 1
   tp_cost: 0
   required_wtype_id1: 0
@@ -969,591 +1736,8 @@
   description: "Земляной урон по 1 врагу. Не ешьте \r\nкамни. тратит 8 ом"
   name: Бросок камня
   occasion: 1
-  icon_index: 209
-  message1: ' использует Бросок камня!'
-  scope: 1
-  animation_id: 71
-  note: ''
-  mp_cost: 8
-  speed: 0
-  id: 32
-  features: []
-  effects: []
-  damage: !ruby/object:RPG::UsableItem::Damage
-    type: 1
-    element_id: 7
-    formula: 26 + a.mat * 0.46 - b.mdf * 0.46
-    variance: 20
-    critical: false
-  success_rate: 100
-  hit_type: 0
-  stype_id: 2
-  tp_cost: 0
-  required_wtype_id1: 0
-  required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
-- !ruby/object:RPG::Skill
-  message2: ''
-  description: "Водный урон по 1 врагу. Не ешьте \r\nпузыри. тратит 6 ом"
-  name: Пузыри
-  occasion: 0
-  icon_index: 108
-  message1: ' использует Пузыри!'
-  scope: 1
-  animation_id: 69
-  note: ''
-  mp_cost: 6
-  speed: 0
-  id: 33
-  features: []
-  effects: []
-  damage: !ruby/object:RPG::UsableItem::Damage
-    type: 1
-    element_id: 6
-    formula: 23 + a.mat * 0.46 - b.mdf * 0.46
-    variance: 20
-    critical: false
-  success_rate: 100
-  hit_type: 0
-  stype_id: 2
-  tp_cost: 0
-  required_wtype_id1: 0
-  required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
-- !ruby/object:RPG::Skill
-  message2: ''
-  description: Воздушный урон по 1 врагу. тратит 6 ом
-  name: Шквал
-  occasion: 0
-  icon_index: 107
-  message1: ''
-  scope: 1
-  animation_id: 73
-  note: ''
-  mp_cost: 6
-  speed: 0
-  id: 34
-  features: []
-  effects: []
-  damage: !ruby/object:RPG::UsableItem::Damage
-    type: 1
-    element_id: 8
-    formula: 23 + a.mat * 0.46 - b.mdf * 0.460
-    variance: 20
-    critical: false
-  success_rate: 100
-  hit_type: 0
-  stype_id: 2
-  tp_cost: 0
-  required_wtype_id1: 0
-  required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
-- !ruby/object:RPG::Skill
-  message2: ''
-  description: ''
-  name: Благословение
-  occasion: 0
-  icon_index: 3
-  message1: ' применяет Благословение!'
-  scope: 1
-  animation_id: 0
-  note: ''
-  mp_cost: 0
-  speed: 0
-  id: 35
-  features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 11
-    data_id: 1
-    value1: 1.0
-    value2: 0.0
-  damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
-    variance: 20
-    critical: false
-  success_rate: 100
-  hit_type: 0
-  stype_id: 1
-  tp_cost: 0
-  required_wtype_id1: 0
-  required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
-- !ruby/object:RPG::Skill
-  message2: ''
-  description: "атака, основанная на темноте.\r\nОпытные люди отводят взгляд при использовании. тратит 11 ом"
-  name: Призрак
-  occasion: 0
-  icon_index: 0
-  message1: ' использует Призрак!'
-  scope: 1
-  animation_id: 77
-  note: ''
-  mp_cost: 11
-  speed: 0
-  id: 36
-  features: []
-  effects: []
-  damage: !ruby/object:RPG::UsableItem::Damage
-    type: 1
-    element_id: 10
-    formula: 24 + a.mat * 0.48 - b.mdf * 0.460
-    variance: 20
-    critical: false
-  success_rate: 100
-  hit_type: 0
-  stype_id: 2
-  tp_cost: 0
-  required_wtype_id1: 0
-  required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
-- !ruby/object:RPG::Skill
-  message2: ''
-  description: Увеличивает DEF одного союзника. тратит 8 ом
-  name: Дыхательная броня
-  occasion: 1
-  icon_index: 16
-  message1: ' использует Дыхательную броню!'
-  scope: 7
-  animation_id: 43
-  note: ''
-  mp_cost: 8
-  speed: 0
-  id: 37
-  features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 31
-    data_id: 3
-    value1: 5.0
-    value2: 0.0
-  damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
-    variance: 20
-    critical: false
-  success_rate: 100
-  hit_type: 0
-  stype_id: 2
-  tp_cost: 0
-  required_wtype_id1: 0
-  required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
-- !ruby/object:RPG::Skill
-  message2: ''
-  description: Увеличивает MDF одного союзника. тратит 7 ом
-  name: Божественное дыхание
-  occasion: 1
-  icon_index: 20
-  message1: ' использует Божественное дыхание!'
-  scope: 7
-  animation_id: 43
-  note: ''
-  mp_cost: 7
-  speed: 0
-  id: 38
-  features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 31
-    data_id: 5
-    value1: 5.0
-    value2: 0.0
-  damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
-    variance: 20
-    critical: false
-  success_rate: 100
-  hit_type: 0
-  stype_id: 2
-  tp_cost: 0
-  required_wtype_id1: 0
-  required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
-- !ruby/object:RPG::Skill
-  message2: ''
-  description: Понижает ATK всем врагам. тратит 7 ом
-  name: Страх
-  occasion: 1
-  icon_index: 24
-  message1: ' использует Страх!'
-  scope: 2
-  animation_id: 47
-  note: ''
-  mp_cost: 9
-  speed: 0
-  id: 39
-  features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 32
-    data_id: 2
-    value1: 5.0
-    value2: 0.0
-  damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
-    variance: 20
-    critical: false
-  success_rate: 100
-  hit_type: 2
-  stype_id: 2
-  tp_cost: 0
-  required_wtype_id1: 0
-  required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
-- !ruby/object:RPG::Skill
-  message2: ''
-  description: Понижает DEF всем врагам. тратит 8 ом
-  name: 'Испуг'
-  occasion: 1
-  icon_index: 26
-  message1: ' использует Испуг!'
-  scope: 2
-  animation_id: 47
-  note: ''
-  mp_cost: 8
-  speed: 0
-  id: 40
-  features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 32
-    data_id: 3
-    value1: 5.0
-    value2: 0.0
-  damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
-    variance: 20
-    critical: false
-  success_rate: 100
-  hit_type: 2
-  stype_id: 2
-  tp_cost: 0
-  required_wtype_id1: 0
-  required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
-- !ruby/object:RPG::Skill
-  message2: ''
-  description: Понижает MDF всем врагам. тратит 7 ом
-  name: Волшебная палочка
-  occasion: 1
-  icon_index: 29
-  message1: ' использует Волшебную палочку!'
-  scope: 2
-  animation_id: 46
-  note: ''
-  mp_cost: 7
-  speed: 0
-  id: 41
-  features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 32
-    data_id: 5
-    value1: 5.0
-    value2: 0.0
-  damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
-    variance: 20
-    critical: false
-  success_rate: 100
-  hit_type: 2
-  stype_id: 2
-  tp_cost: 0
-  required_wtype_id1: 0
-  required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
-- !ruby/object:RPG::Skill
-  message2: ''
-  description: Отменяет вражеские чары. тратит 5 ом
-  name: Рассеивание
-  occasion: 1
-  icon_index: 159
-  message1: ' использует Рассеивание!'
-  scope: 1
-  animation_id: 46
-  note: ''
-  mp_cost: 5
-  speed: 0
-  id: 42
-  features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 33
-    data_id: 2
-    value1: 0.0
-    value2: 0.0
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 33
-    data_id: 3
-    value1: 0.0
-    value2: 0.0
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 33
-    data_id: 4
-    value1: 0.0
-    value2: 0.0
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 33
-    data_id: 5
-    value1: 0.0
-    value2: 0.0
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 33
-    data_id: 6
-    value1: 0.0
-    value2: 0.0
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 33
-    data_id: 7
-    value1: 0.0
-    value2: 0.0
-  damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
-    variance: 20
-    critical: false
-  success_rate: 100
-  hit_type: 0
-  stype_id: 1
-  tp_cost: 10
-  required_wtype_id1: 0
-  required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
-- !ruby/object:RPG::Skill
-  message2: ''
-  description: ''
-  name: Волшебный барьер
-  occasion: 1
-  icon_index: 45
-  message1: ' использует Волшебный барьер!'
-  scope: 11
-  animation_id: 44
-  note: ''
-  mp_cost: 10
-  speed: 0
-  id: 43
-  features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 31
-    data_id: 5
-    value1: 3.0
-    value2: 0.0
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 31
-    data_id: 5
-    value1: 3.0
-    value2: 0.0
-  damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
-    variance: 20
-    critical: false
-  success_rate: 100
-  hit_type: 0
-  stype_id: 1
-  tp_cost: 25
-  required_wtype_id1: 0
-  required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
-- !ruby/object:RPG::Skill
-  message2: ''
-  description: На 5 ходов, сильно увеличивает MAT.
-  name: Усиливающее заклинание
-  occasion: 1
-  icon_index: 23
-  message1: ' использует Усиливающее заклинание!'
-  scope: 11
-  animation_id: 43
-  note: ''
-  mp_cost: 10
-  speed: 0
-  id: 44
-  features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 31
-    data_id: 4
-    value1: 5.0
-    value2: 0.0
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 31
-    data_id: 4
-    value1: 5.0
-    value2: 0.0
-  damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
-    variance: 20
-    critical: false
-  success_rate: 100
-  hit_type: 0
-  stype_id: 2
-  tp_cost: 0
-  required_wtype_id1: 0
-  required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
-- !ruby/object:RPG::Skill
-  message2: ''
-  description: Увеличивает ATK одному союзнику. тратит 9 ом
-  name: Оружие дыхания
-  occasion: 1
-  icon_index: 18
-  message1: ' использует Оружие дыхания!'
-  scope: 7
-  animation_id: 43
-  note: ''
-  mp_cost: 9
-  speed: 0
-  id: 45
-  features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 31
-    data_id: 2
-    value1: 5.0
-    value2: 0.0
-  damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
-    variance: 20
-    critical: false
-  success_rate: 100
-  hit_type: 0
-  stype_id: 2
-  tp_cost: 0
-  required_wtype_id1: 0
-  required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
-- !ruby/object:RPG::Skill
-  message2: ''
-  description: делает ничего.
-  name: Ничегоо
-  occasion: 0
-  icon_index: 0
-  message1: ' делает Ничегоо!'
-  scope: 0
-  animation_id: 0
-  note: ''
-  mp_cost: 0
-  speed: 0
-  id: 46
-  features: []
-  effects: []
-  damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
-    variance: 20
-    critical: false
-  success_rate: 100
-  hit_type: 0
-  stype_id: 0
-  tp_cost: 0
-  required_wtype_id1: 0
-  required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
-- !ruby/object:RPG::Skill
-  message2: ''
-  description: 'Только маленькие пчёлки знают, как это сделать.'
-  name: опыление
-  occasion: 0
-  icon_index: 5
-  message1: ' использует опыление!'
-  scope: 1
-  animation_id: 0
-  note: ''
-  mp_cost: 5
-  speed: 0
-  id: 47
-  features: []
-  effects: []
-  damage: !ruby/object:RPG::UsableItem::Damage
-    type: 3
-    element_id: 0
-    formula: 1 + a.atk * 0.04 + a.mat * 0.02 - b.def * 0.02 - b.mdf * 0.02
-    variance: 20
-    critical: false
-  success_rate: 100
-  hit_type: 2
-  stype_id: 1
-  tp_cost: 0
-  required_wtype_id1: 0
-  required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
-- !ruby/object:RPG::Skill
-  message2: ''
-  description: Отравляет всех врагов.
-  name: Ядовитое облако
-  occasion: 1
-  icon_index: 70
-  message1: ' использует Ядовитое облако!'
-  scope: 2
-  animation_id: 31
-  note: ''
-  mp_cost: 0
-  speed: 0
-  id: 48
-  features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 21
-    data_id: 26
-    value1: 0.5
-    value2: 0.0
-  damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
-    variance: 20
-    critical: false
-  success_rate: 100
-  hit_type: 1
-  stype_id: 1
-  tp_cost: 0
-  required_wtype_id1: 0
-  required_wtype_id2: 0
-  repeats: 1
-  tp_gain: 0
-- !ruby/object:RPG::Skill
-  message2: ''
-  description: Ослепляет всех врагов.
-  name: Тёмное облако
-  occasion: 1
   icon_index: 232
-  message1: ' использует Тёмное облако!'
+  message1: ' uses Dark Cloud!'
   scope: 2
   animation_id: 51
   note: ''

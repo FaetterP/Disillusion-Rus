@@ -231,7 +231,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl35, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This is going to be another test. you should]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This is going to be another test. You should]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [prepare yourself for a bad time.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl37, 0, 0, 0, -30, 100, 100, 255, 0]}
@@ -284,7 +284,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, MEl36, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['what would you do without me? well from']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['What would you do without me? Well, from']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [what I can tell he is weak to darkness.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: Heal3, pitch: 150, volume: 50}]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 314, p: [0, 0]}
@@ -349,6 +349,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Fellas in paris]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   6: !ruby/object:RPG::Event
     id: 6
@@ -397,7 +400,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Goody goods. Goodly good goods.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['want more cute clothes?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Want more cute clothes?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}

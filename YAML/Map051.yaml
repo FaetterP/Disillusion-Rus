@@ -99,7 +99,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['I think it is time you go. I wish you luck,']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [we will meet again.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 42, 1, 9, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 42, 1, 11, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 242, p: [2]}
@@ -148,7 +148,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [483, 483, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 242, p: [2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 42, 1, 9, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 42, 1, 11, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
@@ -197,7 +197,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 242, p: [2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [483, 483, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 42, 1, 9, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 42, 1, 11, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}

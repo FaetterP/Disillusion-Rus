@@ -47,13 +47,13 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 23, 15, 11, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 23, 15, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, roaddifuse, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Where does the empathy end and killing overcome]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['you? Does a doe shed tears before we']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['take it''s head?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['take its head?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -163,9 +163,48 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Then you insult me!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 19, false, false]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [60, 60, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: true
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 60
+        variable_value: 1
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   4: !ruby/object:RPG::Event
     id: 4
@@ -211,8 +250,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Chased again! this guy does not give up!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [becareful up there on the next floor!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Chased again! This guy does not give up!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Be careful up there on the next floor!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -318,7 +357,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Concrete? that''s cement, baby!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Concrete? That''s cement, baby!']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -347,6 +386,7 @@ events:
           - &2 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [61, 61, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 602, p: []}
@@ -366,6 +406,44 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 604, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: true
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 61
+        variable_value: 1
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   7: !ruby/object:RPG::Event
     id: 7
@@ -552,7 +630,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [get me over all the times I had to worry.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Get me over all the times I had to worry.]}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -581,6 +659,7 @@ events:
           - &5 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*5]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [62, 62, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 602, p: []}
@@ -600,6 +679,44 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 604, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: true
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 62
+        variable_value: 1
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -645,12 +762,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Demons are real. except it's not like in the movies]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' where some strange personality takes over like']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['you''re a meat suit. . It''s the emotional, non-verbal core']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Demons are real. Except it's not like in the movies]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [where some strange personality takes over like]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['you''re a meat suit. It''s the emotional, non-verbal core']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['that gets replaced or overpowered, so the person']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' believes they are still the ones in control. Drug and']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [believes they are still the ones in control. Drug and]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['alcohol use get you wide open for this sort of thing,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['but it can also happen subtly over time. Depression,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['anger issues, etc...']}
@@ -791,7 +908,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the people of Guatemala's highlands create "worry]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The people of Guatemala's highlands create "worry]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['dolls" to help them sleep. According to legend,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the worry doll represents the wisdom of a Mayan]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [princess.]}
@@ -844,7 +961,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It seems this is straight up adrenaline but your]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [body processes them into the same thing.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [it's also interesting to read a research article from 1954]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's also interesting to read a research article from 1954]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [on the link between adrenaline and schizophrenia.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   14: !ruby/object:RPG::Event

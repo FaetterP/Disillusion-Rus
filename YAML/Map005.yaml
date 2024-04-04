@@ -51,9 +51,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["ты не заберёшься на эту башню, пока ты не усвоишь"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [убей или будь убитым.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты осознаёшь?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Я согласен, 'Почему все не могут поладить?'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Я согласен]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [2, 2, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Я согласен., 'Почему все не могут поладить?'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Я согласен.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [11, 11, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Видишь? Некоторые люди говорят, что это нечестно. Я говорю']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Это научит их отстать от тебя. Я просто прикалываюсь]}
@@ -67,7 +67,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Те нужно ещё много научиться, и те повезло, что ты']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [на самом нижнем этаже. Потому что дальше тебе]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [надерут зад!]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [2, 2, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [11, 11, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -81,7 +81,7 @@ events:
         actor_valid: false
         switch1_id: 1
         switch2_id: 1
-        variable_id: 2
+        variable_id: 11
         variable_value: 1
         self_switch_ch: A
         item_id: 1
@@ -384,8 +384,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["Это намного лучше, чем случайные встречи"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['правда?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Да', 'Нет'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Да']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Да.', 'Нет.'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Да.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Я все еще чувствую желание сразиться с тобой.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 3, true, false]}
@@ -422,7 +422,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Нет']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Нет.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Возвращайся в 1998.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 3, true, false]}
@@ -520,9 +520,9 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*6]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Сегодня на обед похлёбка из дины. хочешь?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['да, обожаю сардины ', Нет спасибо.], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'да, обожаю сардины ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Сегодня на обед дин чаудер. хочешь?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Ага, обожаю сардины.', 'Нет, спасибо.'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Ага, обожаю сардины.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [На самом деле мне нечем поделиться.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 2, true, false]}
@@ -559,7 +559,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет спасибо.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Нет, спасибо.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Перестань есть как нуб.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 2, true, false]}
@@ -806,7 +806,7 @@ events:
         i: 0
         c: 205
         p:
-        - 0
+        - -1
         - !ruby/object:RPG::MoveRoute
           repeat: false
           skippable: false
@@ -820,7 +820,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Кто номер 1?', Я подсолнуховый мальчик., Ты подсолнуховый мальчик.], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Кто номер 1?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["ни я, ни ты."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["Ни я, ни ты."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 3, true, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
       - !ruby/object:RPG::EventCommand
@@ -975,14 +975,53 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &21 !ruby/object:RPG::MoveCommand {code: 35, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*21]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Чуд.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 301, p: [0, 2, true, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 601, p: []}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &22 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*22]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 602, p: []}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &23 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*23]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1455,7 +1494,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [тебе это пригодится.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [1, 0, 0, 15]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*получено 15 Зелий*']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*Получено 15 Зелий!*']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [D, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -1518,7 +1557,7 @@ events:
         actor_valid: false
         switch1_id: 1
         switch2_id: 1
-        variable_id: 1
+        variable_id: 255
         variable_value: 0
         self_switch_ch: A
         item_id: 1
@@ -1552,12 +1591,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["используй ESC, чтобы открыть меню"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [и надеть классные вещи.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Оу.... и если ты не знал ALT+ENTER]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Оу.... и если ты не знал, ALT+ENTER']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [делает полный экран.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 128, p: [1, 0, 0, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*получены носки!*']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [1, 1, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*Получены Носки!*']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [255, 255, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -1569,7 +1608,7 @@ events:
         actor_valid: false
         switch1_id: 1
         switch2_id: 1
-        variable_id: 1
+        variable_id: 255
         variable_value: 1
         self_switch_ch: A
         item_id: 1
@@ -1657,9 +1696,9 @@ events:
           skippable: false
           wait: true
           list:
-          - &21 !ruby/object:RPG::MoveCommand {code: 35, parameters: []}
+          - &24 !ruby/object:RPG::MoveCommand {code: 35, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*21]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*24]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я никого не пущу через эти ворота.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 301, p: [0, 50, true, false]}
@@ -1674,9 +1713,9 @@ events:
           skippable: false
           wait: true
           list:
-          - &22 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - &25 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*22]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*25]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 602, p: []}
@@ -1690,9 +1729,9 @@ events:
           skippable: false
           wait: true
           list:
-          - &23 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - &26 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*23]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*26]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1742,16 +1781,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Будь осторожен, взбираясь на эту башню, она']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [довольно опасная]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Будь осторожен, взбираясь на эту башню.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Здесь довольно опасно.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Также небольшой совет.....]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Становиться сильнее - это прекрасно и модно...]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["но ты не научишься никаким новым навыкам,"]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [пока не пообщаешься с новыми людьми..]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Становиться сильнее - это здорово и модно...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["Но ты не научишься никаким новым навыкам,"]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [пока не пообщаешься с новыми людьми.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['просто будь внимательнее со всеми, с кем сталкиваешься, иначе']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Просто будь внимательнее со всеми, иначе']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [никто не захочет тебя ничему учить.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
@@ -1799,7 +1838,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 6, 1, 11, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 6, 1, 11, 6, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, DSCF5217, 0, 0, 0, -30, 102, 112, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [240]}
@@ -1862,17 +1901,17 @@ events:
           skippable: false
           wait: true
           list:
-          - &24 !ruby/object:RPG::MoveCommand {code: 35, parameters: []}
+          - &27 !ruby/object:RPG::MoveCommand {code: 35, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*24]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*27]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Они называют меня подсолнуховым мальчиком.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Милое имя, 'почему?', 'ВХАХАХАХАХАХАХ '], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Милое имя]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Милое имя., 'Почему?', 'ВХАХАХАХАХАХАХ'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Милое имя.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ох, Спасибо. Я мешаю тебе пройти?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Да', 'Нет'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Да']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Да.', 'Нет.'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Да.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Отстойно быть тобой.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 301, p: [0, 2, true, false]}
@@ -1887,9 +1926,9 @@ events:
           skippable: false
           wait: true
           list:
-          - &25 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - &28 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*25]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*28]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 602, p: []}
@@ -1903,76 +1942,18 @@ events:
           skippable: false
           wait: true
           list:
-          - &26 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - &29 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*26]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 505, p: [*29]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Нет']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Нет.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ["Вообще, я как раз собирался уходить."]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 315, p: [0, 0, 0, 0, 15, false]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['*получено 15 опыта!*']}
-      - !ruby/object:RPG::EventCommand
-        i: 2
-        c: 205
-        p:
-        - -1
-        - !ruby/object:RPG::MoveRoute
-          repeat: false
-          skippable: false
-          wait: true
-          list:
-          - &27 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*27]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 214, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'почему?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Потому что я пахну бесконечным]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [солнечным светом.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 2, true, false]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
-      - !ruby/object:RPG::EventCommand
-        i: 2
-        c: 205
-        p:
-        - -1
-        - !ruby/object:RPG::MoveRoute
-          repeat: false
-          skippable: false
-          wait: true
-          list:
-          - &28 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*28]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 214, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 602, p: []}
-      - !ruby/object:RPG::EventCommand
-        i: 2
-        c: 205
-        p:
-        - -1
-        - !ruby/object:RPG::MoveRoute
-          repeat: false
-          skippable: false
-          wait: true
-          list:
-          - &29 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
-          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*29]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, 'ВХАХАХАХАХАХАХ ']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 2, true, false]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['*Получено 15 опыта!*']}
       - !ruby/object:RPG::EventCommand
         i: 2
         c: 205
@@ -1988,7 +1969,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*30]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 602, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Почему?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Потому что я пахну бесконечным]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [солнечным светом.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 2, true, false]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
       - !ruby/object:RPG::EventCommand
         i: 2
         c: 205
@@ -2002,6 +1990,57 @@ events:
           - &31 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*31]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 214, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 602, p: []}
+      - !ruby/object:RPG::EventCommand
+        i: 2
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &32 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*32]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, ВХАХАХАХАХАХАХ]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 2, true, false]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
+      - !ruby/object:RPG::EventCommand
+        i: 2
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &33 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*33]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 214, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 602, p: []}
+      - !ruby/object:RPG::EventCommand
+        i: 2
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &34 !ruby/object:RPG::MoveCommand {code: 36, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 505, p: [*34]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}

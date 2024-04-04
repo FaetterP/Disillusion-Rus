@@ -50,7 +50,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [steam.update]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [7]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Town, 0, 0, 10, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Town, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты вернулся в город.]}
@@ -74,7 +74,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Похоже, кто-то дома']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, imblue.jpg, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, imblue.jpg, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
@@ -144,19 +144,19 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallgappyp2, 0, 0, -4, 4, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallgappyp2, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallhole, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallhole, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallholeguy_, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallholeguy_, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Сходи, побеспокой того странного чувака, который не']}
@@ -203,7 +203,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [7]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Town, 0, 0, 10, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Town, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты вернулся в город.]}
@@ -213,7 +213,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Городская ратуша]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Town3, 0, 0, -4, 3, 80, 80, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Town3, 0, 0, 0, -30, 80, 80, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Похоже, вокруг никого нет, до сих пор.']}
@@ -227,7 +227,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Похоже, кто-то дома']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, imblue.jpg, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, imblue.jpg, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
@@ -241,19 +241,19 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallgappyp2, 0, 0, -4, 4, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallgappyp2, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallhole, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallhole, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallholeguy_, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallholeguy_, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Оставь меня в покое.]}
@@ -319,7 +319,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [7]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Town, 0, 0, 10, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Town, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты вернулся в город.]}
@@ -339,7 +339,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Продолжить, 'Нет'], 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Продолжить]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, tower, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, tower, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['         Вдалеке видна массивная башня']}
@@ -347,7 +347,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['      Вы отправляетесь в башню']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 17, 15, 11, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 17, 15, 11, 4, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Нет']}
@@ -363,7 +363,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Похоже, кто-то дома']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, imblue.jpg, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, imblue.jpg, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['']}
@@ -377,19 +377,19 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallgappyp2, 0, 0, -4, 4, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallgappyp2, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallhole, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallhole, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallholeguy_, 0, 0, -4, 3, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, wallholeguy_, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Оставь меня в покое.]}

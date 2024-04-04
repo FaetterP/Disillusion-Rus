@@ -79,7 +79,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 261, p: [goodbyemel]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 50, 0, 10, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 53, 5, 9, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 53, 5, 9, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 603, p: []}
@@ -197,7 +197,7 @@ events:
         actor_valid: false
         switch1_id: 1
         switch2_id: 1
-        variable_id: 485
+        variable_id: 486
         variable_value: 1
         self_switch_ch: A
         item_id: 1
@@ -267,7 +267,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 261, p: [goodbyemel]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 50, 0, 10, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 53, 2, 12, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 53, 5, 9, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 603, p: []}
@@ -381,7 +381,207 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['my site, and never return here.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 50, 0, 10, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 43, 9, 10, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 43, 9, 10, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: true
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 485
+        variable_value: 1
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: '!$mazemel'
+        character_index: 0
+        direction: 8
+        pattern: 2
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: true
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl48, 0, 0, 0, -30, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Really? you are going to end me because that']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['cat told you to do so? This is my garden, the place']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I come to escape tragedy. Please lets not]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [disturb it.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['You must die, Mel.', Fine. I will not harm you.], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'You must die, Mel.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['If that is how it is going to be, then fine.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Even if I end you here, you will come back.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Each iteration will suffer more. I do feel guilt]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['for this and the tragedy I have caused, I swear.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Forgive me, but if I allow you to end my existence']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [then I can not stop mara.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Do you not believe I can stop her myself?'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Do you not believe I can stop her myself?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['You are too selfish, how can I trust you will']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['not fall for any of mara''s tricks? I am sorry, \n[1].']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I promise that when this is over I will take]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [responsibility for the things I was forced to create.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, MEl49, 0, 0, 0, -30, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I will create a new cycle, free from tragedy.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 301, p: [0, 56, false, true]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 601, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [482, 482, 0, 0, 1]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 261, p: [goodbyemel]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 50, 0, 10, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 53, 5, 9, 8, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 603, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 50, 0, 12, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 241, p: [!ruby/object:RPG::BGM {name: opt out - Three Glimpses into an Opal - 03 Hiraeth, volume: 75, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, MEl50, 0, 0, 0, -30, 95, 80, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [60]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['With \n[1] cast back into life, Mel confronts mara']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [herself.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Mel is unable to best mara, failing.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, MEl51, 0, 0, 0, -30, 95, 80, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['With Mara''s reason and Mel Unable to stop her ,']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [energy is no longer free flowing. The Kleshas of]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [man being the spear head to break the cycle and]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [create a new world under one creator.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['The Bodhi tree is no more, and the tower has collapsed']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [into a swamp. Mara's prison becoming]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [the very algae flowing through this soup.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, Bohdi3, 0, 0, 0, -30, 100, 75, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['How can a Muse kill a god? you reap what you sow, Muse.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['You have tempted my adam to sin, for this you will']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [become the warden of your own prison. A hell fit]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [for a fallen angel.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Karma is now in my hands. I am now]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['the creator, not fate.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, memorycrowsofchii, 0, 0, 0, -30, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 105, p: [1, false]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [An experience created by Rick.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Music by Jimmy W.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Sound effects by Quixote/Justin.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['Special thanks to, ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Mick]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Caf]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Brandon]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Beth]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Chii]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Bumstead]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Dibs]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Ryan Humes]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Thank you for playing.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [999]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [999]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [999]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 354, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 604, p: []}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Fine. I will not harm you.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Any shred of trust I had for you is gone. Leave]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['my site, and never return here.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 50, 0, 10, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 43, 9, 10, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -501,7 +701,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 122, p: [482, 482, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 50, 0, 10, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 53, 2, 12, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 53, 5, 9, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
@@ -541,7 +741,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 261, p: [goodbyemel]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 50, 0, 10, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 53, 2, 12, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 53, 5, 9, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
@@ -595,7 +795,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 261, p: [goodbyemel]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 50, 0, 10, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 53, 2, 12, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 53, 5, 9, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
@@ -635,7 +835,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 261, p: [goodbyemel]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 50, 0, 10, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 53, 2, 12, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 53, 5, 9, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}

@@ -1801,7 +1801,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Реван Имс Чудесный
+  name: Реван Имс Чумесный
   gold: 33
   battler_hue: 180
   exp: 100
@@ -2147,7 +2147,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Брок ли
+  name: Брок Ли
   gold: 14
   battler_hue: 280
   exp: 100

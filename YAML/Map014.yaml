@@ -642,7 +642,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 15, 8, 11, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 15, 8, 11, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl97, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -702,6 +702,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [21, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*Получен ключ2!*']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11

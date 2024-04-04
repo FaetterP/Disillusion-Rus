@@ -1,7 +1,7 @@
 ---
 - 
 - !ruby/object:RPG::Armor
-  description: СТарые жёсткие носки. Дают 1 DEF
+  description: СТарые плотные носки. Дают 1 DEF
   name: Носки
   icon_index: 0
   price: 100
@@ -70,8 +70,8 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "Бренд Pit Snake. Не одобрен отделом\r\nбезопасности. даёт 4 MDF"
-  name: Тёмные очки
+  description: "Бренд Pit Snake. Не одобрен отделом\r\nбезопасности. дают 4 MDF"
+  name: Тёмные очки Pit Snake
   icon_index: 0
   price: 5000
   note: ''
@@ -93,7 +93,7 @@
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "Разве тот парень, который написал ту песню о \r\nдожде, не носил это? Даёт 7 MDF"
+  description: "Разве парень, который написал ту песню о \r\nдожде, не носил это? Даёт 7 MDF"
   name: Ожерелье из погнутой вилки
   icon_index: 0
   price: 8000
@@ -162,8 +162,8 @@
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "Это наклейка с изображением смеющегося демона. \r\nГоворят, он дает божественную силу. Только правда ли это?"
-  name: Стикер с демоном
+  description: "Стикер со смеющимся демоном. \r\nГоворят, он дает божественную силу. Только правда ли это?"
+  name: Демонический стикер
   icon_index: 0
   price: 1
   note: ''
@@ -208,7 +208,7 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "Подарок от кафа после того, как он стал правителем свиного \r\nчистилища. теперь люди называют его большой свиньей"
+  description: "Подарок от кафа после того, как он стал правителем свиного \r\nчистилища. теперь его называют большой свиньей"
   name: Цепочка с золотой свиньёй
   icon_index: 237
   price: 6500
@@ -231,8 +231,8 @@
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "весы от лорда Уунбануунбоаа.\r\nделает отличную броню. даёт уязвимость у молниям."
-  name: Весы лорда
+  description: "чешуя лорда Уунбануунбоаа.\r\nделает отличную броню. даёт уязвимость у молниям."
+  name: Чешуя лорда
   icon_index: 7
   price: 100
   note: ''

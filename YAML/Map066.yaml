@@ -136,8 +136,8 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Wipe that shit eating grin off your face! this is]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the BONE ZONE!!!!!!!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Wipe that shit eating grin off your face!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This is the BONE ZONE!!!!!!!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -319,7 +319,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I was cured by truning my eyes to god.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I was cured by turning my eyes to god.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -504,7 +504,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Hey here, these are on the house.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*got 2 mp juice XL!*']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*Got 2 MP juice XL!*']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [17, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [473, 473, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -547,7 +547,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [don't be greedy!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Don't be greedy!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   7: !ruby/object:RPG::Event
     id: 7
@@ -777,7 +777,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A dancing plague.... make it stop]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A dancing plague.... make it stop.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -960,7 +960,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Oh yeah yeah. Yeah yeah yeah yeah]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Oh yeah yeah. Yeah yeah yeah yeah.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -1156,7 +1156,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 50, 6, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 65, 17, 7, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 65, 17, 6, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -1257,16 +1257,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Oh dude! you found it! give it back?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Oh dude! You found it! Give it back?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Sure., Nope.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Sure.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 126, p: [18, 1, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Here is 200 dust, thanks dude.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [472, 472, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 125, p: [0, 0, 200]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Nope.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [You just came to mock me huh....]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}

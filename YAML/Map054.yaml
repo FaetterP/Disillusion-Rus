@@ -48,7 +48,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You? lecture? get real.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You? Lecture? Get real.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -1009,7 +1009,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I came here for the lesson on grindinomics]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and hustling 101. but the lecturer is nowhere]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and hustling 101. But the lecturer is nowhere]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [to be found...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -1102,7 +1102,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 7, 1, 6, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 7, 1, 2, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}

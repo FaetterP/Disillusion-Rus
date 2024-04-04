@@ -137,7 +137,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 42, 1, 7, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 42, 1, 7, 6, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, Right]}
@@ -156,7 +156,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 42, 1, 7, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 42, 1, 7, 6, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
@@ -361,7 +361,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 58, 10, 8, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 58, 10, 8, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
