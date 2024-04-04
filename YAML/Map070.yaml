@@ -153,12 +153,12 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [A worthy one has been found.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The pork evil will be reborn.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' for this I grant thee thy platinum pig.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Достойный был найден.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Свиное зло возродится.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' за это я дарю тебе платиновую свинью.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 128, p: [14, 0, 0, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*got the Platinum pig chain!*']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*получена цепочка с платиновой свиньёй!*']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
