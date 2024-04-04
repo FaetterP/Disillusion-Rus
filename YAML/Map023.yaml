@@ -47,24 +47,24 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 24, 21, 7, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 24, 21, 7, 4, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, kathasseenbetterdays, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['what is Nirvana?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[To extinguish, To anguish, To end suffering], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, To extinguish]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['What is Nirvana?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[To extinguish., To anguish., To end suffering.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, To extinguish.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I suppose in a literal sense you are]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [correct...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, To anguish]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, To anguish.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [You have to wake up soon.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, To end suffering]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, To end suffering.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['you''re understanding? color me surpsrised.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['You''re understanding? Color me surpsrised.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Take this to aid you.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['*Gained 10 exp!*']}

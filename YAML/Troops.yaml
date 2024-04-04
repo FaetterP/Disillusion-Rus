@@ -3,27 +3,22 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 196
+    x: 88
     enemy_id: 1
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 348
-    enemy_id: 1
-  name: Slime*2
+  name: elp
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-    span: 0
+    span: 1
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: false
+      turn_valid: true
       actor_hp: 50
-      turn_a: 0
+      turn_a: 1
       turn_ending: false
-      enemy_hp: 50
+      enemy_hp: 60
       switch_valid: false
       enemy_index: 0
       actor_valid: false
@@ -35,16 +30,11 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 207
+    x: 312
     enemy_id: 2
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 337
-    enemy_id: 2
-  name: Bat*2
+  name: 2 evans
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -67,16 +57,11 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 227
+    x: 512
     enemy_id: 3
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 317
-    enemy_id: 3
-  name: Hornet*2
+  name: Hob
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -99,30 +84,30 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 112
-    enemy_id: 4
+    x: 88
+    enemy_id: 1
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 272
-    enemy_id: 4
+    x: 312
+    enemy_id: 2
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 432
-    enemy_id: 4
-  name: Spider*3
+    x: 504
+    enemy_id: 3
+  name: Goon Squad
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: false
+      turn_valid: true
       actor_hp: 50
-      turn_a: 0
+      turn_a: 1
       turn_ending: false
       enemy_hp: 50
       switch_valid: false
@@ -136,21 +121,11 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 154
-    enemy_id: 5
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 272
-    enemy_id: 5
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 390
-    enemy_id: 5
-  name: Rate*3
+    x: 352
+    enemy_id: 4
+  name: Wallboi
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -173,21 +148,11 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 110
-    enemy_id: 6
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 272
-    enemy_id: 6
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 434
-    enemy_id: 6
-  name: Wisp*3
+    x: 256
+    enemy_id: 5
+  name: Katt
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -210,16 +175,16 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 170
-    enemy_id: 7
+    x: 288
+    enemy_id: 6
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 374
-    enemy_id: 7
-  name: Large Snake*2
+    x: 544
+    enemy_id: 3
+  name: Rooster gang
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -242,21 +207,11 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 208
     hidden: false
-    x: 105
-    enemy_id: 8
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 272
-    enemy_id: 8
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 439
-    enemy_id: 8
-  name: Scorpion*3
+    x: 288
+    enemy_id: 7
+  name: Fly
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -279,16 +234,16 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 183
-    enemy_id: 9
+    x: 64
+    enemy_id: 8
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 361
-    enemy_id: 9
-  name: Jellyfish*2
+    x: 256
+    enemy_id: 5
+  name: flutekat
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -311,21 +266,11 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 101
-    enemy_id: 10
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 272
-    enemy_id: 10
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 443
-    enemy_id: 10
-  name: Man-Eating Plant*3
+    x: 56
+    enemy_id: 8
+  name: flute
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -348,21 +293,11 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 146
-    enemy_id: 11
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 272
-    enemy_id: 11
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 398
-    enemy_id: 11
-  name: Ghost*3
+    x: 288
+    enemy_id: 9
+  name: ftree
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -385,16 +320,11 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 181
-    enemy_id: 12
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 363
-    enemy_id: 12
-  name: Skeleton*2
+    x: 376
+    enemy_id: 10
+  name: ftrees
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -417,21 +347,11 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 136
-    enemy_id: 13
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 272
-    enemy_id: 13
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 408
-    enemy_id: 13
-  name: Orc*3
+    x: 264
+    enemy_id: 11
+  name: ''
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -454,16 +374,11 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 201
-    enemy_id: 14
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 343
-    enemy_id: 14
-  name: Imp*2
+    x: 256
+    enemy_id: 12
+  name: Ryan
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -486,21 +401,11 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 112
-    enemy_id: 15
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 272
-    enemy_id: 15
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 432
-    enemy_id: 15
-  name: Gazer*3
+    x: 312
+    enemy_id: 14
+  name: unnamed
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -523,16 +428,11 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 223
-    enemy_id: 16
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 321
-    enemy_id: 16
-  name: Puppet*2
+    x: 248
+    enemy_id: 15
+  name: beets
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -555,21 +455,21 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 160
-    enemy_id: 17
+    x: 80
+    enemy_id: 16
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
+    hidden: false
+    x: 432
+    enemy_id: 16
+  - !ruby/object:RPG::Troop::Member
+    y: 296
     hidden: false
     x: 272
-    enemy_id: 17
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 384
-    enemy_id: 17
-  name: Zombie*3
+    enemy_id: 16
+  name: tiny beets
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -592,16 +492,11 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 171
-    enemy_id: 18
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 373
-    enemy_id: 18
-  name: Cockatrice*2
+    x: 264
+    enemy_id: 17
+  name: Ibukorukor
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -627,8 +522,8 @@
     y: 288
     hidden: false
     x: 272
-    enemy_id: 19
-  name: Chimera
+    enemy_id: 18
+  name: Ibukorukor
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -651,11 +546,26 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 240
     hidden: false
-    x: 272
-    enemy_id: 20
-  name: Mimic
+    x: 136
+    enemy_id: 19
+  - !ruby/object:RPG::Troop::Member
+    y: 264
+    hidden: false
+    x: 232
+    enemy_id: 19
+  - !ruby/object:RPG::Troop::Member
+    y: 256
+    hidden: false
+    x: 328
+    enemy_id: 19
+  - !ruby/object:RPG::Troop::Member
+    y: 232
+    hidden: false
+    x: 384
+    enemy_id: 19
+  name: Ibnegos
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -678,16 +588,11 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 224
     hidden: false
-    x: 183
-    enemy_id: 21
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 361
-    enemy_id: 21
-  name: Werewolf*2
+    x: 288
+    enemy_id: 20
+  name: Onibi
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -710,16 +615,11 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 149
-    enemy_id: 22
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 395
-    enemy_id: 22
-  name: Sahagin*2
+    x: 272
+    enemy_id: 21
+  name: Uzob Oruk
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -744,9 +644,9 @@
   - !ruby/object:RPG::Troop::Member
     y: 288
     hidden: false
-    x: 272
-    enemy_id: 23
-  name: Ogre
+    x: 152
+    enemy_id: 22
+  name: 'Okiku mushi '
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -769,16 +669,11 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 156
-    enemy_id: 24
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 388
-    enemy_id: 24
-  name: Gargoyle*2
+    x: 56
+    enemy_id: 23
+  name: Darger
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -801,11 +696,16 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 272
-    enemy_id: 25
-  name: Lamia
+    x: 56
+    enemy_id: 23
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 256
+    enemy_id: 5
+  name: Darger pack
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -830,16 +730,36 @@
   - !ruby/object:RPG::Troop::Member
     y: 288
     hidden: false
-    x: 272
-    enemy_id: 26
-  name: Vampire
+    x: 184
+    enemy_id: 24
+  name: Osmu
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 340, p: []}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
-      turn_valid: false
+      turn_valid: true
+      actor_hp: 50
+      turn_a: 2
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I mean you no harm...]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: true
       actor_hp: 50
       turn_a: 0
       turn_ending: false
@@ -851,15 +771,43 @@
       enemy_valid: false
       switch_id: 1
       turn_b: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 353, p: []}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 5
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: true
+      actor_id: 1
+      enemy_valid: true
+      switch_id: 1
+      turn_b: 0
   id: 26
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 272
+    x: 264
+    enemy_id: 25
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 48
+    enemy_id: 26
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 496
     enemy_id: 27
-  name: Succubus
+  name: boss3
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -882,11 +830,11 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 272
+    x: 312
     enemy_id: 28
-  name: Demon
+  name: 2 evans
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -909,14 +857,42 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 296
     hidden: false
-    x: 272
+    x: 280
     enemy_id: 29
-  name: Demon King
+  name: boss2
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Nirvana is pointless. You climb for]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [a fairy tail.]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: true
+      actor_hp: 50
+      turn_a: 3
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The Bodhi Tree awaits only the clear minded.]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This place is a trap! It is impossible to clear]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [your mind within these walls! I'll send you]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [back to be reborn.]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 340, p: []}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
@@ -929,18 +905,18 @@
       enemy_index: 0
       actor_valid: false
       actor_id: 1
-      enemy_valid: false
+      enemy_valid: true
       switch_id: 1
       turn_b: 0
   id: 29
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 288
+    y: 216
     hidden: false
-    x: 272
+    x: 264
     enemy_id: 30
-  name: Demon God
+  name: ''
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -960,3 +936,1053 @@
       switch_id: 1
       turn_b: 0
   id: 30
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 240
+    hidden: false
+    x: 256
+    enemy_id: 31
+  name: ''
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 0
+      turn_a: 0
+      turn_ending: true
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 31
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 272
+    enemy_id: 32
+  name: Brock Lee
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 32
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 272
+    enemy_id: 33
+  name: Sttonger Brock
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 33
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 280
+    enemy_id: 16
+  name: 1 tiny beets
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 34
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 272
+    enemy_id: 35
+  name: Raum
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 35
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 264
+    enemy_id: 36
+  name: '.... . .-.. .--.'
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 36
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 272
+    enemy_id: 37
+  name: '.... . .-.. .--.'
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 37
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 272
+    enemy_id: 38
+  name: '.... . .-.. .--.'
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 38
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 272
+    enemy_id: 40
+  name: ree
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 39
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 272
+    enemy_id: 39
+  name: eer
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 40
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 272
+    enemy_id: 34
+  name: Dibsy
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 41
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 184
+    hidden: false
+    x: 272
+    enemy_id: 42
+  name: tree
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 42
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 264
+    enemy_id: 43
+  name: Mara
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 43
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 296
+    enemy_id: 45
+  name: Byum
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 44
+- !ruby/object:RPG::Troop
+  members: []
+  name: The Goon Squad
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 45
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 189
+    enemy_id: 45
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 355
+    enemy_id: 44
+  name: Byuam and Er
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 46
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 128
+    enemy_id: 46
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 432
+    enemy_id: 46
+  name: Two ryans
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 47
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 272
+    enemy_id: 48
+  name: Pissed flowey
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 1
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 48
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 272
+    enemy_id: 49
+  name: dead flower
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 49
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 320
+    enemy_id: 51
+  name: 2 evans
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 50
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 376
+    enemy_id: 52
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 136
+    enemy_id: 54
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 272
+    enemy_id: 53
+  name: spirit
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 51
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 272
+    enemy_id: 55
+  name: Zombie
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 52
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 272
+    enemy_id: 56
+  name: dug
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 53
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 280
+    enemy_id: 57
+  name: Caf
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 54
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 272
+    enemy_id: 58
+  name: Mick
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 55
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 288
+    enemy_id: 59
+  name: Mel
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 56
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 400
+    enemy_id: 11
+  name: Count lex
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 57
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 272
+    enemy_id: 53
+  name: The forgetfull one
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 58
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 272
+    enemy_id: 50
+  name: The queen
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 59
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 272
+    enemy_id: 60
+  name: The lord
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 60
+- !ruby/object:RPG::Troop
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 264
+    enemy_id: 61
+  name: ?????
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 61
+- !ruby/object:RPG::Troop
+  members: []
+  name: ''
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 62
+- !ruby/object:RPG::Troop
+  members: []
+  name: ''
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 63
+- !ruby/object:RPG::Troop
+  members: []
+  name: ''
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 64
+- !ruby/object:RPG::Troop
+  members: []
+  name: ''
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 65
+- !ruby/object:RPG::Troop
+  members: []
+  name: ''
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 66
+- !ruby/object:RPG::Troop
+  members: []
+  name: ''
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 67
+- !ruby/object:RPG::Troop
+  members: []
+  name: ''
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 68
+- !ruby/object:RPG::Troop
+  members: []
+  name: ''
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 69
+- !ruby/object:RPG::Troop
+  members: []
+  name: ''
+  pages:
+  - !ruby/object:RPG::Troop::Page
+    list:
+    - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    span: 0
+    condition: !ruby/object:RPG::Troop::Page::Condition
+      turn_valid: false
+      actor_hp: 50
+      turn_a: 0
+      turn_ending: false
+      enemy_hp: 50
+      switch_valid: false
+      enemy_index: 0
+      actor_valid: false
+      actor_id: 1
+      enemy_valid: false
+      switch_id: 1
+      turn_b: 0
+  id: 70

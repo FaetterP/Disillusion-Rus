@@ -107,8 +107,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ready to go back?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Yes., No.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Yes.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Alright, lets go.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
@@ -122,9 +122,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [206, 206, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Okay let me know when.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Okay, let me know when.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -178,12 +178,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Devas? How the hell do you know about that?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Do I look like a devas? there is none of that']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [here.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Do I look like a devas? There is none']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [of that here.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Can you give me power?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Who the hell are you to ask that? go away.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Who the hell are you to ask that?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Go away.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -914,7 +915,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [grant you divine powers.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 128, p: [8, 0, 0, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Alright now get oughta here.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['               *Demon sticker acquired!*']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Alright, now get oughta here.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [205, 205, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, I'm seeking enlightenment.]}
@@ -1020,8 +1023,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl99, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['This location is a waste of time, I will tell ya']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [that]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['This location is a waste of time,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I will tell ya that.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

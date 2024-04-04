@@ -109,12 +109,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [They call me Miggy D on the Streets.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Others just call me Big Rig Mig.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['What is your name?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[I don't know., Golem], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[I don't know., Golem.], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, I don't know.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['You don''t know? then name yourself silly!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['You don''t know? Then name yourself, silly!']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Golem]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Golem.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Golem? You look more like a scrimith.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -569,7 +569,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Very soon, you''ll learn of a job you must do.']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 33, 15, 15, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 33, 15, 15, 4, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
@@ -579,7 +579,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 33, 15, 15, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 33, 15, 15, 4, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 404, p: []}
@@ -592,7 +592,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 33, 15, 15, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 33, 15, 15, 4, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
@@ -610,7 +610,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 251, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 33, 15, 15, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 33, 15, 15, 4, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
@@ -634,7 +634,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [lights are keeping the birds awake.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [1]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 33, 15, 15, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 33, 15, 15, 4, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 251, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}

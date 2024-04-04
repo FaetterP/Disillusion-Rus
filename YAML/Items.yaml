@@ -1,11 +1,11 @@
 ---
 - 
 - !ruby/object:RPG::Item
-  description: Recovers 500 HP.
+  description: Recovers 50 HP.
   name: Potion
   consumable: true
   occasion: 0
-  icon_index: 192
+  icon_index: 2
   price: 50
   scope: 7
   animation_id: 37
@@ -18,7 +18,7 @@
     code: 11
     data_id: 0
     value1: 0.0
-    value2: 500.0
+    value2: 50.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -31,11 +31,11 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Recovers 2,500 HP.
+  description: Recovers 100 HP.
   name: Hi-Potion
   consumable: true
   occasion: 0
-  icon_index: 192
+  icon_index: 2
   price: 150
   scope: 7
   animation_id: 37
@@ -48,7 +48,7 @@
     code: 11
     data_id: 0
     value1: 0.0
-    value2: 2500.0
+    value2: 100.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -65,7 +65,7 @@
   name: Full Potion
   consumable: true
   occasion: 0
-  icon_index: 192
+  icon_index: 3
   price: 450
   scope: 7
   animation_id: 37
@@ -91,12 +91,12 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Recovers 200 MP.
-  name: Magic Water
+  description: Recovers 20 MP.
+  name: MP Juice
   consumable: true
   occasion: 0
-  icon_index: 193
-  price: 300
+  icon_index: 260
+  price: 20
   scope: 7
   animation_id: 38
   note: ''
@@ -108,7 +108,7 @@
     code: 12
     data_id: 0
     value1: 0.0
-    value2: 200.0
+    value2: 20.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -121,24 +121,34 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Recovers ally from death.
-  name: Stimulant
+  description: "A rare Item Sold by caf. restores\r\n100 mp and HP as well as raising max mp by 10."
+  name: Malt Liqour
   consumable: true
   occasion: 0
-  icon_index: 194
-  price: 250
-  scope: 9
-  animation_id: 42
+  icon_index: 260
+  price: 20
+  scope: 7
+  animation_id: 38
   note: ''
   speed: 0
   id: 5
   features: []
   effects:
   - !ruby/object:RPG::UsableItem::Effect
-    code: 22
+    code: 12
+    data_id: 0
+    value1: 0.0
+    value2: 100.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 42
     data_id: 1
-    value1: 1.0
+    value1: 10.0
     value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 0
+    value1: 0.0
+    value2: 100.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -155,7 +165,7 @@
   name: Antidote
   consumable: true
   occasion: 0
-  icon_index: 194
+  icon_index: 262
   price: 30
   scope: 7
   animation_id: 40
@@ -166,7 +176,7 @@
   effects:
   - !ruby/object:RPG::UsableItem::Effect
     code: 22
-    data_id: 2
+    data_id: 26
     value1: 1.0
     value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
@@ -185,7 +195,7 @@
   name: Dispel Herb
   consumable: true
   occasion: 0
-  icon_index: 194
+  icon_index: 111
   price: 90
   scope: 7
   animation_id: 41
@@ -240,7 +250,7 @@
   name: Elixir
   consumable: true
   occasion: 0
-  icon_index: 197
+  icon_index: 110
   price: 1000
   scope: 7
   animation_id: 39
@@ -275,7 +285,7 @@
   name: Life Up
   consumable: true
   occasion: 2
-  icon_index: 199
+  icon_index: 7
   price: 200
   scope: 7
   animation_id: 0
@@ -499,6 +509,416 @@
     data_id: 7
     value1: 3.0
     value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: "Recovers 60 MP. You can not \r\nbuy these."
+  name: MP Juice XL
+  consumable: true
+  occasion: 0
+  icon_index: 260
+  price: 20
+  scope: 7
+  animation_id: 38
+  note: ''
+  speed: 0
+  id: 17
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 12
+    data_id: 0
+    value1: 0.0
+    value2: 60.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: "The last of it's kind, Probably the \r\nonly one in existence."
+  name: 'Menthol cigarette '
+  consumable: false
+  occasion: 0
+  icon_index: 211
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 18
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: "Sardines and chowder. Recovers 50 hp\r\nand cures poison."
+  name: Deen Chowder
+  consumable: true
+  occasion: 0
+  icon_index: 2
+  price: 50
+  scope: 7
+  animation_id: 37
+  note: ''
+  speed: 0
+  id: 19
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 0
+    value1: 0.0
+    value2: 150.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 26
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: "A can of sardines that heals 50 Hp and 60 mp.\r\ncan not be bought at any known store."
+  name: Deen pack
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 20
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 0
+    value1: 0.0
+    value2: 50.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 12
+    data_id: 0
+    value1: 0.0
+    value2: 60.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: A key to a door
+  name: Key2
+  consumable: false
+  occasion: 3
+  icon_index: 0
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 21
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: A key to a door
+  name: Key1
+  consumable: false
+  occasion: 3
+  icon_index: 0
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 22
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: disables encounters.
+  name: No encounters on
+  consumable: false
+  occasion: 2
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 23
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 27
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: no encounters off
+  consumable: false
+  occasion: 2
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 24
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 27
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: "Pork, beans, and jelly Recovers 100 hp\r\nand cures poison."
+  name: PBJ
+  consumable: true
+  occasion: 0
+  icon_index: 2
+  price: 50
+  scope: 7
+  animation_id: 37
+  note: ''
+  speed: 0
+  id: 25
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 0
+    value1: 0.0
+    value2: 100.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 26
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: A strange coin, what does it do?
+  name: Chii's Coin
+  consumable: false
+  occasion: 3
+  icon_index: 218
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 26
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: It is wilting.
+  name: Pretty flower
+  consumable: true
+  occasion: 0
+  icon_index: 218
+  price: 0
+  scope: 7
+  animation_id: 37
+  note: ''
+  speed: 0
+  id: 27
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 0
+    value1: 0.0
+    value2: 100.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 12
+    data_id: 0
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 3
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: It is sweet and corny. recovers 50 hp
+  name: Sweet corn
+  consumable: true
+  occasion: 0
+  icon_index: 218
+  price: 50
+  scope: 7
+  animation_id: 37
+  note: ''
+  speed: 0
+  id: 28
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 0
+    value1: 0.0
+    value2: 50.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: "An item that acts as a key to the \r\nbhool bhulaiya"
+  name: candelabrum
+  consumable: false
+  occasion: 3
+  icon_index: 218
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 29
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: It is not known who this may have belonged to
+  name: skull and feathers
+  consumable: false
+  occasion: 3
+  icon_index: 239
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 30
+  features: []
+  effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0

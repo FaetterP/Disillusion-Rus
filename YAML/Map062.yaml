@@ -1008,7 +1008,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 8, 12, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 24, 4, 13, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 24, 4, 14, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -1113,8 +1113,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Chii what the crows be sayin?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Nothing, but you can ask them yourself.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[They only caw at me, CAW CAW CAW], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, They only caw at me]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[They only caw at me., CAW CAW CAW], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, They only caw at me.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Nono, not yet. You need something first.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
@@ -1125,12 +1125,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Here take this, then speak to any crow you']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [see.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['you''ll come see me again right?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['You''ll come see me again right?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [26, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['*obtained chii''s coin!*']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['*Obtained Chii''s Coin!*']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [202, 202, 0, 0, 5]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, CAW CAW CAW]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
@@ -1143,19 +1145,23 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['down already, even if what you read does not']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [happen.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['you''ll come see me again right?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['You''ll come see me again right?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [26, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['*obtained chii''s coin!*']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['*Obtained Chii''s Coin!*']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [202, 202, 0, 0, 5]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, CAW CAW CAW]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Yeah yeah yeah.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
