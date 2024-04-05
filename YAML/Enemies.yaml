@@ -3883,7 +3883,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Уунбануунбоаа
+  name: Уунбануунбуу
   gold: 0
   battler_hue: 180
   exp: 0
