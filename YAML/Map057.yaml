@@ -153,9 +153,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Bearer of illness, send thy worthy of the evil']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [to the sanctum. Return once thou has thy]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [pig.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Носитель болезни, отправь достойное зло']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [в это святилище. Возвращайся как только ты]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [найдёшь свою свинью.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
