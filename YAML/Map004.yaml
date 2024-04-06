@@ -82,13 +82,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Просто осматриваюсь., 'Упс, свернул не туда, увидимся.'], 5]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Просто осматриваюсь.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Просто осматриваешься? Ты выглядишь как невежественный Курт.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Просто осматриваешься? Ты выглядишь как.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['невежественный Грубиян.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ты новенький?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [[Не знаю., Не помню.], 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, Не знаю.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Вот всё, чо я знаю. Тебе здесь надерут']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['зад, если ты не готов. Возьми это, Курт.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['зад, если ты не готов. Возьми это, Грубиян.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [А теперь убирайся из моей обители.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 127, p: [1, 0, 0, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
@@ -100,7 +101,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, Не помню.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Вот всё, чо я знаю. Тебе здесь надерут']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['зад, если ты не готов. Возьми это, Курт.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['зад, если ты не готов. Возьми это, Грубиян.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [А теперь убирайся из моей обители.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 127, p: [1, 0, 0, 1, false]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
@@ -260,7 +261,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, 'Мне всё равно, а от тебя пахнет старой редиской.']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Эй, ах на на, даже у гнилых яблок есть чувства,']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Курт. Пожалуйста, оставь меня.']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['грубиян. Пожалуйста, оставь меня.']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
@@ -283,8 +284,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, 'Чувак, твоя обитель ужасно воняет.']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Эй, ах на на, даже у гнилых яблок есть чувства, Курт.']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Пожалуйста, оставь меня.']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Эй, ах на на, даже у гнилых яблок есть']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['чувства, грубиян. Пожалуйста, оставь меня.']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 123, p: [B, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
