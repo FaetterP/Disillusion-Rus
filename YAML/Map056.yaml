@@ -93,9 +93,6 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
     id: 2
