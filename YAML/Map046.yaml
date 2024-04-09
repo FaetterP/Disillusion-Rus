@@ -50,25 +50,25 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Tree, 0, 0, 0, -30, 95, 80, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With Mara's reason and the last shepherds]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['accepting this, energy is no longer free']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [flowing. The Kleshas of man being the spear]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [head to break the cycle and create a new...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Благодаря Маре и соглашению последних]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['пастухов, энергия больше не течёт']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['свободно. Клеша человека - это остриё,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [способное разорвать цикл и создать новый...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [world under one creator. The Bodhi tree]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['is no more, and the tower has collapsed']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [into a swamp. Mara's prison becoming]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the very algae flowing through this soup.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['мир под создателем. Дерева Бодхи больше']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['нет, а башня превратилась в болото.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Тюрьма Мары превратилась в водоросли,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [плавающие в супе.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Bohdi3, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['you will be my son, judge the living and the']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [dead before and after their bodily resurrection.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Be the Prophet of my new world.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты будешь моим сыном, будешь судить живых и']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [мёртвых до и после их телесного воскрешения.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Будь Пророком моего нового мира.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Karma is now in our hands. we are now]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the creators, not fate.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Карма теперь в наших руках. Мы теперь]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['создатели, не судьба.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, memorycrowsofchii, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -77,17 +77,17 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [steam.update]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 105, p: [1, false]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [An experience created by Rick.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Опыт создал Rick.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Music by Jimmy W.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Музыка от Jimmy W.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Sound effects by Quixote/Justin.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Звуковые эффекты от Quixote/Justin.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
@@ -96,7 +96,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Special thanks to, ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Особая благодарность, ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Mick]}
@@ -132,7 +132,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Thank you for playing.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Спасибо за игру.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [999]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [999]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [999]}
