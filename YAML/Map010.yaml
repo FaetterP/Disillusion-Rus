@@ -1110,8 +1110,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*12]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Эй, приятель, посмотри на этот портал.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Ладно., 'Нет.', Зачем?], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Ладно.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Ладно.', 'Нет.', 'Зачем?'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Ладно.']}
       - !ruby/object:RPG::EventCommand
         i: 1
         c: 205
@@ -1193,7 +1193,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 604, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Зачем?]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, 'Зачем?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Просто сделай это.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я не знаю, что это, но мне любопытно.']}
