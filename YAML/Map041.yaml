@@ -109,50 +109,50 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, memory1-2, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You have entered a memory. You can feel]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [how moist the air is.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Go forward '], 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Go forward ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Вы погружаетесь в воспоминания. Вы можете]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['ощутить, насколько воздух влажный.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Идти вперёд.'], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Идти вперёд.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, memory1, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['The wind blew, drops of dew on the tree']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [leaves fell on you.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Forward], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Forward]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Подул ветер, капли росы с листьев деревьев']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [упали на вас.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Вперёд.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Вперёд.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, memory1-4, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['You''ve never been here before, but it']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [feels like you have many times.]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Left ', Right], 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Left ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Вы никогда не были здесь раньше, но такое']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['чувство, что это не первый раз.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Налево.', Направо.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Налево.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, memory1-5, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [It smells like burning flesh.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Пахнет как горящая плоть.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 42, 1, 7, 6, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, Right]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, Направо.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, memory1-6, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [It smells like rain.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Пахнет как дождь.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, memory1-6-2, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Its kinda a bummer that we don't have]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [tusks or other similar appendages and]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [anomalies.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Немного обидно, что у нас нет клыков']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [или других похожих придатков и]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [аномалий.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
@@ -365,7 +365,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You are going to a new location.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Вы отправляетесь в новое место.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
