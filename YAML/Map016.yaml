@@ -55,7 +55,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты вернулся в город.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Куда бы ты предпочёл пойти?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Куда вы хотите пойти?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Городская ратуша, Подозрительный дом, Стена], 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Городская ратуша]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
@@ -208,7 +208,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты вернулся в город.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Куда бы ты предпочёл пойти?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Куда вы хотите пойти?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Городская ратуша, Подозрительный дом, Стена], 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Городская ратуша]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
@@ -324,7 +324,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты вернулся в город.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Куда бы ты предпочёл пойти?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Куда вы хотите пойти?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Городская ратуша, Подозрительный дом, Стена], 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Городская ратуша]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
