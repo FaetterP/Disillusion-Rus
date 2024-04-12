@@ -899,7 +899,7 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*11]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Тогда ты оскорбляешь меня!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Тогда ты оскорбил меня!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 19, false, false]}
       - !ruby/object:RPG::EventCommand
         i: 1
