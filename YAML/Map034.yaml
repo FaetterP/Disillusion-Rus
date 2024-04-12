@@ -109,9 +109,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, memory5-1, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['My thumbprint? why do you need that?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Мой отпечаток большого пальца? Зачем он тебе?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Credit of course. the socail variety.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Конечно, это заслуга. Социальное разнообразие.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -267,7 +267,7 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Jud chud the skrud of the east, tis my name.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Жуд чуд скрюд на востоке, вот моё имя.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 301, p: [0, 40, false, false]}
       - !ruby/object:RPG::EventCommand
         i: 0
@@ -343,8 +343,8 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*3]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Jud chud the skrud of the east, tis my mortal']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [enemy]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Жуд чуд скрюд на востоке, вот мой смертельный']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [враг.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 301, p: [0, 40, false, false]}
       - !ruby/object:RPG::EventCommand
         i: 0
@@ -454,7 +454,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [LEAAAAAAAAAAAvE]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [УХОДИИИИИИИИИИИ]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [292, 292, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
@@ -516,9 +516,9 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*5]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Really not feeling my best today.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Looked into an opal not once but three]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [times and I feel silly now.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я сегодня чувствую себя нехорошо.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я заглянул в опал не один, а три раза']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [и теперь чувствую себя глупо.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 301, p: [0, 40, false, false]}
       - !ruby/object:RPG::EventCommand
         i: 0
@@ -581,25 +581,25 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I had a dream last night that was lucid but I]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [did not do much other than walk around my yard.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Wanted to look at my phone to see what would]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [happen though and there was like a Victorian oil]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прошлой ночью мне приснился ясный сон, но я']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['там не делал ничего, кроме того, что ходил по саду.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я хотел взглянуть в свой телефон, чтобы посмотреть,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['что произойдёт, и там был мем, похожий на викторианскую']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [painting meme with a women in a dress]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [holding a baby but the baby was a jester and]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [he kept going “berry berry god god yeah yeah yeah”]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['картину маслом, с женщиной в платье, которая держит']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['ребёнка, но ребёнок был шутом, который продолжал']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [твердить  “ягодка ягодка боже боже да да да”.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The triality of man. Berry berry. God god.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Yeah yeah.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Реальность человека. Ягодка ягодка. Боже боже.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Да да.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This truly puts into perspective the sheer]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['wordlessness, the inexpressibility of the nature']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' of being itself. Yet, it perfectly puts words to it and']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['expresses it in spite of itself. A paradox, a bold']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Это действительно открывает перспективу абсолютной]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['бессловесности, невыразимости природы быть']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['собой. Тем не менее, он прекрасно вкладывает эти']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['слова в выражение злобы к себе. Парадокс, смелое']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['statement that is, itself, its own antithesis.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Berry berry god god yeah yeah.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['утверждение, которое, само по себе является антитезой.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ягодка ягодка боже боже да да.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11
@@ -648,23 +648,23 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl44, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['are you feeling ill too?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты тоже плохо себя чувствуешь?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Да.', 'Нет.'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Да.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Maybe I was wrong, perhaps even a muse can']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [not remain in the tower. I suppose that would]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [explain why many do not stay here for long]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [no matter who they are.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Может, я ошиблась, похоже, даже муза не']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['может находиться в башне. Полагаю, это бы']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['объяснило, почему многие здесь не задерживаются,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [кем бы они ни были.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, MEl45, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Maybe you should leave, Mel'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Maybe you should leave, Mel']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Может, тебе следует уйти, Мел?'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Может, тебе следует уйти, Мел?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [We've come this far. I want to see this to the]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [end and find out what exactly is happening at the]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [top.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Мы зашли так далеко. Я хочу дойти до конца]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['и узнать, что происходит на вершине этой']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [башни.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
@@ -673,21 +673,21 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Нет.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Maybe I was wrong, perhaps even a muse can']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [not remain in the tower. I suppose that would]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [explain why many do not stay here for long]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [no matter who they are.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Может, я ошиблась, похоже, даже муза не']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['может находиться в башне. Полагаю, это бы']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['объяснило, почему многие здесь не задерживаются,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [кем бы они ни были.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, MEl45, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Maybe you should leave, Mel'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Maybe you should leave, Mel']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Может, тебе следует уйти, Мел?'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Может, тебе следует уйти, Мел?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [We've come this far. I want to see this to the]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [end and find out what exactly is happening at the]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [top.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Мы зашли так далеко. Я хочу дойти до конца]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['и узнать, что происходит на вершине этой']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [башни.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
@@ -743,8 +743,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The head bites the tail, and in death THEY']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [are born.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Голова кусает хвост, и после смерти ОНИ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [родятся.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
     id: 12
@@ -792,25 +792,25 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Why... why am I here? There can not be a god.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I am surely just chemicals right? I spent my life']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['thinking I was meat on a spinning rock,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [distracting myself from the dread of ceaselessness]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Почему... Почему я здесь? Здесь бога быть не может.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я всего лишь реагент, да? Я потратил мою жизнь']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['думая, что я мясо на вращающемся куске камня,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [чтобы отвлечься от страха перед бесконечностью.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['And yet here I am. I know I have died, most here']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [do not though.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['We are dead?', 'How did you die?'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'We are dead?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['И вот я здесь. Я знаю, что я умер, хотя']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [большинство здесь этого не осознают.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Мы умерли?', 'Как ты умер?'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Мы умерли?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [We are dead. there is not a doubt in my mind.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I miss my wife, I miss my mother.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Мы мертвы. У меня нет ни малейшего сомнения.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я скучаю по своей жене. Я скучаю по своей матери.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'How did you die?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Как ты умер?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I died in a war, I was drafted to fight a battle']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['that was not mine, leaving my family']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [behind. I had just had my first son before I]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Left.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я умер на войне. Я был призван сражаться в битве,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['которая была не моей, и покинул свою семью.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Прямо перед отъездом у меня родился первый']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [сын.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -863,8 +863,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl100, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You are kind of short, huh? or maybe I am just']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [tall.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Это ты такой короткий, а? Или просто это я']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [высокий.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -913,9 +913,9 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Would you rather have a pig back or a]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['back pig?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Scratch that I do not want to know.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Что бы ты хотел иметь: свиную спину или']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['спину свиньи?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Вычеркни, что я не хочу знать.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM {name: opt out - Selected Easy Listening - 11 Sirenians, volume: 70, pitch: 100}
