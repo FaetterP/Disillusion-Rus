@@ -1844,7 +1844,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['библиотека, хранители которой старше многих. Я не']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['знаю, как туда попасть, но есть много слухов про это.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ходят слухи, что вход спрятан на]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ходят слухи, что вход спрятан на']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [кладбище.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
