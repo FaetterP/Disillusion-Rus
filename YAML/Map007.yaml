@@ -258,11 +258,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Но сначала я спрошу у тебя кое-что..]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Является ли одиночество силой, которая позволяет']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['брать или отдавать? Подожди, у меня есть']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [вопрос получше...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Является ли одиночество силой, которая']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['позволяет брать или отдавать? Подожди,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ у меня есть вопрос получше...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Какое у тебя нижнее бельё?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Какое на тебе нижнее бельё?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Боксеры., Трусы., Стринги., Коммандос.], 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Боксеры.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}

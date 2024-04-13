@@ -767,8 +767,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Vpose, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Съев овсянку, я чувствую, как скука']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['разливается по моим венам.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Съев обычную овсянку,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['я чувствую скуку в своих венах.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
