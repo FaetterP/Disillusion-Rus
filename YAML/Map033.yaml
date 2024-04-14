@@ -106,33 +106,33 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We can teach you a new handy dandy move!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [However you do not smell like you have]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [adequate grasp of arcana to be able to use]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [this skill. What do you think magic users smell]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Мы можем научить тебя !]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Однако, ты не пахнешь как тот, кто реально']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['разбирается в тайнах, чтобы использовать']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['этот навык. Как ты думаешь, как такие люди']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['like?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Lavender., Plastic., Used Jock Strap., Malt Liqour.], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Lavender.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['пахнут?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Лавандой., Пластиком., Поношенным ремнём качка., Солодовым ликёром.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Лавандой.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I am allergic, and also a sinner. My']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [grave smells worse.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я аллергик, и к тому же грешник. Моя']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [могила пахнет ещё хуже.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Plastic.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Пластиком.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Like pool toys? No, I do not think so.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Как игрушки для бассейна? Нет, Я так не думаю.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Used Jock Strap.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Поношенным ремнём качка.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['You are a freak?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ты придурок?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Malt Liqour.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Солодовым ликёром.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Maybe I am wrong about you. Take this]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [knowledge.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Может, я ошибался на счёт тебя. Возьми']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [это знание.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 318, p: [0, 1, 0, 5]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['*Learned Tripple attack!*']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['*Выучена Тройная атака!*']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [293, 293, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -177,7 +177,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Use it wisely sleepy one.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Используй это с умом, соня.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   3: !ruby/object:RPG::Event
     id: 3

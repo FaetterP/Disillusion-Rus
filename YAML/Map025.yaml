@@ -102,24 +102,24 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Throwing stones causes ripples. You realize]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['that?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Бросание камней вызывает рябь на воде.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты осознаёшь это?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [As one with the knowledge and magic of the]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [source and atuned to the majesty of music]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [they marched as one with earth.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Как единое целое со знанием и магией источника,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['настроенные на величие музыки, они шествовали,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [как единое целое с землей.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Care to indulge?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Yes., No.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Хочешь побаловать себя?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да., Нет.], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Yes.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['*Learned Stone Toss!*']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['*Выучен Бросок камня!*']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [105, 105, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 318, p: [0, 1, 0, 32]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Very very very lame.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Очень очень очень неубедительно.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -167,8 +167,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Throwing stones causes ripples. You realize]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['that?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Бросание камней вызывает рябь на воде.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты осознаёшь это?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -261,7 +261,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We can dance if we want to.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Мы можем потанцевать, если захотим.']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -397,23 +397,23 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You are going to a new location.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Вы отправляетесь в новое место.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, '20210115_133846', 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You feel an overwhelming sense of dread.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Вы испытываете непреодолимое чувство страха.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You approach the building.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Вы подходите к зданию.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, '20210115_133950', 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Knock on the door?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Yes., No.], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Yes.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Постучать в дверь?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да., Нет.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, 20210115_1339dfaf50, 0, 0, 0, -30, 100, 100, 255, 0]}
@@ -433,15 +433,15 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [69, 69, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [You are a coward.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Ты трус.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 25, 15, 14, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [You are going to a new location.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Вы отправляетесь в новое место.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
@@ -592,7 +592,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [CAWCAWCAW]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [КАРКАРКАР]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -634,7 +634,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Chii trusts you, huh? I guess that is cool']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Чии доверяет тебе, а? Я думаю, это круто.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
     id: 9
@@ -682,7 +682,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [CAWCAWCAW]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [КАРКАРКАР]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -724,7 +724,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The crow hivemind is always watching.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Коллективный разум ворон всегда наблюдает.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -772,7 +772,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [CAWCAWCAW]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [КАРКАРКАР]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -814,7 +814,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You are a sick bastard!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты больной ублюдок!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11
