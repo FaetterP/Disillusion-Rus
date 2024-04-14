@@ -48,7 +48,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -90,9 +90,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
     id: 2
@@ -140,8 +140,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Our lord is hungry, starving surely.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Will you be the hero of our land?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Наш повелитель голоден, точно голодает.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Станешь ли ты героем нашего королевства?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -183,9 +183,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   3: !ruby/object:RPG::Event
     id: 3
@@ -233,7 +233,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -275,9 +275,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   4: !ruby/object:RPG::Event
     id: 4
@@ -325,7 +325,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -367,9 +367,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -417,7 +417,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -459,9 +459,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   6: !ruby/object:RPG::Event
     id: 6
@@ -509,7 +509,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -551,9 +551,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   7: !ruby/object:RPG::Event
     id: 7
@@ -601,7 +601,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -643,9 +643,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -693,7 +693,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -735,9 +735,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
     id: 9
@@ -785,7 +785,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -827,9 +827,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -919,9 +919,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11
@@ -1011,9 +1011,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
     id: 12
@@ -1103,9 +1103,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   13: !ruby/object:RPG::Event
     id: 13
@@ -1195,9 +1195,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   14: !ruby/object:RPG::Event
     id: 14
@@ -1287,9 +1287,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   15: !ruby/object:RPG::Event
     id: 15
@@ -1379,9 +1379,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   16: !ruby/object:RPG::Event
     id: 16
@@ -1471,9 +1471,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   17: !ruby/object:RPG::Event
     id: 17
@@ -1563,9 +1563,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   18: !ruby/object:RPG::Event
     id: 18
@@ -1655,9 +1655,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   19: !ruby/object:RPG::Event
     id: 19
@@ -1747,9 +1747,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   20: !ruby/object:RPG::Event
     id: 20
@@ -1839,9 +1839,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   21: !ruby/object:RPG::Event
     id: 21
@@ -1931,9 +1931,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   22: !ruby/object:RPG::Event
     id: 22
@@ -2023,9 +2023,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   23: !ruby/object:RPG::Event
     id: 23
@@ -2115,9 +2115,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   24: !ruby/object:RPG::Event
     id: 24
@@ -2207,9 +2207,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   25: !ruby/object:RPG::Event
     id: 25
@@ -2299,9 +2299,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   26: !ruby/object:RPG::Event
     id: 26
@@ -2349,7 +2349,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -2391,9 +2391,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   27: !ruby/object:RPG::Event
     id: 27
@@ -2441,7 +2441,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -2483,9 +2483,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   28: !ruby/object:RPG::Event
     id: 28
@@ -2533,7 +2533,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -2575,9 +2575,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   29: !ruby/object:RPG::Event
     id: 29
@@ -2625,7 +2625,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -2667,9 +2667,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   30: !ruby/object:RPG::Event
     id: 30
@@ -2717,7 +2717,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -2759,9 +2759,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   31: !ruby/object:RPG::Event
     id: 31
@@ -2809,7 +2809,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -2851,9 +2851,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   32: !ruby/object:RPG::Event
     id: 32
@@ -2901,7 +2901,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -2943,9 +2943,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   33: !ruby/object:RPG::Event
     id: 33
@@ -2993,7 +2993,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -3035,9 +3035,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   34: !ruby/object:RPG::Event
     id: 34
@@ -3085,7 +3085,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -3127,9 +3127,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   35: !ruby/object:RPG::Event
     id: 35
@@ -3177,7 +3177,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -3219,9 +3219,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   36: !ruby/object:RPG::Event
     id: 36
@@ -3269,7 +3269,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -3311,9 +3311,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   37: !ruby/object:RPG::Event
     id: 37
@@ -3361,7 +3361,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -3403,9 +3403,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   38: !ruby/object:RPG::Event
     id: 38
@@ -3453,7 +3453,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -3495,9 +3495,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   39: !ruby/object:RPG::Event
     id: 39
@@ -3545,7 +3545,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -3587,9 +3587,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   40: !ruby/object:RPG::Event
     id: 40
@@ -3637,7 +3637,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -3679,9 +3679,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   41: !ruby/object:RPG::Event
     id: 41
@@ -3729,7 +3729,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -3771,9 +3771,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   42: !ruby/object:RPG::Event
     id: 42
@@ -3821,7 +3821,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -3863,9 +3863,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   43: !ruby/object:RPG::Event
     id: 43
@@ -3913,7 +3913,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -3955,9 +3955,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   44: !ruby/object:RPG::Event
     id: 44
@@ -4005,7 +4005,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -4047,9 +4047,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   45: !ruby/object:RPG::Event
     id: 45
@@ -4097,7 +4097,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -4139,9 +4139,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   46: !ruby/object:RPG::Event
     id: 46
@@ -4189,7 +4189,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -4231,9 +4231,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   47: !ruby/object:RPG::Event
     id: 47
@@ -4281,7 +4281,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -4323,9 +4323,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   48: !ruby/object:RPG::Event
     id: 48
@@ -4373,7 +4373,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -4415,9 +4415,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   49: !ruby/object:RPG::Event
     id: 49
@@ -4465,7 +4465,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -4507,9 +4507,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   50: !ruby/object:RPG::Event
     id: 50
@@ -4557,7 +4557,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -4599,9 +4599,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   51: !ruby/object:RPG::Event
     id: 51
@@ -4649,7 +4649,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -4691,9 +4691,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   52: !ruby/object:RPG::Event
     id: 52
@@ -4741,7 +4741,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Kelp.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ламинария.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -4783,9 +4783,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   53: !ruby/object:RPG::Event
     id: 53
@@ -4875,9 +4875,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   54: !ruby/object:RPG::Event
     id: 54
@@ -4967,9 +4967,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   55: !ruby/object:RPG::Event
     id: 55
@@ -5059,9 +5059,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   56: !ruby/object:RPG::Event
     id: 56
@@ -5151,9 +5151,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   57: !ruby/object:RPG::Event
     id: 57
@@ -5243,9 +5243,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   58: !ruby/object:RPG::Event
     id: 58
@@ -5335,9 +5335,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   59: !ruby/object:RPG::Event
     id: 59
@@ -5427,9 +5427,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   60: !ruby/object:RPG::Event
     id: 60
@@ -5519,9 +5519,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   61: !ruby/object:RPG::Event
     id: 61
@@ -5611,9 +5611,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   62: !ruby/object:RPG::Event
     id: 62
@@ -5703,9 +5703,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   63: !ruby/object:RPG::Event
     id: 63
@@ -5795,9 +5795,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   64: !ruby/object:RPG::Event
     id: 64
@@ -5887,9 +5887,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   65: !ruby/object:RPG::Event
     id: 65
@@ -5979,9 +5979,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   66: !ruby/object:RPG::Event
     id: 66
@@ -6071,9 +6071,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   67: !ruby/object:RPG::Event
     id: 67
@@ -6163,9 +6163,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   68: !ruby/object:RPG::Event
     id: 68
@@ -6213,9 +6213,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You would make a fine meal for our lord,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [surely. You would perhaps offer him a]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['sample of a limb or three?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты стал бы прекрасным угощением для нашего повелителя,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['не так ли? Может, ты предложил бы ему отведать']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['пару-тройку конечностей?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -6257,9 +6257,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   69: !ruby/object:RPG::Event
     id: 69
@@ -6307,8 +6307,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Our lord requests an audience with you, please']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [follow me.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Наш господин просит аудиенции с тобой, пожалуйста,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [следуй за мной.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, LOrdOonbanoonboo, 0, 0, 0, -30, 100, 112, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -6319,21 +6319,21 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, LOrdOonbanoonboomel, 0, 0, 0, -30, 100, 112, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Allow me to translate. He says "I AM LORD]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Oonbanoonboo. I AM STARVING AND AM IN DIRE]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [NEED OF SUSTENANCE."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Давай я переведу. Он говорит: "Я - ЛОРД']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Унбанунбу. Я УМИРАЮ ОТ ГОЛОДА И ОЧЕНЬ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [НУЖДАЮСЬ В ПРОПИТАНИИ.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"PLEASE............ PLEASE BRING ME SOME']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [SWEET CORN...."]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['ПРОШУ............ ПОЖАЛУЙСТА, ПРИНЕСИ МНЕ НЕМНОГО']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [СЛАДКОЙ КУКУРУЗЫ....]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I don't know if we should be getting involved]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['with this guy... Do ya wanna help him?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Yes., No.], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Yes.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я не знаю, стоит ли нам связываться']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['с этим парнем... Хочешь ему помочь?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да., Нет.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Alrighty, well I suppose we will have to']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [return here once we find him some sweet corn.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Let's be on our way.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Хорошо, но я полагаю, нам надо будет']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['вернуться сюда, как только найдём ему сладкую кукурузу.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Давай отправимся в путь.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [478, 478, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 46, 8, 12, 0, 0]}
@@ -6341,22 +6341,22 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [You are going to a new location.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Вы перемещаетесь в новую локацию.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [That could be a smart idea. I don't really trust]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [these folks. Lets get outta here real quick.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Наверное, это разумная идея. Я не очень доверяю']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [этим парням. Давай убираться отсюда побыстрее.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 46, 8, 12, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 8, 8, 9, 4, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [You are going to a new location.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Вы перемещаетесь в новую локацию.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
@@ -6403,9 +6403,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Come away with me, on a bus']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies."]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   70: !ruby/object:RPG::Event
     id: 70

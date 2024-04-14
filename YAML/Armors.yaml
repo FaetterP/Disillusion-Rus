@@ -1,7 +1,7 @@
 ---
 - 
 - !ruby/object:RPG::Armor
-  description: СТарые плотные носки. Дают 1 DEF
+  description: Старые жёсткие носки. +1 к защите.
   name: Носки
   icon_index: 0
   price: 100
@@ -24,8 +24,8 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: Руки убрал. Даёт 3 MAT
-  name: Колючий лифчик
+  description: Руки прочь. +3 к магии.
+  name: Шипованный бюстгальтер
   icon_index: 0
   price: 300
   note: ''
@@ -47,8 +47,8 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: Он выглядит счастливым. Даёт 3 DEF
-  name: Футболка со смайликом
+  description: Он выглядит счастливым. +3 к защите.
+  name: Футболка со смайликом :)
   icon_index: 0
   price: 2000
   note: ''
@@ -70,8 +70,8 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "Бренд Pit Snake. Не одобрен отделом\r\nбезопасности. дают 4 MDF"
-  name: Тёмные очки Pit Snake
+  description: "Pit Snake Brand. Not approved by the safety\r\ndepartment. gives 4 MDF"
+  name: Pit Snake Shades
   icon_index: 0
   price: 5000
   note: ''
@@ -93,8 +93,8 @@
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "Разве парень, который написал ту песню о \r\nдожде, не носил это? Даёт 7 MDF"
-  name: Ожерелье из погнутой вилки
+  description: "Разве парень написавший ту песню о меньшем дожде\r\nне носил его? +7 к магической защите."
+  name: Ожерелье из гнутых вилок
   icon_index: 0
   price: 8000
   note: ''
@@ -116,8 +116,8 @@
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "Гайки, которые крепятся к задней части прицепа \r\nдают 6 DEF"
-  name: Гайки от грузовика
+  description: "Гайки, которые вешаются на заднюю часть сцепного\r\nустройства прицепа."
+  name: Гайки для грузовиков
   icon_index: 0
   price: 100
   note: ''
@@ -139,7 +139,7 @@
   etype_id: 4
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "Ободок с кошачьими ушками, ты выглядишь нелепо \r\nДаёт 1 DEF и 7 MAT"
+  description: "Ободок с кошачьими ушками, смотрится нелепо.\r\n+1 к защите и +7 к магии."
   name: Кошачьи ушки
   icon_index: 0
   price: 500
@@ -162,7 +162,7 @@
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "Стикер со смеющимся демоном. \r\nГоворят, он дает божественную силу. Только правда ли это?"
+  description: "Стикер смеющегося демона.\r\nСказано, что она дарует божественную силу. Так ли это?\r\n"
   name: Демонический стикер
   icon_index: 0
   price: 1
@@ -185,8 +185,8 @@
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: Нелепый костюм, который носит каф.
-  name: Дурацкий костюм
+  description: Чудаковатый костюм, который носит Каф.
+  name: Причудливый костюм
   icon_index: 7
   price: 4000
   note: ''
@@ -208,8 +208,8 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "Подарок от кафа после того, как он стал правителем свиного \r\nчистилища. теперь его называют большой свиньей"
-  name: Цепочка с золотой свиньёй
+  description: "Подарок от Кафа после того, как он стал правителем\r\nсвиного чистилища. Теперь люди называют его большой свиньей."
+  name: Цепочка с золотым поросёнком
   icon_index: 237
   price: 6500
   note: ''
@@ -231,8 +231,8 @@
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "чешуя лорда Уунбануунбоаа.\r\nделает отличную броню. даёт уязвимость у молниям."
-  name: Чешуя лорда
+  description: "Чешуя лорда Унбанунбу.\r\nДает отличную защиту, но делает вас уязвимым к молниям."
+  name: Лордова чешуя
   icon_index: 7
   price: 100
   note: ''
@@ -258,8 +258,8 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: женщины боятся меня, рыбы боятся меня......
-  name: Секретная шляпа лорда.
+  description: Женщины боятся меня, рыбы боятся меня......
+  name: Секратная шляпа лорда
   icon_index: 219
   price: 500
   note: ''
@@ -281,8 +281,8 @@
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: Мантия с выгравированными рунами.
-  name: Руническая роба
+  description: Ряса, выгравированная рунами
+  name: Рунная ряса
   icon_index: 171
   price: 3000
   note: ''
@@ -304,8 +304,8 @@
   etype_id: 3
   atype_id: 2
 - !ruby/object:RPG::Armor
-  description: Другая версия цепочки со свиньёй от Кафа.
-  name: Цепочка с платиновой свиньёй
+  description: Альтернативная версия свиной цепочки Кафа.
+  name: Цепочка с платиновым поросёнком
   icon_index: 239
   price: 8000
   note: ''
@@ -351,8 +351,8 @@
   etype_id: 3
   atype_id: 2
 - !ruby/object:RPG::Armor
-  description: Сила короля духов заключена в этом одеянии.
-  name: Плащ стихии
+  description: Сила короля духов течёт в этой мантии.
+  name: Элементальная мантия
   icon_index: 7
   price: 13000
   note: ''
@@ -402,8 +402,8 @@
   etype_id: 1
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: Украшения для волос из меди.
-  name: Медная скоба
+  description: Украшение для волос из меди.
+  name: Медный браслет
   icon_index: 166
   price: 100
   note: ''
@@ -425,8 +425,8 @@
   etype_id: 2
   atype_id: 2
 - !ruby/object:RPG::Armor
-  description: Украшение в виде кольца, сделанное из железа.
-  name: Браслет
+  description: Кольцеобразное украшение из железа.
+  name: Диадема
   icon_index: 166
   price: 400
   note: ''
@@ -448,7 +448,7 @@
   etype_id: 2
   atype_id: 2
 - !ruby/object:RPG::Armor
-  description: Аксессуар для волос, усиливающий магию.
+  description: Hair accessory that enhances magic.
   name: Серебряная заколка
   icon_index: 166
   price: 2500
@@ -471,8 +471,8 @@
   etype_id: 2
   atype_id: 2
 - !ruby/object:RPG::Armor
-  description: Мифриловый браслет, сделанный из волшебного минерала.
-  name: Мифриловый Браслет
+  description: Mithril circlet made of the magic mineral.
+  name: Mithril Circlet
   icon_index: 166
   price: 6000
   note: ''
@@ -494,8 +494,8 @@
   etype_id: 2
   atype_id: 2
 - !ruby/object:RPG::Armor
-  description: Наделенный силой древней магической цивилизации.
-  name: Корона магов
+  description: Empowered by an ancient magical civilization's power.
+  name: Magi's Crown
   icon_index: 166
   price: 10000
   note: ''
@@ -517,8 +517,8 @@
   etype_id: 2
   atype_id: 2
 - !ruby/object:RPG::Armor
-  description: Доспехи, сделанные из кожи внахлест.
-  name: Кожаная кольчуга
+  description: Armour made with overlapping leather.
+  name: Leather Mail
   icon_index: 169
   price: 100
   note: ''
@@ -540,8 +540,8 @@
   etype_id: 3
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: Нагрудник, сделанный из бронзы.
-  name: Бронзовая плита
+  description: A breastplate made of bronze.
+  name: Bronze Plate
   icon_index: 169
   price: 400
   note: ''
@@ -563,8 +563,8 @@
   etype_id: 3
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: Нагрудник, сделанный из железа.
-  name: Железная плита
+  description: A breastplate made of iron.
+  name: Iron Plate
   icon_index: 169
   price: 2700
   note: ''
@@ -586,8 +586,8 @@
   etype_id: 3
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: Мифриловый нагрудник, сделанный из волшебного минерала.
-  name: Мифриловая плита
+  description: Mithril breastplate made of the magic mineral.
+  name: Mithril Plate
   icon_index: 169
   price: 7000
   note: ''
@@ -609,8 +609,8 @@
   etype_id: 3
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: Нагрудник, сделанный из драконьей чешуи.
-  name: Драконья плита
+  description: A breastplate made from dragon scales.
+  name: Dragon Plate
   icon_index: 169
   price: 12000
   note: ''
@@ -636,8 +636,8 @@
   etype_id: 3
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: Шляпа, сделанная из кожи.
-  name: Кожаная шляпа
+  description: A hat made out of leather.
+  name: Leather Hap
   icon_index: 163
   price: 100
   note: ''
@@ -659,8 +659,8 @@
   etype_id: 2
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: Укреплённая шляпа, сделанная из бронзы.
-  name: Бронзовая шляпа
+  description: A reinforced hat made with bronze.
+  name: Bronze Cap
   icon_index: 163
   price: 350
   note: ''
@@ -682,8 +682,8 @@
   etype_id: 2
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: Шляпа, сделанная из стали.
-  name: Саретт
+  description: A hat made with steel.
+  name: Sarett
   icon_index: 163
   price: 2400
   note: ''
@@ -705,8 +705,8 @@
   etype_id: 2
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: Мифриловая шляпа, деланная из магического минерала.
-  name: Мифриловая шляпа
+  description: Mithril cap made of the magic mineral.
+  name: Mithril Cap
   icon_index: 163
   price: 5500
   note: ''
@@ -728,8 +728,8 @@
   etype_id: 2
   atype_id: 3
 - !ruby/object:RPG::Armor
-  description: Шляпа, сделанная из драконьей чешуи.
-  name: Драконья шляпа
+  description: A hat made of dragon scales.
+  name: Dragon Cap
   icon_index: 163
   price: 9500
   note: ''
@@ -769,7 +769,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -1.0
+    value: -1
   params:
   - 0
   - 0
@@ -796,7 +796,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -2.0
+    value: -2
   params:
   - 0
   - 0
@@ -823,7 +823,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -3.0
+    value: -3
   params:
   - 0
   - 0
@@ -877,7 +877,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -2.0
+    value: -2
   params:
   - 0
   - 0
@@ -904,7 +904,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -1.0
+    value: -1
   params:
   - 0
   - 0
@@ -931,7 +931,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -2.0
+    value: -2
   params:
   - 0
   - 0
@@ -958,7 +958,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -3.0
+    value: -3
   params:
   - 0
   - 0
@@ -1012,7 +1012,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -2.0
+    value: -2
   params:
   - 0
   - 0
@@ -1162,7 +1162,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -1.0
+    value: -1
   params:
   - 0
   - 0
@@ -1193,7 +1193,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -2.0
+    value: -2
   params:
   - 0
   - 0
@@ -1224,7 +1224,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -3.0
+    value: -3
   params:
   - 0
   - 0
@@ -1286,7 +1286,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -2.0
+    value: -2
   params:
   - 0
   - 0

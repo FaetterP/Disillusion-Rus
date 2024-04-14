@@ -2,7 +2,7 @@
 - 
 - !ruby/object:RPG::Item
   description: Восстанавливает 50 ОЗ.
-  name: Зелье
+  name: Зелье лечения
   consumable: true
   occasion: 0
   icon_index: 2
@@ -32,7 +32,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: Восстанавливает 100 ОЗ.
-  name: Сильное зелье
+  name: Мощное зелье лечения
   consumable: true
   occasion: 0
   icon_index: 2
@@ -61,8 +61,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Восстанавливает всё здоровье.
-  name: Полное зелье
+  description: Восстанавливает все ОЗ.
+  name: Зелье абсолютного исцеления
   consumable: true
   occasion: 0
   icon_index: 3
@@ -91,8 +91,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Восстанавливает 20 ОМ.
-  name: Сок маны
+  description: Восстанавливает 20 ОД.
+  name: Мана-сок
   consumable: true
   occasion: 0
   icon_index: 260
@@ -121,8 +121,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Редкий предмет, проданный кафом. восстанавливает\r\n100 ом и ОЗ и повышает максимум ом на 10."
-  name: Солодовый ликёр
+  description: "Редкая вещь, продаваемая Кафом. Восстанавливает 100 ОД и ОЗ, а также\r\nповышает Макс ОД на 10."
+  name: Солодовый ликёр.
   consumable: true
   occasion: 0
   icon_index: 260
@@ -161,7 +161,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Лечит яд.
+  description: Лечит от яда.
   name: Антидот
   consumable: true
   occasion: 0
@@ -191,8 +191,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Лечит многие негативные статусы.
-  name: Развеивающая трава
+  description: Лечит многие недуги.
+  name: Рассеивающая трава
   consumable: true
   occasion: 0
   icon_index: 111
@@ -246,7 +246,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Восстанавливает все ОЗ и ОМ.
+  description: Восстанавливает все ОЗ и ОД
   name: Эликсир
   consumable: true
   occasion: 0
@@ -281,8 +281,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Увеличивает МаксОЗ на 50.
-  name: Повышение жизни
+  description: Увеличивает Макс ОЗ на 50
+  name: Экстракт жизни
   consumable: true
   occasion: 2
   icon_index: 7
@@ -311,8 +311,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Увеличивает МаксОМ на 10.
-  name: Повышение маны
+  description: Увеличивает Макс ОД на 10.
+  name: Экстракт маны
   consumable: true
   occasion: 2
   icon_index: 199
@@ -341,8 +341,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Увеличивает ATK на 3.
-  name: Повышение силы
+  description: Увеличивает силу на 3.
+  name: Экстракт усиления
   consumable: true
   occasion: 2
   icon_index: 199
@@ -371,8 +371,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Увеличивает DEF на 3.
-  name: Повышение защиты
+  description: Увеличивает защиту на 3.
+  name: Экстракт защиты
   consumable: true
   occasion: 2
   icon_index: 199
@@ -401,8 +401,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Увеличивает MAT на 3.
-  name: Повышение магии
+  description: Увеличивает МАТК на 3.
+  name: Экстракт магии
   consumable: true
   occasion: 2
   icon_index: 199
@@ -431,8 +431,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Увеличивает MDF на 3.
-  name: Повышение сопротивления
+  description: Увеличивает МЗАЩ на 3.
+  name: Экстракт сопротивления
   consumable: true
   occasion: 2
   icon_index: 199
@@ -461,8 +461,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Увеличивает AGI на 3.
-  name: Повышение скорости
+  description: Увеличивает ПРВ на 3.
+  name: Экстракт проворности
   consumable: true
   occasion: 2
   icon_index: 199
@@ -491,8 +491,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Увеличивает LUK на 3.
-  name: Повышение удачи
+  description: Увеличивает УД на 3.
+  name: Экстракт удачи
   consumable: true
   occasion: 2
   icon_index: 199
@@ -521,8 +521,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Восстанавливает 60 ОМ. Ты не можешь\r\nэто купить."
-  name: Сок маны XL
+  description: Восстанавливает 60 ОД. Невозможно купить.
+  name: Мана-сок XL
   consumable: true
   occasion: 0
   icon_index: 260
@@ -551,8 +551,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Последняя в своем роде, вероятно, \r\nединственная в мире."
-  name: 'Ментоловая сигарета'
+  description: Последняя(а возможно и единственная) в своём роде.
+  name: Сигарета с ментолом
   consumable: false
   occasion: 0
   icon_index: 211
@@ -576,8 +576,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Сардины и похлёбка. Восстанавливает 50 оз\r\nи излечивает от яда."
-  name: Дин Чаудер
+  description: Сардины и чаудер. Восстанавливает 50 ОЗ и лечит отравление.
+  name: Чаудер с сардинами
   consumable: true
   occasion: 0
   icon_index: 2
@@ -611,8 +611,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Банка сардин, которая лечит 50 Оз и 60 ом.\r\nнельзя купить ни в одном известном магазине."
-  name: Упаковка дин
+  description: "Баночка сардин, восстанавливающая 50 ОЗ и 60 ОД.\r\nНе продаётся ни в одном из известных магазинов."
+  name: Консервированные сардины
   consumable: true
   occasion: 0
   icon_index: 0
@@ -646,7 +646,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Ключ от двери
+  description: Ключ к двери.
   name: Ключ2
   consumable: false
   occasion: 3
@@ -671,7 +671,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Ключ от двери
+  description: Ключ к двери.
   name: Ключ1
   consumable: false
   occasion: 3
@@ -696,8 +696,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: при отключенных столкновениях.
-  name: Никаких столкновений
+  description: Отключить встречи.
+  name: 'Без встреч: вкл'
   consumable: false
   occasion: 2
   icon_index: 0
@@ -727,7 +727,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: нет столкновений выкл
+  name: 'Без встреч: выкл'
   consumable: false
   occasion: 2
   icon_index: 0
@@ -756,8 +756,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Свинина, бобы, и желе Восстанавливает 100 оз\r\nи лечит яд."
-  name: Бутер
+  description: "Сэндвич со свининой, бобами и желе.\r\nВосстанавливает 100 ОЗ и лечит отравление."
+  name: СБЖ
   consumable: true
   occasion: 0
   icon_index: 2
@@ -791,8 +791,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Странная монета, что она делает?
-  name: Монета Чии
+  description: Странная монетка, для чего она?
+  name: Монетка Чии
   consumable: false
   occasion: 3
   icon_index: 218
@@ -816,8 +816,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Он завял.
-  name: Прелестный цветок
+  description: Он увядает.
+  name: Красивый цветок
   consumable: true
   occasion: 0
   icon_index: 218
@@ -851,7 +851,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Сладкая и кукурузная. восстанавливает 50 оз
+  description: Сладкая и зернистая. Восстанавливает 50 ОЗ
   name: Сладкая кукуруза
   consumable: true
   occasion: 0
@@ -881,8 +881,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Предмет, который действует как ключ к \r\nбхул бхулайе"
-  name: канделябр
+  description: Предмет, служащий ключом к лабиринту.
+  name: 'Канделябр '
   consumable: false
   occasion: 3
   icon_index: 218
@@ -906,8 +906,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Неизвестно, кому это могло принадлежать
-  name: череп и перья
+  description: Неизвестно, кому он мог принадлежать.
+  name: Череп с перьями
   consumable: false
   occasion: 3
   icon_index: 239

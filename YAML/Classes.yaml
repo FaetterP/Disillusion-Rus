@@ -1,7 +1,7 @@
 ---
 - 
 - !ruby/object:RPG::Class
-  name: Golem
+  name: Голем
   learnings:
   - !ruby/object:RPG::Class::Learning
     level: 1

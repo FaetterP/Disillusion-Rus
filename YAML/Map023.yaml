@@ -51,23 +51,22 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, kathasseenbetterdays, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['What is Nirvana?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[To extinguish., To anguish., To end suffering.], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, To extinguish.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Что есть Нирвана?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Угасать., Страдать., Окончание мук.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Окончание мук.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I suppose in a literal sense you are]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [correct...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Полагаю, в буквальном смысле ты прав...']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, To anguish.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Окончание мук.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [You have to wake up soon.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Скоро тебе нужно будет проснуться.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, To end suffering.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Окончание мук.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['You''re understanding? Color me surpsrised.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Take this to aid you.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ты понимаешь? Считай, что я удивлён.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Возьми, это тебе поможет.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['*Gained 10 exp!*']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['*Получено 10 опыта!*']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 315, p: [0, 0, 0, 0, 10, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -329,7 +328,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [CAWCAWCAW]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [КАРКАРКАР]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -371,7 +370,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [That coin is not safe. Remove it.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Эта монетка небезопасна. Спрячь её.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -419,7 +418,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [CAWCAWCAW]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [КАРКАРКАР]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -461,7 +460,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [That coin is not safe. Remove it.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Эта монетка небезопасна. Спрячь её.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM {name: Jimmy W - Midi Canoe - 04 Mr Cogito's Last Dream, volume: 70, pitch: 100}

@@ -182,7 +182,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, evancounter1, 0, 0, -4, 3, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Hey, kid. come over here real quick.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Эй, парень, иди сюда, быстро.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [3]}
@@ -234,7 +234,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, happyhouse2, 0, 0, -4, 3, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['                What a happy home.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Какой счастливый домишка.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}

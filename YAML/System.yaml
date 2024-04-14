@@ -1,16 +1,16 @@
 --- !ruby/object:RPG::System
 elements:
 - ''
-- Physical
-- Absorb
-- Fire
-- Ice
-- Thunder
-- Water
-- Earth
-- Wind
-- Holy
-- Dark
+- Сила1
+- Поглощение
+- Огонь
+- Лёд
+- Гром
+- Вода
+- Земля
+- Ветер
+- Светлая магия
+- Тёмная магия
 start_y: 11
 airship: !ruby/object:RPG::System::Vehicle
   start_y: 0
@@ -684,56 +684,56 @@ gameover_me: !ruby/object:RPG::ME
   name: ''
   pitch: 100
   volume: 100
-game_title: Disillusion
+game_title: Project2
 title_bgm: !ruby/object:RPG::BGM {name: Jimmy W - Midi Canoe - 06 Pan, volume: 70, pitch: 100}
 terms: !ruby/object:RPG::System::Terms
   params:
-  - МаксОЗ
-  - МаксОМ
-  - ATK
-  - DEF
-  - MAT
-  - MDF
-  - AGI
-  - LUK
+  - Макс ОЗ
+  - Макс ОД
+  - АТК
+  - ЗАЩ
+  - МАТК
+  - МЗАЩ
+  - ПРВ
+  - УД
   etypes:
-  - Right Hand
-  - Left Hand
-  - Head
-  - Body
-  - Legs
+  - Правая рука
+  - Левая рука
+  - Голова
+  - Торс
+  - Ноги
   commands:
   - Бой
-  - Сбежать
+  - Побег
   - Атака
   - Защита
-  - Предметы
-  - Умения
-  - Снаряжение
-  - Статусы
-  - Формация
-  - Сохранить
-  - Конец игры
+  - Вещи
+  - Навыки
+  - Экипирование
+  - Статус
+  - Строй
+  - Сохранение
+  - Закончить игру
   - ''
-  - Оружия
-  - Брони
-  - Ключевые предметы
-  - Изменить
-  - Оптимизировать
-  - Очистить
+  - Оружие
+  - Броня
+  - Важное
+  - Сменить
+  - Оптимально
+  - Снять всё
   - Новая игра
   - Продолжить
-  - Выключить
-  - На главную
+  - Выход
+  - В меню
   - Отмена
   - ''
   basic:
-  - Знания
-  - УР
-  - Душа
-  - Оз
+  - Уровень
+  - Ур
+  - ОЗ
+  - ОЗ
   - Мудрость
-  - Ом
+  - ОД
   - ''
   - ''
 test_troop_id: 61
@@ -746,8 +746,8 @@ boat: !ruby/object:RPG::System::Vehicle
   start_map_id: 0
 skill_types:
 - ''
-- 'Physical '
-- Wisdom
+- Сила
+- Мудрость
 weapon_types:
 - ''
 - Axe
@@ -768,7 +768,7 @@ armor_types:
 - Heavy Armour
 - Small Shield
 - Large Shield
-currency_unit: Пыли
+currency_unit: Пыль
 window_tone: !ruby/object:Tone {r: 0.0, g: 0.0, b: 0.0, a: 0.0}
 japanese: false
 opt_draw_title: false

@@ -2,11 +2,11 @@
 - 
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Атакует врага.
+  description: Повреждает врагов.
   name: Атака
   occasion: 1
   icon_index: 255
-  message1: ' атакует!'
+  message1: атакует!
   scope: 1
   animation_id: 1
   note: "Skill #1 will be used when you select\r\nthe Attack command."
@@ -36,11 +36,11 @@
   tp_gain: 5
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Защищает и уменьшает входящий урон.
+  description: Защищает пользователя, уменьшая получаемый урон.
   name: Защита
   occasion: 1
   icon_index: 0
-  message1: ' защищается.'
+  message1: защищает.
   scope: 11
   animation_id: 0
   note: "Skill #2 will be used when you select\r\nthe Guard command."
@@ -70,11 +70,11 @@
   tp_gain: 4
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Бьёт врага дважды!
-  name: Двойная атака
+  description: Наносит два удара по врагу!
+  name: Двойной удар
   occasion: 1
   icon_index: 80
-  message1: ' атакует!'
+  message1: атакует!
   scope: 1
   animation_id: -1
   note: ''
@@ -104,11 +104,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Атакует двух случайных врагов. тратит 17 ом
-  name: Двойная атака
+  description: Атакует двух случайных врагов. Тратит 17 ОД.
+  name: Двойное нападение
   occasion: 1
   icon_index: 80
-  message1: ' атакует!'
+  message1: атакует!
   scope: 4
   animation_id: -1
   note: ''
@@ -138,11 +138,11 @@
   tp_gain: 3
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Атакует трёх случайных врагов. тратит 30 ом
-  name: Тройная атака
+  description: Атакует трёх случайных врагов. Использует 30 ОД.
+  name: Тройное нападение.
   occasion: 1
   icon_index: 87
-  message1: ' атакует!'
+  message1: атакует!
   scope: 5
   animation_id: -1
   note: ''
@@ -172,11 +172,11 @@
   tp_gain: 2
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Действия противника. Заставляет противника сбежать.
+  description: Позволяет ретироваться.
   name: Побег
   occasion: 1
   icon_index: 32
-  message1: ' сбегает.'
+  message1: ' flees.'
   scope: 11
   animation_id: 0
   note: ''
@@ -206,11 +206,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Не делает ничего.
-  name: Подождать
+  description: Ничего не делает.
+  name: Ожидание.
   occasion: 1
   icon_index: 0
-  message1: ' ждёт.'
+  message1: ожидает.
   scope: 0
   animation_id: 0
   note: ''
@@ -380,11 +380,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Наносит урон врагу.
-  name: Царапины
+  description: Повреждает врагов.
+  name: Scratches
   occasion: 1
   icon_index: 0
-  message1: Царапается!
+  message1: Scratches!
   scope: 1
   animation_id: 7
   note: "Skill #1 will be used when you select\r\nthe Attack command."
@@ -502,10 +502,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: drying
+  name: Иссушает
   occasion: 0
   icon_index: 0
-  message1: Toots His flute
+  message1: Играет на флейте
   scope: 1
   animation_id: 119
   note: ''
@@ -530,11 +530,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: "85% шанс высосать немного здоровья\r\n у случайного врага. тратит 5 ом"
+  description: С шансом 85% ворует ОЗ у противника. Стоит 5 ОД.
   name: Иссушение
   occasion: 1
   icon_index: 2
-  message1: ' использует Иссушение!'
+  message1: иссушает!
   scope: 3
   animation_id: 37
   note: ''
@@ -559,11 +559,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Огненный урон по 1 врагу. тратит 6 ом
-  name: Тост
+  description: 'Огненная атака. Цена: 6 ОД.'
+  name: Огонь.
   occasion: 1
   icon_index: 210
-  message1: ' использует Тост!'
+  message1: жжёт!
   scope: 1
   animation_id: 57
   note: ''
@@ -588,11 +588,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Отравляет 1 Случайного врага.
-  name: Отравление
+  description: Отравляет случайного противника.
+  name: Яд
   occasion: 1
   icon_index: 70
-  message1: ' использует Отравление!'
+  message1: ' uses Toxic!'
   scope: 3
   animation_id: 29
   note: ''
@@ -622,11 +622,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Ледяной урон по 1 врагу. тратит 6 ом
-  name: Заморозка
+  description: Атака льдом, требующая 6 ОД.
+  name: Лёд
   occasion: 0
   icon_index: 212
-  message1: ' использует Заморозку!'
+  message1: ' uses Frost!'
   scope: 1
   animation_id: 61
   note: ''
@@ -651,11 +651,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ' Громовой урон по 1 врагу. тратит 6 ом'
-  name: Молния
+  description: За 6 ОД атакует противника громом.
+  name: Гром
   occasion: 0
   icon_index: 213
-  message1: ' использует Молнию!'
+  message1: ' uses Zap!'
   scope: 1
   animation_id: 65
   note: ''
@@ -680,11 +680,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: "Стойка на 3 хода\r\n70% шанс на использование"
-  name: Застывание
+  description: "Counters For 3 Turns\r\n70% chance to cast"
+  name: Stanced
   occasion: 1
   icon_index: 255
-  message1: Собирается встать в стойку!
+  message1: Is going to counter!
   scope: 11
   animation_id: 0
   note: ''
@@ -714,11 +714,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: "Повышает защиту на 3 хода \r\n50% шанс на использование. тратит 3 ом"
-  name: Каменная плоть
+  description: "Повышает защиту на 3 хода с вероятностью 50%. \r\nИспользует 3 ОД.\r\n"
+  name: Каменная кожа.
   occasion: 0
   icon_index: 255
-  message1: Повышает защиту!
+  message1: Raises defence!
   scope: 11
   animation_id: 44
   note: ''
@@ -748,11 +748,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Отражает магию на следующем ходу
-  name: Отражение магии
+  description: Отбивает следующую магическую атаку.
+  name: Отбивание магии
   occasion: 0
   icon_index: 255
-  message1: собирается отразить магию!
+  message1: is going to reflect magic!
   scope: 1
   animation_id: 43
   note: ''
@@ -782,11 +782,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: "Жертвует 25% вашего здоровья  восстанавливает \r\n25% вашей магии."
+  description: Восстанавливает 25% здоровья и маны.
   name: Жертвоприношение
   occasion: 0
   icon_index: 2
-  message1: ' использует Жертвоприношение!'
+  message1: Приносит жертву!
   scope: 11
   animation_id: 37
   note: ''
@@ -825,7 +825,7 @@
   name: Dont belive
   occasion: 0
   icon_index: 564
-  message1: ' attacks!'
+  message1: атакует!
   scope: 1
   animation_id: 122
   note: ''
@@ -854,7 +854,7 @@
   name: close
   occasion: 0
   icon_index: 564
-  message1: ' attacks!'
+  message1: атакует!
   scope: 1
   animation_id: 123
   note: ''
@@ -883,7 +883,7 @@
   name: theway
   occasion: 0
   icon_index: 564
-  message1: ' attacks!'
+  message1: атакует!
   scope: 1
   animation_id: 126
   note: ''
@@ -912,7 +912,7 @@
   name: dont
   occasion: 0
   icon_index: 564
-  message1: ' attacks!'
+  message1: атакует!
   scope: 1
   animation_id: 125
   note: ''
@@ -941,7 +941,7 @@
   name: not now
   occasion: 0
   icon_index: 564
-  message1: ' attacks!'
+  message1: атакует!
   scope: 1
   animation_id: 124
   note: ''
@@ -966,11 +966,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: "Земляной урон по 1 врагу. Не надо \r\nесть камни. тратит 8 ом"
+  description: "Наносит урон землёй по противнику используя 8 ОД.\r\nНе ешьте камни.\r\n"
   name: Бросок камня
   occasion: 1
   icon_index: 209
-  message1: ' использует Бросок камня!'
+  message1: бросает камень!
   scope: 1
   animation_id: 71
   note: ''
@@ -995,11 +995,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: "Водный урон по 1 врагу. Не надо \r\nесть пузыри. тратит 6 ом"
-  name: Пузыри
+  description: Наносит урон водой по противнику за 6 ОД.
+  name: Пузырики
   occasion: 0
   icon_index: 108
-  message1: ' использует Пузыри!'
+  message1: пузырит!
   scope: 1
   animation_id: 69
   note: ''
@@ -1024,7 +1024,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Воздушный урон по 1 врагу. тратит 6 ом
+  description: "Атакует противника ветром. Использует 6 ОД.\r\n"
   name: Порыв
   occasion: 0
   icon_index: 107
@@ -1054,10 +1054,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: Blessing
+  name: Благословение.
   occasion: 0
   icon_index: 3
-  message1: ' casts Blessing!'
+  message1: благословляет!
   scope: 1
   animation_id: 0
   note: ''
@@ -1087,11 +1087,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: "теневая атака.\r\nОпытные пользователи отводят глаза при использовании. тратит 11 ом"
-  name: Призрак
+  description: "Тёмная магия. Использует 11 ОД.\r\nОпытные пользователи отворачиваются, когда кастуют."
+  name: Тёмная магия
   occasion: 0
   icon_index: 0
-  message1: ' использует Призрак!'
+  message1: кастует тёмное заклинание!
   scope: 1
   animation_id: 77
   note: ''
@@ -1116,11 +1116,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Повышает DEF одному союзнику. тратит 8 ом
-  name: Дыхание брони
+  description: Увеличивает защиту одного союзника за 8 ОД.
+  name: Дыхательная броня
   occasion: 1
   icon_index: 16
-  message1: ' использует Дыхание брони!'
+  message1: кастует дыхательную броню!
   scope: 7
   animation_id: 43
   note: ''
@@ -1150,11 +1150,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Повышает MDF одному союзнику. тратит 7 ом
+  description: Увеличивает МЗАЩ одного союзника. требует 7 ОД
   name: Божественное дыхание
   occasion: 1
   icon_index: 20
-  message1: ' использует Божественное дыхание!'
+  message1: кастует божественное дыхание!
   scope: 7
   animation_id: 43
   note: ''
@@ -1184,11 +1184,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Понижает ATK всем врагам. тратит 7 ом
-  name: Страх
+  description: Lower all enemies' ATK. uses 7 mp
+  name: Scare
   occasion: 1
   icon_index: 24
-  message1: ' использует Страх!'
+  message1: ' casts Scare!'
   scope: 2
   animation_id: 47
   note: ''
@@ -1218,11 +1218,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Понижает DEF всем врагам. тратит 8 ом
-  name: 'Испуг'
+  description: Lower all enemies' DEF. uses 8 mp
+  name: 'Fright '
   occasion: 1
   icon_index: 26
-  message1: ' использует Испуг!'
+  message1: ' casts Fright !'
   scope: 2
   animation_id: 47
   note: ''
@@ -1252,11 +1252,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Понижает MDF всем врагам. тратит 7 ом
-  name: Волшебный жезл
+  description: Lower all enemies' MDF. uses 7 mp
+  name: Magic Rod
   occasion: 1
   icon_index: 29
-  message1: ' использует Волшебный жезл!'
+  message1: ' casts Magic Rod!'
   scope: 2
   animation_id: 46
   note: ''
@@ -1286,11 +1286,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Отменяет вражеские чары. тратит 5 ом
-  name: Рассеивание
+  description: Cancels enemy enchantments. uses 5 mp
+  name: Dispel
   occasion: 1
   icon_index: 159
-  message1: ' использование Рассеивание!'
+  message1: ' uses Dispel!'
   scope: 1
   animation_id: 46
   note: ''
@@ -1346,10 +1346,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: Волшебный барьер
+  name: Magic Barrier
   occasion: 1
   icon_index: 45
-  message1: ' использует Волшебный барьер!'
+  message1: ' casts Magic Barrier!'
   scope: 11
   animation_id: 44
   note: ''
@@ -1384,11 +1384,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: На 5 ходов, сильно увеличивает MAT игрока.
-  name: Усиливающее заклинание
+  description: For 5 turns, greatly increase user's MAT.
+  name: Enhance Spell
   occasion: 1
   icon_index: 23
-  message1: ' использует Усиливающее заклинание!'
+  message1: ' uses Enhance Spell!'
   scope: 11
   animation_id: 43
   note: ''
@@ -1423,11 +1423,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Увеличивает ATK одному союзнику. тратит 9 ом
-  name: Дыхание оружия
+  description: Increase one ally's ATK. uses 9 mp
+  name: Breath Weapon
   occasion: 1
   icon_index: 18
-  message1: ' использует Дыхание оружия!'
+  message1: ' casts Breath Weapon!'
   scope: 7
   animation_id: 43
   note: ''
@@ -1457,11 +1457,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Делает ничего.
-  name: Ничего
+  description: do nothing.
+  name: Nothiing
   occasion: 0
   icon_index: 0
-  message1: ' делает Ничего!'
+  message1: ' does Nothiing!'
   scope: 0
   animation_id: 0
   note: ''
@@ -1486,11 +1486,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Только маленькие пчёлки знают, как это делать.
-  name: Опыление
+  description: Only lil bees know how to do this.
+  name: pollinate
   occasion: 0
   icon_index: 5
-  message1: ' использует Опыление!'
+  message1: ' casts pollinate!'
   scope: 1
   animation_id: 0
   note: ''
@@ -1515,11 +1515,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Отравляет всех врагов.
-  name: Ядовитое облако
+  description: Poison all enemies.
+  name: Poison Cloud
   occasion: 1
   icon_index: 70
-  message1: ' использует Ядовитое облако!'
+  message1: ' uses Poison Cloud!'
   scope: 2
   animation_id: 31
   note: ''
@@ -1549,11 +1549,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Ослепляет всех врагов.
-  name: Тёмное облако
+  description: Blinds all enemies.
+  name: Dark Cloud
   occasion: 1
   icon_index: 232
-  message1: ' использует Тёмное облако!'
+  message1: ' uses Dark Cloud!'
   scope: 2
   animation_id: 51
   note: ''
@@ -1583,11 +1583,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Оглушает всех врагов. тратит 8 ом
-  name: Звуковая волна
+  description: Confuses all enemies. uses 8 mp
+  name: Sonic Wave
   occasion: 1
   icon_index: 141
-  message1: ' использует Звуковую волну'
+  message1: ' uses Sonic Wave'
   scope: 2
   animation_id: 53
   note: ''
@@ -1617,11 +1617,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Попытка оглушить врага. тратит 5 ом
-  name: Подсечка
+  description: Attempt to stun an enemy. uses 5 mp
+  name: Sweep Kick
   occasion: 1
   icon_index: 175
-  message1: ' использует Подсечку!'
+  message1: ' uses Sweep Kick!'
   scope: 1
   animation_id: 35
   note: ''
@@ -1651,11 +1651,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Снимает яд и паралич. тратит 10 ом
-  name: Очищение
+  description: Cures poison and paralsys. uses 10 mp
+  name: Cure
   occasion: 0
   icon_index: 2
-  message1: ' использует Очищение!'
+  message1: ' casts Cure!'
   scope: 7
   animation_id: 40
   note: ''
@@ -1690,11 +1690,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Снимает многие эффекты. тратит 8 ом
-  name: Очищение II
+  description: Cures many status ailments. uses 8 mp
+  name: Cure II
   occasion: 0
   icon_index: 7
-  message1: ' использует Очищение II!'
+  message1: ' casts Cure II!'
   scope: 7
   animation_id: 41
   note: ''
@@ -1749,11 +1749,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Увеличивает AGI одному союзнику. тратит 6 ом
-  name: Быстрое движение
+  description: Increase one ally's AGI. uses 6 mp
+  name: Quick Move
   occasion: 1
   icon_index: 39
-  message1: ' использует Быстрое движение!'
+  message1: ' casts Quick Move!'
   scope: 7
   animation_id: 43
   note: ''
@@ -1783,11 +1783,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Понижает AGI всем врагам. тратит 6 ом
-  name: Медленное движение
+  description: Lower all enemies' AGI. uses 6 mp
+  name: Slow Move
   occasion: 1
   icon_index: 32
-  message1: ' использует Медленное движение!'
+  message1: ' casts Slow Move!'
   scope: 2
   animation_id: 44
   note: ''
@@ -1817,11 +1817,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Наносит урон врагу.
+  description: Повреждает врагов.
   name: Атака
   occasion: 1
   icon_index: 255
-  message1: ' атакует!'
+  message1: атакует!
   scope: 1
   animation_id: 127
   note: "Skill #1 will be used when you select\r\nthe Attack command."
@@ -1851,11 +1851,11 @@
   tp_gain: 5
 - !ruby/object:RPG::Skill
   message2: ''
-  description: 15% шанс сразу убить врага. тратит 25 ом
-  name: Смерть
+  description: 15% шанс мгновенного убийства. Использует 25 ОД.
+  name: Смерть.
   occasion: 1
   icon_index: 0
-  message1: ' призывает Призрака!'
+  message1: кастует тёмное заклинание!
   scope: 1
   animation_id: 50
   note: ''
@@ -1880,11 +1880,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: "световая атака.\r\nОпытные игроки отводят глаза при использовании. тратит 7 ом"
-  name: Святое копьё
+  description: "a Light based attack.\r\nSkilled users look away when casting. uses 7 mp"
+  name: Holy Lance
   occasion: 0
   icon_index: 0
-  message1: ' использует Holy Lance!'
+  message1: ' casts Holy Lance!'
   scope: 1
   animation_id: 88
   note: ''
