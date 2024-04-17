@@ -455,7 +455,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['По какой-то причине он также может покинуть']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['башню, что обычно никому не удается, если только']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [они не избегают кармического цикла.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Может, он мог тебя увидеть.', Как ты избегаешь кармы?], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Может, он мог тебя увидеть.', 'Как ты избегаешь кармы?'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Может, он мог тебя увидеть.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Меня может увидеть только тот, у кого']}
@@ -488,7 +488,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Как ты избегаешь кармы?]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Как ты избегаешь кармы?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, MEl16, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}

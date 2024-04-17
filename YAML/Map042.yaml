@@ -700,7 +700,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Кто такое божество ворон Акбаататдия?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Серьёзно? У вас хватает наглости спрашивать']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [нас так прямо? Мы отведём тебя к нему.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['нас так прямо? Мы отведём тебя к нему.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 242, p: [2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 46, 16, 7, 0, 0]}

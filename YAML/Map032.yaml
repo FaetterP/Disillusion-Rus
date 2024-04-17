@@ -563,8 +563,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Вороны, правильно? Я имею в виду, что ты должен']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [видеть меня.]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[Лучше бы не видел., Почему я их вижу?], 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, Лучше бы не видел.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [['Лучше бы не видел.', 'Почему я их вижу?'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, 'Лучше бы не видел.']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Очень скоро ты узнаешь о работе,']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [которое тебе предстоит выполнить.]}
@@ -574,7 +574,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 251, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, Почему я их вижу?]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [1, 'Почему я их вижу?']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Очень скоро ты узнаешь о задании,']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [которое тебе предстоит выполнить.]}
