@@ -7,7 +7,7 @@
     hidden: false
     x: 88
     enemy_id: 1
-  name: elp
+  name: олб
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -34,7 +34,7 @@
     hidden: false
     x: 312
     enemy_id: 2
-  name: 2 evans
+  name: 2 эвана
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -61,7 +61,7 @@
     hidden: false
     x: 512
     enemy_id: 3
-  name: Hob
+  name: Хоб
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -98,7 +98,7 @@
     hidden: false
     x: 504
     enemy_id: 3
-  name: Goon Squad
+  name: Отряд головорезов
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -125,7 +125,7 @@
     hidden: false
     x: 352
     enemy_id: 4
-  name: Wallboi
+  name: Стеночел
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -152,7 +152,7 @@
     hidden: false
     x: 256
     enemy_id: 5
-  name: Katt
+  name: Котт
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -184,7 +184,7 @@
     hidden: false
     x: 544
     enemy_id: 3
-  name: Rooster gang
+  name: Петушиная шайка
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -211,7 +211,7 @@
     hidden: false
     x: 288
     enemy_id: 7
-  name: Fly
+  name: Муха
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -243,7 +243,7 @@
     hidden: false
     x: 256
     enemy_id: 5
-  name: flutekat
+  name: Флейта с Коттом
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -270,7 +270,7 @@
     hidden: false
     x: 56
     enemy_id: 8
-  name: flute
+  name: Флейта
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -297,7 +297,7 @@
     hidden: false
     x: 288
     enemy_id: 9
-  name: ftree
+  name: Плотрево
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -324,7 +324,7 @@
     hidden: false
     x: 376
     enemy_id: 10
-  name: ftrees
+  name: 'Плотревья '
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -378,7 +378,7 @@
     hidden: false
     x: 256
     enemy_id: 12
-  name: Ryan
+  name: Райан
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -405,7 +405,7 @@
     hidden: false
     x: 312
     enemy_id: 14
-  name: unnamed
+  name: безымянный
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -432,7 +432,7 @@
     hidden: false
     x: 248
     enemy_id: 15
-  name: beets
+  name: Жук
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -469,7 +469,7 @@
     hidden: false
     x: 272
     enemy_id: 16
-  name: tiny beets
+  name: Жучки
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -496,7 +496,7 @@
     hidden: false
     x: 264
     enemy_id: 17
-  name: Ibukorukor
+  name: Ибукорукор
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -523,7 +523,7 @@
     hidden: false
     x: 272
     enemy_id: 18
-  name: Ibukorukor
+  name: Ибукорукор
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -565,7 +565,7 @@
     hidden: false
     x: 384
     enemy_id: 19
-  name: Ibnegos
+  name: Ибнигос
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -592,7 +592,7 @@
     hidden: false
     x: 288
     enemy_id: 20
-  name: Onibi
+  name: Ониби
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -619,7 +619,7 @@
     hidden: false
     x: 272
     enemy_id: 21
-  name: Uzob Oruk
+  name: Уздоб Орук
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -646,7 +646,7 @@
     hidden: false
     x: 152
     enemy_id: 22
-  name: 'Okiku mushi '
+  name: Окику Муси
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -673,7 +673,7 @@
     hidden: false
     x: 56
     enemy_id: 23
-  name: Darger
+  name: Даргер
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -705,7 +705,7 @@
     hidden: false
     x: 256
     enemy_id: 5
-  name: Darger pack
+  name: Стая Даргера
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -732,7 +732,7 @@
     hidden: false
     x: 184
     enemy_id: 24
-  name: Osmu
+  name: Осму
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -755,7 +755,7 @@
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I mean you no harm...]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я не желаю тебе зла...]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
@@ -807,7 +807,7 @@
     hidden: false
     x: 496
     enemy_id: 27
-  name: boss3
+  name: Босс3
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -834,7 +834,7 @@
     hidden: false
     x: 312
     enemy_id: 28
-  name: 2 evans
+  name: 2 эвана
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -861,13 +861,12 @@
     hidden: false
     x: 280
     enemy_id: 29
-  name: boss2
+  name: Босс2
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Nirvana is pointless. You climb for]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [a fairy tail.]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Нирвана бессмысленна. Ты карабкаешься за сказкой.]}
     - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     span: 0
     condition: !ruby/object:RPG::Troop::Page::Condition
@@ -886,10 +885,10 @@
   - !ruby/object:RPG::Troop::Page
     list:
     - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The Bodhi Tree awaits only the clear minded.]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This place is a trap! It is impossible to clear]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [your mind within these walls! I'll send you]}
-    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [back to be reborn.]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Дерево Бодхи ждёт только ясных умом.]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Это место - ловушка! Невозможно очистить]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [свой ум в этих стенах! Я отправлю тебя]}
+    - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['обратно, чтобы ты переродился.']}
     - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
     - !ruby/object:RPG::EventCommand {i: 0, c: 340, p: []}
     - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -970,7 +969,7 @@
     hidden: false
     x: 272
     enemy_id: 32
-  name: Brock Lee
+  name: Брок Ли
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -997,7 +996,7 @@
     hidden: false
     x: 272
     enemy_id: 33
-  name: Sttonger Brock
+  name: Сильный Брок
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1024,7 +1023,7 @@
     hidden: false
     x: 280
     enemy_id: 16
-  name: 1 tiny beets
+  name: Маленький жук
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1051,7 +1050,7 @@
     hidden: false
     x: 272
     enemy_id: 35
-  name: Raum
+  name: Раум
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1159,7 +1158,7 @@
     hidden: false
     x: 272
     enemy_id: 40
-  name: ree
+  name: Ри
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1186,7 +1185,7 @@
     hidden: false
     x: 272
     enemy_id: 39
-  name: eer
+  name: Ир
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1213,7 +1212,7 @@
     hidden: false
     x: 272
     enemy_id: 34
-  name: Dibsy
+  name: Дибси
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1240,7 +1239,7 @@
     hidden: false
     x: 272
     enemy_id: 42
-  name: tree
+  name: Дерево
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1267,7 +1266,7 @@
     hidden: false
     x: 264
     enemy_id: 43
-  name: Mara
+  name: Мара
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1294,7 +1293,7 @@
     hidden: false
     x: 296
     enemy_id: 45
-  name: Byum
+  name: Буи
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1316,7 +1315,7 @@
   id: 44
 - !ruby/object:RPG::Troop
   members: []
-  name: The Goon Squad
+  name: Отряд головорезов
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1348,7 +1347,7 @@
     hidden: false
     x: 355
     enemy_id: 44
-  name: Byuam and Er
+  name: Бум и Ир
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1380,7 +1379,7 @@
     hidden: false
     x: 432
     enemy_id: 46
-  name: Two ryans
+  name: 'Два '
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1407,7 +1406,7 @@
     hidden: false
     x: 272
     enemy_id: 48
-  name: Pissed flowey
+  name: Озлобленный цветок
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1434,7 +1433,7 @@
     hidden: false
     x: 272
     enemy_id: 49
-  name: dead flower
+  name: Мёртвый цветок
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1461,7 +1460,7 @@
     hidden: false
     x: 320
     enemy_id: 51
-  name: 2 evans
+  name: 2 эвана
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1498,7 +1497,7 @@
     hidden: false
     x: 272
     enemy_id: 53
-  name: spirit
+  name: Дух
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1525,7 +1524,7 @@
     hidden: false
     x: 272
     enemy_id: 55
-  name: Zombie
+  name: Зомби
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1552,7 +1551,7 @@
     hidden: false
     x: 272
     enemy_id: 56
-  name: dug
+  name: Утка
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1579,7 +1578,7 @@
     hidden: false
     x: 280
     enemy_id: 57
-  name: Caf
+  name: Каф
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1606,7 +1605,7 @@
     hidden: false
     x: 272
     enemy_id: 58
-  name: Mick
+  name: Мик
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1633,7 +1632,7 @@
     hidden: false
     x: 288
     enemy_id: 59
-  name: Mel
+  name: Мел
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1660,7 +1659,7 @@
     hidden: false
     x: 400
     enemy_id: 11
-  name: Count lex
+  name: Граф Лекс
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1687,7 +1686,7 @@
     hidden: false
     x: 272
     enemy_id: 53
-  name: The forgetfull one
+  name: Забывчивый
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1714,7 +1713,7 @@
     hidden: false
     x: 272
     enemy_id: 50
-  name: The queen
+  name: Королева
   pages:
   - !ruby/object:RPG::Troop::Page
     list:
@@ -1741,7 +1740,7 @@
     hidden: false
     x: 272
     enemy_id: 60
-  name: The lord
+  name: Лорд
   pages:
   - !ruby/object:RPG::Troop::Page
     list:

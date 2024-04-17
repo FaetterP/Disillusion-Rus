@@ -1212,22 +1212,22 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Это вход в бхул бхулайю,']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [лабиринт знаний и дом нашего]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [господа Ганеши.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [господина Ганеши.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Ты хочешь узнать больше о ]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['бхул бхулайи?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Да.', 'Нет.'], 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Да.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Бхул-бхулайя была построена для хранения]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Бхул бхулайя была построена для хранения]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [писаний господа Ганеши. Эти писания]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [старше самого кармического цикла.]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ганеша был первым существом, созданным творцом,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ганеша был первым существом, созданным Творцом,']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [и с тех пор вёл записи об известной вселенной.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Какие бы знания ты ни искал, их, скорее всего,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['можно найти внутри. Но имей в виду, что бхул бхулайя']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [это огромный запутанный лабиринт....]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['можно найти внутри. Но имей в виду, что']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['бхул бхулайя - это огромный запутанный лабиринт....']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Внутри лабиринта разбросаны письмена, это сделано']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['для того, чтобы сдержать женщину по имени Мара и не']}

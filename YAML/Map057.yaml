@@ -153,7 +153,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Носитель болезни, отправь достойное зло']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Носитель болезни, отправь достойного зла']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [в это святилище. Возвращайся как только ты]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [найдёшь свою свинью.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

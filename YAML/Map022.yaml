@@ -51,9 +51,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, roaddifuse, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Where does the empathy end and killing overcome]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['you? Does a doe shed tears before we']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['take its head?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Где в тебе заканчивается сочувствие и]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['начинает преобладать убийства?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Проливает ли лань слёзы, прежде чем мы']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['забираем ее голову?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -151,17 +152,17 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You want to shop, yeah?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Хочешь поторговать, да?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да., Нет.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 302, p: [0, 1, 1, 7, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 605, p: [0, 2, 1, 25]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 605, p: [0, 4, 1, 14]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 605, p: [0, 6, 1, 15]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Then you insult me!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Тогда я оскорблена!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 19, false, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [60, 60, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
@@ -250,8 +251,8 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Chased again! This guy does not give up!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Be careful up there on the next floor!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Опять догнали! Этот парень не сдаётся!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Будь осторожен на следующем этаже!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -357,7 +358,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Concrete? That''s cement, baby!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Бетон? Это цемент, детка!']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -491,7 +492,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [CAWCAWCAW]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [КАРКАРКАР]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -533,7 +534,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [That coin is not safe. Remove it.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Эта монетка небезопасна. Спрячь её.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -630,7 +631,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Get me over all the times I had to worry.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я хочу справиться со всем, о чём я когда-либо переживал.']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -762,15 +763,17 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Demons are real. Except it's not like in the movies]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [where some strange personality takes over like]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['you''re a meat suit. It''s the emotional, non-verbal core']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['that gets replaced or overpowered, so the person']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Демоны существуют. Только это не как в кино,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['когда какая-то странная личность завладевает тобой,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['как будто ты - мясной костюм. Это эмоциональное,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['невербальное ядро, которое заменяется или подавляется,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [believes they are still the ones in control. Drug and]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['alcohol use get you wide open for this sort of thing,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['but it can also happen subtly over time. Depression,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['anger issues, etc...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['так, что человек']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['считает, что он всё ещё контролирует ситуацию. Наркотики и']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Употребление алкоголя делает вас широко открытым для такого]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['рода вещей, но это может происходить и незаметно,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['с течением времени. Депрессия, проблемы с гневом и т. д...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11
@@ -818,7 +821,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [CAWCAWCAW]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [КАРКАРКАР]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -860,7 +863,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Crazy CRAZY crazy CRazy]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Безумие БЕЗУМИЕ безумие БЕЗумие]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
     id: 12
@@ -908,10 +911,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The people of Guatemala's highlands create "worry]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['dolls" to help them sleep. According to legend,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the worry doll represents the wisdom of a Mayan]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [princess.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Жители высокогорных районов Гватемалы создают]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"кукол беспокойства", чтобы легче уснуть.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Согласно легенде, кукла-тревога олицетворяет мудрость']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [принцессы майя.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   13: !ruby/object:RPG::Event
     id: 13
@@ -959,10 +964,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It seems this is straight up adrenaline but your]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [body processes them into the same thing.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's also interesting to read a research article from 1954]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [on the link between adrenaline and schizophrenia.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Кажется, что это просто адреналин, но твой организм']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [перерабатывает их в одно и то же.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Интересно также прочитать научную статью 1954 года]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [о связи между адреналином и шизофренией".]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   14: !ruby/object:RPG::Event
     id: 14
@@ -1010,10 +1015,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The amygdala handles salience, fear, anxiety,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['surprise, fight, flight and freeze.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I tried to scramble mine with a long hook,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [it only had me feel worse however.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Миндалина отвечает за внимание, страх, тревогу, удивление,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['борьбу, бегство и оцепенение. Я пытался её разворошить']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['длинным крюком, но это только ухудшило моё состояние.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}

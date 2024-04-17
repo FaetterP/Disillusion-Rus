@@ -593,8 +593,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Искать дэва? Этот парень ЧОКНУТЫЙ! Он не']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['в себе! Ты ведь знаешь, что это такое, да?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Искать дэв? Этот парень ЧОКНУТЫЙ! Он не']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['в себе! Ты ведь знаешь, кто это такие, да?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да., Нет.], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}

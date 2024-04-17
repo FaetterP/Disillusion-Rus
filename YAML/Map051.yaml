@@ -63,48 +63,48 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You. Why are you here? do you know what I am?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты. Что ты здесь делаешь? Знаешь ли ты, кто я?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We've only decided to indulge in this request]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [due to you being the next shepherd. what]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['questions do you have?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['what is a shepherd?', 'who are you and the crows?'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'what is a shepherd?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Мы решили удовлетворить эту просьбу только потому,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['что ты - следующий пастырь. Какие у тебя вопросы?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Что значит пастырь?', 'Кто ты и кто такие вороны?'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Кто ты и кто такие вороны?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['There has only been one shepherd, however he has']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [left that job since mara has become what she has.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [The shepherd's job is to make sure all souls climb the]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [tower. the shepherd must be someone who...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Здесь был только один пастырь, но он оставил эту работу с']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['тех пор, как Мара стала тем, кем стала. Задача пастыря -']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['следить за тем, чтобы все души поднимались по башне.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Пастырь должен быть тем, у кого... разделены функции личности, мышления, памяти и восприятия.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [has a separation of functions between]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['personality, thinking, memory, and perception.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [A curse created by the muse of tragedy.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Why am I a shepherd?', 'Who are you and the crows?'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Why am I a shepherd?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Проклятие, созданное музой трагедии.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['разделены функции личности, мышления, памяти и восприятия.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Проклятие, созданное музой трагедии.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Почему я пастырь?', 'Кто ты и кто такие вороны?'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Кто ты и кто такие вороны?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I am not sure. the crows have decided this,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [they like to make sure things stay on some]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [sort of linear path. I do not however think that]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['path matters, as it would seem mara wishes to']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я не знаю. Это решили вороны, им нравится следить за тем,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['чтобы события происходили линейно. Однако я не думаю, что']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['путь имеет значение, так как, похоже, Мара хочет...']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Create a new path.]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Chii seems rather scared of you. why?'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Chii seems rather scared of you. why?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [сотворить новый.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Чии, кажется, боится тебя. Почему?'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Чии, кажется, боится тебя. Почему?']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Afraid of being cast back into the karmic cycle maybe?']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['I would not do this, I am not one to concern']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [myself with these things. I just like to watch]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [the flow of the things I have made.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Может, боится, что его вернут в кармический цикл?']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Я бы не стал этого делать, я не из тех, кто беспокоится']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [такими вещами. Мне просто нравится наблюдать]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['за тем, как развиваются созданные мною вещи.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['I think it is time you go. I wish you luck,']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [we will meet again.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Думаю, тебе пора уходить. Я желаю тебе удачи,']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [мы ещё встретимся.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 42, 1, 11, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 242, p: [2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [You are going to a new location.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Вы перемещаетесь в новую локацию.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [483, 483, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
@@ -112,39 +112,37 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Who are you and the crows?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Кто ты и кто такие вороны?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Akbaatatdia, the crows are my eyes.']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I am the creator of all that exists. I do not meddle,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I only watch.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Акбаататдиа. Вороны - мои глаза.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я - создатель всего сущего. Я не вмешиваюсь,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [лишь наблюдаю.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [I do not make rules. rules and laws across]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [universes have been made by the beings I created]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [themselves.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Я не создаю правила. Правила и законы во всех]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['вселенных были созданы существами, которых создал Я.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, CROWDIETY4, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I am sure you have met the muse, Mel. The muse']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [' were the creators of emotions. Emotional energy is']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['a powerful thing, quickly getting out of control.']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['one man deemed it suffering, stripping himself of feelings.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я уверен, ты встретил музу, Мел. Музы являются']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [создателями эмоций. Эмоциональная энергия -]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['мощная штука, быстро выходящая из-под контроля.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Один человек посчитав это страданием, лишил себя чувств.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['for that to happen, one must reach a sort of']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [enlightenment. The tower was constructed to]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['aid this process.  thus, the karmic cycle']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [was born.]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Chii seems rather scared of you. why?'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Chii seems rather scared of you. why?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Чтобы это произошло, человек должен достичь своего рода']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['просветления. Башня была построена, чтобы способствовать']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['этому процессу. Таким образом, был создан кармический цикл.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Чии, кажется, боится тебя. Почему?'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Чии, кажется, боится тебя. Почему?']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Afraid of being cast back into the karmic cycle maybe?']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['I would not do this, I am not one to concern']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [myself with these things. I just like to watch]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [the flow of the things I have made.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Может, боится, что его вернут в кармический цикл?']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Я бы не стал этого делать, я не из тех, кто беспокоится']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [такими вещами. Мне просто нравится наблюдать]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['за тем, как развиваются созданные мною вещи.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['I think it is time you go. I wish you luck,']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [we will meet again.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Думаю, тебе пора уходить. Я желаю тебе удачи,']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [мы ещё встретимся.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [483, 483, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 242, p: [2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
@@ -152,7 +150,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [You are going to a new location.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Вы перемещаетесь в новую локацию.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
@@ -161,39 +159,37 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'who are you and the crows?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Кто ты и кто такие вороны?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Akbaatatdia, the crows are my eyes.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I am the creator of all that exists. I do not meddle,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I only watch.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Акбаататдиа. Вороны - мои глаза.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я - создатель всего сущего. Я не вмешиваюсь,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [лишь наблюдаю.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [I do not make rules. rules and laws across]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [universes have been made by the beings I created]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [themselves.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Я не создаю правила. Правила и законы во всех]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['вселенных были созданы существами, которых создал Я.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, CROWDIETY4, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['I am sure you have met the muse, Mel. The muse']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' were the creators of emotions. Emotional energy is']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['a powerful thing, quickly getting out of control.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['one man deemed it suffering, stripping himself of feelings.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я уверен, ты встретил музу, Мел. Музы являются']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [создателями эмоций. Эмоциональная энергия -]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['мощная штука, быстро выходящая из-под контроля.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Один человек посчитав это страданием, лишил себя чувств.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['for that to happen, one must reach a sort of']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [enlightenment. The tower was constructed to]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['aid this process.  thus, the karmic cycle']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [was born.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Chii seems rather scared of you. why?'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Chii seems rather scared of you. why?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Чтобы это произошло, человек должен достичь своего рода']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['просветления. Башня была построена, чтобы способствовать']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['этому процессу. Таким образом, был создан кармический цикл.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Чии, кажется, боится тебя. Почему?'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Чии, кажется, боится тебя. Почему?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Afraid of being cast back into the karmic cycle maybe?']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I would not do this, I am not one to concern']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [myself with these things. I just like to watch]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [the flow of the things I have made.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Может, боится, что его вернут в кармический цикл?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я бы не стал этого делать, я не из тех, кто беспокоится']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [такими вещами. Мне просто нравится наблюдать]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['за тем, как развиваются созданные мною вещи.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['I think it is time you go. I wish you luck,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [we will meet again.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Думаю, тебе пора уходить. Я желаю тебе удачи,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [мы ещё встретимся.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 242, p: [2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [483, 483, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
@@ -201,7 +197,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [You are going to a new location.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Вы перемещаетесь в новую локацию.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}

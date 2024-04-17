@@ -2924,10 +2924,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl79, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Being outside of the tower is serving as a nice]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['break, but I still feel incredibly weak....']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the tower has the ability to send any being]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['back to samsara, as that is one of its purposes.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Нахождение за пределами башни служит хорошей]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['передышкой, но я всё ещё чувствую себя невероятно слабой....']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Башня способна вернуть любое существо обратно в сансару,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [поскольку это одно из её предназначений.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl78, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

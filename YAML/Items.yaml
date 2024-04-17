@@ -61,7 +61,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Восстанавливает всё здоровье.
+  description: Восстанавливает все ОЗ.
   name: Полное зелье
   consumable: true
   occasion: 0
@@ -121,7 +121,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Редкий предмет, проданный кафом. восстанавливает\r\n100 ом и ОЗ и повышает максимум ом на 10."
+  description: "Редкий предмет, проданный Кафом. Восстанавливает\r\n100 ОМ и ОЗ и повышает максимум ОМ на 10."
   name: Солодовый ликёр
   consumable: true
   occasion: 0
@@ -161,7 +161,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Лечит яд.
+  description: Лечит от яда.
   name: Антидот
   consumable: true
   occasion: 0
@@ -192,7 +192,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: Лечит многие негативные статусы.
-  name: Развеивающая трава
+  name: Рассеивающая трава
   consumable: true
   occasion: 0
   icon_index: 111
@@ -281,7 +281,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Увеличивает МаксОЗ на 50.
+  description: Увеличивает максимум ОЗ на 50.
   name: Повышение жизни
   consumable: true
   occasion: 2
@@ -311,7 +311,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Увеличивает МаксОМ на 10.
+  description: Увеличивает максимум ОМ на 10.
   name: Повышение маны
   consumable: true
   occasion: 2
@@ -341,7 +341,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Увеличивает ATK на 3.
+  description: Увеличивает силу на 3.
   name: Повышение силы
   consumable: true
   occasion: 2
@@ -371,7 +371,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Увеличивает DEF на 3.
+  description: Увеличивает защиту на 3.
   name: Повышение защиты
   consumable: true
   occasion: 2
@@ -401,7 +401,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Увеличивает MAT на 3.
+  description: Увеличивает магию на 3.
   name: Повышение магии
   consumable: true
   occasion: 2
@@ -431,7 +431,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Увеличивает MDF на 3.
+  description: Увеличивает магическую защиту на 3.
   name: Повышение сопротивления
   consumable: true
   occasion: 2
@@ -461,7 +461,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Увеличивает AGI на 3.
+  description: Увеличивает ловкость на 3.
   name: Повышение скорости
   consumable: true
   occasion: 2
@@ -491,7 +491,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Увеличивает LUK на 3.
+  description: Увеличивает удачу на 3.
   name: Повышение удачи
   consumable: true
   occasion: 2
@@ -551,8 +551,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Последняя в своем роде, вероятно, \r\nединственная в мире."
-  name: 'Ментоловая сигарета'
+  description: "Последняя в своем роде. Вероятно, \r\nединственная в мире."
+  name: Сигарета с ментолом
   consumable: false
   occasion: 0
   icon_index: 211
@@ -576,8 +576,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Сардины и похлёбка. Восстанавливает 50 оз\r\nи излечивает от яда."
-  name: Дин Чаудер
+  description: Сардины и чаудер. Восстанавливает 50 ОЗ и лечит отравление.
+  name: Чаудер с сардинами
   consumable: true
   occasion: 0
   icon_index: 2
@@ -611,8 +611,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Банка сардин, которая лечит 50 Оз и 60 ом.\r\nнельзя купить ни в одном известном магазине."
-  name: Упаковка дин
+  description: "Баночка сардин, восстанавливающая 50 ОЗ и 60 ОМ.\r\nНельзя купить ни в одном из известных магазинов."
+  name: Упаковка сардины
   consumable: true
   occasion: 0
   icon_index: 0
@@ -646,7 +646,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Ключ от двери
+  description: Ключ от двери.
   name: Ключ2
   consumable: false
   occasion: 3
@@ -671,7 +671,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Ключ от двери
+  description: Ключ от двери.
   name: Ключ1
   consumable: false
   occasion: 3
@@ -696,8 +696,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: при отключенных столкновениях.
-  name: Никаких столкновений
+  description: Отключить столкновения.
+  name: 'Никаких столкновений: вкл'
   consumable: false
   occasion: 2
   icon_index: 0
@@ -727,7 +727,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: ''
-  name: нет столкновений выкл
+  name: 'Никаких столкновений: выкл'
   consumable: false
   occasion: 2
   icon_index: 0
@@ -756,7 +756,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Свинина, бобы, и желе Восстанавливает 100 оз\r\nи лечит яд."
+  description: "Свинина, бобы, и желе. Восстанавливает \r\n100 ОЗ и лечит отравление."
   name: Бутер
   consumable: true
   occasion: 0
@@ -851,7 +851,7 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Сладкая и кукурузная. восстанавливает 50 оз
+  description: Сладкая и кукурузная. Восстанавливает 50 ОЗ.
   name: Сладкая кукуруза
   consumable: true
   occasion: 0
@@ -881,8 +881,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: "Предмет, который действует как ключ к \r\nбхул бхулайе"
-  name: канделябр
+  description: "Предмет, который действует как ключ к \r\nбхул бхулайе."
+  name: Канделябр
   consumable: false
   occasion: 3
   icon_index: 218
@@ -906,8 +906,8 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Неизвестно, кому это могло принадлежать
-  name: череп и перья
+  description: Неизвестно, кому это могло принадлежать.
+  name: Череп и перья
   consumable: false
   occasion: 3
   icon_index: 239

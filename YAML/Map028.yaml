@@ -114,10 +114,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ у меня есть вопрос получше...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Какое на тебе нижнее бельё?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Боксеры., Трусы., Стринги., Коммандос.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Боксеры., Брифы., Стринги., Коммандос.], 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Боксеры.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Как-то пресновато, не?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Как-то безвкусно, не?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ладно, я научу тебя этому навыку...']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 318, p: [0, 1, 0, 19]}
@@ -125,9 +125,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['*Выучен Тост!*']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [26, 26, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Трусы.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Брифы.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Как-то пресновато, не?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Как-то безвкусно, не?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ладно, я научу тебя этому навыку...']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 318, p: [0, 1, 0, 19]}
@@ -157,7 +157,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Какого чёрта? Ты сейчас что-то упустил.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -251,16 +251,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Взгляни на опал 3 раза и скажи мне,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Взгляни на опал три раза и скажи мне,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [что ты видишь.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Хирает., Слезы во вращающейся комнате., Сансара.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Хирает., Слёзы во вращающейся комнате., Сансара.], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Хирает.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, MOSHED-2021-1-6-13-37-1, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ты не пойдешь домой, мне очень жаль.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ты не отправишься домой, мне очень жаль.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}

@@ -94,12 +94,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 261, p: [Door]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MOSHED-2021-1-6-14-12-33, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Дверь перед вами откроется. за определенную плату.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Дверь перед вами откроется. За определенную плату.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [7, 12000, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Заплатить 12000 пыли?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Да', 'Нет'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Да']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Да.', 'Нет.'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Да.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, asdaSAAM-1983vfsfcv.95.1s97_1, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
@@ -115,7 +115,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 301, p: [0, 61, false, false]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 126, p: [30, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Нет']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Нет.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Возвращайся с 12000 пылью, и мы откроем']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [дверь.]}

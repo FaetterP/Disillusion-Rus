@@ -243,7 +243,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Кто тебе это дал? Зачем ты это носишь?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Кто тебе это дал? Почему она у тебя?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Проснись.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
@@ -334,7 +334,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Что-то большое произойдёт в августе.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Что-то грандиозное произойдёт в августе.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   6: !ruby/object:RPG::Event
     id: 6
@@ -386,7 +386,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Это место мне знакомо.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Что значит ЛСД?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Линейная Скорость Дрёмы., Лучезарная Сладкая Дрёма., Люси в Созвездии с Динамитом., 'Лимбо, Спокойная Дрёма.'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Линейная Скорость Дрёмы., Лучезарная Сладкая Дрёма., Люси в Созвездии с Динамитом., 'Лимб, Спокойная Дрёма.'], 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Линейная Скорость Дрёмы.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['На самом деле ты не хочешь сидеть под деревом,']}
@@ -399,12 +399,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [2, Люси в Созвездии с Динамитом.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Люси? Как из V girls?']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [М girls были распяты.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Люси? Как из V-girls?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [V-girls были распяты.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, 'Лимбо, Спокойная Дрёма.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [3, 'Лимб, Спокойная Дрёма.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Это лимбо.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Это лимб.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -458,7 +458,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я уже видел это место раньше и думаю, что это']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [воплощение моих снов....]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [воплощение моего сна....]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

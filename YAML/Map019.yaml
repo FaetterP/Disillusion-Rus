@@ -304,8 +304,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, 08883fd1659edabe4cb658d1d581ecefadfasdfd301a46227a, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я маню тебя прочь. Почему ты обязан потерять рассудок?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Может, это не действие..']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я маню тебя прочь. Почему ты обязан потерять']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['рассудок? Может, это не притворство..']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

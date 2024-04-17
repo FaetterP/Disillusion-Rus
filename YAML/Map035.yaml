@@ -109,9 +109,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, adasdasd, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Чии сказал....]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Не слушай старого человека, смотри на']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [его правую руку.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Чии говорит....]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Не обращай внимания на старика, сосредоточься на его']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [правой руке.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -426,10 +426,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Итак, проецируете свои собственные страхи, неуверенность и']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['внутреннее желание доминировать и контролировать?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Значит, проецируешь свои собственные страхи,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['неуверенность и внутреннее желание доминировать']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['и контролировать?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Это мы, кто является угрозой, наши войны, наши бомбы']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Это мы представляем угрозу, наши войны, наши бомбы']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['и наш трайбализм. Мы уничтожаем больше, чем строим,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['а то, что мы строим является средством для ещё больших разрушений.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -580,7 +581,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Да.', 'Нет.'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Да.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Забирай.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Тогда зацени.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 302, p: [2, 2, 1, 100, true]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 605, p: [2, 3, 1, 100]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 605, p: [2, 4, 1, 100]}
@@ -596,13 +597,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Нет.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Тогда улепётывай, урод.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Тогда улепётывай, уродец.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11
-    name: EV011
+    name: Тогда зацени.
     x: 8
     y: 17
     pages:
@@ -823,7 +824,7 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*5]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Думай о деньгах! О будущем!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Подумай о деньгах! О будущем!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 301, p: [0, 40, false, false]}
       - !ruby/object:RPG::EventCommand
         i: 0

@@ -1,7 +1,7 @@
 ---
 - 
 - !ruby/object:RPG::Enemy
-  name: околбя
+  name: Околбя
   gold: 5
   battler_hue: 0
   exp: 15
@@ -75,7 +75,7 @@
     kind: 0
     data_id: 1
 - !ruby/object:RPG::Enemy
-  name: Эван Джеймс Чудесный
+  name: Эван Джеймс Миракл
   gold: 10
   battler_hue: 0
   exp: 15
@@ -225,7 +225,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Эбакирон
+  name: Эбакирун
   gold: 15
   battler_hue: 0
   exp: 110
@@ -501,7 +501,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: флейта
+  name: Флейта
   gold: 13
   battler_hue: 0
   exp: 150
@@ -581,7 +581,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: плотрево
+  name: Плотрево
   gold: 0
   battler_hue: 0
   exp: 0
@@ -633,7 +633,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: плотрево3
+  name: Плотревья
   gold: 0
   battler_hue: 0
   exp: 0
@@ -891,7 +891,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Лорд жуков
+  name: Повелитель жуков
   gold: 0
   battler_hue: 40
   exp: 70
@@ -943,7 +943,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Жуки
+  name: Жук
   gold: 30
   battler_hue: 0
   exp: 250
@@ -1017,7 +1017,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Жуки
+  name: Жук
   gold: 25
   battler_hue: 0
   exp: 100
@@ -1605,7 +1605,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: чернобог
+  name: Чернобог
   gold: 0
   battler_hue: 0
   exp: 800
@@ -1685,7 +1685,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: рука1
+  name: Рука1
   gold: 0
   battler_hue: 0
   exp: 50
@@ -1743,7 +1743,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: рука2
+  name: Рука2
   gold: 0
   battler_hue: 0
   exp: 50
@@ -1801,7 +1801,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Реван Имс Чумесный
+  name: Реван Имс Диракл
   gold: 33
   battler_hue: 180
   exp: 100
@@ -2343,7 +2343,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: '.--. --- -- --- --. ..'
+  name: '.. .-. .. ...- . -'
   gold: 32
   battler_hue: 0
   exp: 104
@@ -2459,7 +2459,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: '.--. .-. . -.. -- . -'
+  name: '.-- .-. . -- .-.-'
   gold: 30
   battler_hue: 0
   exp: 102
@@ -2755,7 +2755,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Ангельская Мара
+  name: Мара
   gold: 0
   battler_hue: 0
   exp: 2000
@@ -2943,7 +2943,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: ByumStyed
+  name: БумСтэд
   gold: 0
   battler_hue: 220
   exp: 0
@@ -3265,7 +3265,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Пчелиная матка
+  name: Пчелиная королева
   gold: 0
   battler_hue: 0
   exp: 0
@@ -3341,7 +3341,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Эван Джеймс Чудесный
+  name: Эван Джеймс Миракл
   gold: 3
   battler_hue: 0
   exp: 15
@@ -3409,7 +3409,7 @@
     kind: 0
     data_id: 1
 - !ruby/object:RPG::Enemy
-  name: Душа 1
+  name: Дух 1
   gold: 0
   battler_hue: 0
   exp: 0
@@ -3519,7 +3519,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: душа 2
+  name: Дух 2
   gold: 0
   battler_hue: 0
   exp: 0
@@ -3571,7 +3571,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: баал
+  name: Баал
   gold: 0
   battler_hue: 0
   exp: 0
@@ -3623,7 +3623,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Грибутка
+  name: Грибоутка
   gold: 0
   battler_hue: 270
   exp: 0
@@ -4099,7 +4099,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Enemy
-  name: Ibukorukor
+  name: Ибукорукор
   gold: 0
   battler_hue: 300
   exp: 250

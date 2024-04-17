@@ -1,12 +1,12 @@
 ---
 - 
 - !ruby/object:RPG::State
-  message2: ' is slain!'
-  name: Death
+  message2: ' повержен!'
+  name: Смерть
   priority: 100
   icon_index: 15
-  message1: ' has fallen!'
-  message4: ' revives!'
+  message1: ' повержен!'
+  message4: ' воскресает!'
   restriction: 4
   release_by_damage: false
   message3: ''
@@ -27,15 +27,15 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' is hungry!'
-  name: Hunger
+  message2: ' голоден!'
+  name: Голод
   priority: 65
   icon_index: 128
-  message1: ' is hungry!'
-  message4: ' is no longer hungry!'
+  message1: ' голоден!'
+  message4: ' больше не голоден!'
   restriction: 0
   release_by_damage: false
-  message3: ' is hungry!'
+  message3: ' голоден!'
   note: ''
   id: 2
   features:
@@ -53,12 +53,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' is blinded!'
-  name: Blind
+  message2: ' ничего не видит!'
+  name: Слепота
   priority: 70
   icon_index: 232
-  message1: ' becomes blind!'
-  message4: ' is no longer blinded!'
+  message1: ' ослеп!'
+  message4: ' вернул зрение!'
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -79,12 +79,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' cannot cast Magic!'
-  name: Silence
+  message2: ' не может использовать магию!'
+  name: Тишина
   priority: 75
   icon_index: 63
-  message1: ' cannot cast Magic!'
-  message4: '''s Magic is no longer sealed!'
+  message1: ' не может использовать магию!'
+  message4: ' вернул магические способности!'
   restriction: 0
   release_by_damage: false
   message3: ''
@@ -105,12 +105,12 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' is confused!'
-  name: Confusion
+  message2: ' в замешательстве!'
+  name: Замешательство
   priority: 80
   icon_index: 143
-  message1: ' becomes confused!'
-  message4: ' is no longer confused!'
+  message1: ' приходит в замешательство!'
+  message4: ' больше не в замешательстве!'
   restriction: 2
   release_by_damage: false
   message3: ''
@@ -127,22 +127,22 @@
   remove_by_damage: true
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' falls asleep!'
-  name: Sleep
+  message2: ' засыпает!'
+  name: Сон
   priority: 85
   icon_index: 151
-  message1: ' falls asleep!'
-  message4: ' wakes up!'
+  message1: ' засыпает!'
+  message4: ' просыпается!'
   restriction: 4
   release_by_damage: true
-  message3: ' is sleeping......'
+  message3: ' спит......'
   note: ''
   id: 6
   features:
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
     data_id: 1
-    value: -1.0
+    value: -1
   auto_removal_timing: 1
   min_turns: 3
   max_turns: 5
@@ -153,22 +153,22 @@
   remove_by_damage: true
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' is paralyzed!'
-  name: Paralysis
+  message2: ' парализован!'
+  name: Паралич
   priority: 90
   icon_index: 173
-  message1: ' becomes paralyzed!'
-  message4: ' is no longer paralyzed!'
+  message1: ' стал парализован!'
+  message4: ' больше не парализован!'
   restriction: 4
   release_by_damage: false
-  message3: ' is unable to move!'
+  message3: ' не может двигаться!'
   note: ''
   id: 7
   features:
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
     data_id: 1
-    value: -1.0
+    value: -1
   auto_removal_timing: 1
   min_turns: 4
   max_turns: 6
@@ -179,15 +179,15 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' loses balance!'
-  name: Stun
+  message2: ' теряет баланс!'
+  name: Оглушение
   priority: 60
   icon_index: 175
-  message1: ' loses balance!'
-  message4: ' regains balance!'
+  message1: ' теряет баланс!'
+  message4: ' восстановил баланс!'
   restriction: 4
   release_by_damage: false
-  message3: ' hasn''t regained balance......'
+  message3: ' не восстановил баланс......'
   note: ''
   id: 8
   features: []
@@ -202,7 +202,7 @@
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ''
-  name: Guard
+  name: Защита
   priority: 0
   icon_index: 248
   message1: ''
@@ -228,7 +228,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: Immortal
+  name: Бессмертие
   priority: 0
   icon_index: 0
   message1: ''
@@ -254,7 +254,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: Cover
+  name: Прикрытие
   priority: 0
   icon_index: 0
   message1: ''
@@ -280,7 +280,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: Provoke
+  name: Провокация
   priority: 50
   icon_index: 25
   message1: ''
@@ -410,7 +410,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: Stoneflesh
+  name: Каменная плоть
   priority: 50
   icon_index: 7
   message1: ''
@@ -488,7 +488,7 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: Magic Reflect
+  name: Отражение магии
   priority: 50
   icon_index: 0
   message1: ''
@@ -691,14 +691,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: Is poisoned!
-  name: Poison
+  message2: отравлен!
+  name: Яд
   priority: 50
   icon_index: 14
-  message1: Is poisoned!
-  message4: Is no longer poisoned!
+  message1: отравлен!
+  message4: больше не отравлен!
   restriction: 0
-  message3: Is poisoned!
+  message3: отравлен!
   note: ''
   id: 26
   features:

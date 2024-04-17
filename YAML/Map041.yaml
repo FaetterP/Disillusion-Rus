@@ -133,7 +133,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, memory1-5, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Пахнет как горящая плоть.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Запахло горящей плотью.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
@@ -145,7 +145,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, memory1-6, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Пахнет как дождь.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Запахло дождём.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, memory1-6-2, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}

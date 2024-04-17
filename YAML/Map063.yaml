@@ -2517,7 +2517,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   54: !ruby/object:RPG::Event
     id: 54
-    name: EV054
+    name: у вас есть какие-нибудь вещи, которые вы хотите сдать в ломбард, я обменяю
     x: 2
     y: 7
     pages:
@@ -2565,7 +2565,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   55: !ruby/object:RPG::Event
     id: 55
-    name: EV055
+    name: их на пыль.
     x: 8
     y: 10
     pages:

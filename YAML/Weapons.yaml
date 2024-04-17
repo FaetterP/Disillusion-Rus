@@ -1,8 +1,8 @@
 ---
 - 
 - !ruby/object:RPG::Weapon
-  description: "You won't be buttering up your enemies, nor\r\ndoin much harm"
-  name: Butter Knife
+  description: "Таким ты не сможешь ни намазывать маслом своих врагов, \r\nни причинять им много вреда."
+  name: Нож для масла
   icon_index: 128
   price: 100
   animation_id: 7
@@ -20,7 +20,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -5.0
+    value: -5
   params:
   - 0
   - 0
@@ -52,7 +52,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -5.0
+    value: -5
   params:
   - 0
   - 0
@@ -65,8 +65,8 @@
   etype_id: 0
   wtype_id: 1
 - !ruby/object:RPG::Weapon
-  description: Better than the butter knife
-  name: Kitchen knife
+  description: Лучше, чем нож для масла
+  name: Кухонный нож
   icon_index: 128
   price: 3000
   animation_id: 7
@@ -84,7 +84,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -5.0
+    value: -5
   params:
   - 0
   - 0
@@ -97,8 +97,8 @@
   etype_id: 0
   wtype_id: 1
 - !ruby/object:RPG::Weapon
-  description: "Given to you by The lord himself.\r\nimbued with lightning. "
-  name: Heathers Trident
+  description: "Дарован самим Лордом.\r\nПропитан молнией."
+  name: Трезубец Вереска
   icon_index: 173
   price: 6000
   animation_id: 1
@@ -148,7 +148,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -5.0
+    value: -5
   params:
   - 0
   - 0
@@ -184,7 +184,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -5.0
+    value: -5
   params:
   - 0
   - 0
@@ -460,7 +460,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -3.0
+    value: -3
   params:
   - 0
   - 0
@@ -492,7 +492,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -3.0
+    value: -3
   params:
   - 0
   - 0
@@ -552,7 +552,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -3.0
+    value: -3
   params:
   - 0
   - 0
@@ -584,7 +584,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -3.0
+    value: -3
   params:
   - 0
   - 0
@@ -1796,7 +1796,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -5.0
+    value: -5
   params:
   - 0
   - 0
@@ -1832,7 +1832,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -5.0
+    value: -5
   params:
   - 0
   - 0
@@ -1868,7 +1868,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -5.0
+    value: -5
   params:
   - 0
   - 0
@@ -1904,7 +1904,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -5.0
+    value: -5
   params:
   - 0
   - 0
@@ -1940,7 +1940,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -5.0
+    value: -5
   params:
   - 0
   - 0
@@ -1976,7 +1976,7 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 33
     data_id: 0
-    value: -5.0
+    value: -5
   params:
   - 0
   - 0

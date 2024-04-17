@@ -110,7 +110,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [восхваления боли. И я дам тебе полный отчёт]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['о системе и изложу суть учения...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['великого исследования истины, мастера']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['великого исследователя истины, мастера']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [строителя человеческого счастья.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}

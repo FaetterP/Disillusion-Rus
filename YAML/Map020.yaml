@@ -127,7 +127,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [101, 101, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 318, p: [0, 1, 0, 36]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['*Выучен Призрак!*']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['*Выучена Тёмная магия!*']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'Нет.']}
@@ -142,7 +142,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [101, 101, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 318, p: [0, 1, 0, 36]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['*Выучен Призрак!*']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['*Выучена Тёмная магия!*']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 404, p: []}
@@ -320,7 +320,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Нет это пугает! Я клянусь!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Нет, это пугает! Я клянусь!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -1205,7 +1205,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я не могу даже представить, насколько ужасно']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [адреналин должен ощущаться в контексте отдыха.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [адреналин ощущаться во время отдыха.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [А ещё я зависим от сиропа от кашля.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   16: !ruby/object:RPG::Event
@@ -1254,10 +1254,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Бхул Бхулаия это огромное место расположенное]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [за пределами башни в царстве которое очень]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['скрыто. Я верю, что его можно найти, и говорят']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [что если достичь его однажды потом будет проще вернуться.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Бхул Бхулаия - это огромное место, расположенное']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['за пределами башни в царстве, которое очень']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['скрыто. Я верю, что его можно найти, и говорят,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['что если достичь его однажды, потом будет проще вернуться.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Если ты доберёшься туда, осмотрись. Я слышал, что там']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['есть коллекционер, который покупает редкие реликвии.']}
@@ -1313,9 +1313,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl93, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Хочш узнать секрет о Музе?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Хочешь узнать секрет о Музе?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Да.', 'Нет.'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Да']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Да.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, MEl94, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
