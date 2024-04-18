@@ -50,13 +50,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Tree, 0, 0, 0, -30, 95, 80, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Благодаря Маре и соглашению последних]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['пастухов, энергия больше не течёт']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['свободно. Клеша человека - это остриё,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [способное разорвать цикл и создать новый...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [С идеей Мары и принятием её последним]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['пастырем, энергия больше не течёт']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['свободно. Клеши Человека стали копьём,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [способным разорвать цикл и создать новый...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['мир под создателем. Дерева Бодхи больше']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['нет, а башня превратилась в болото.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['мир под властью творца. Дерева Бодхи больше']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['нет, а башня обрушилась в болото.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Тюрьма Мары превратилась в водоросли,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [плавающие в супе.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
@@ -65,10 +65,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты будешь моим сыном, будешь судить живых и']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [мёртвых до и после их телесного воскрешения.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Будь Пророком моего нового мира.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Будь пророком моего нового мира.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Карма теперь в наших руках. Мы теперь]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['создатели, не судьба.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Карма теперь в наших руках. Теперь мы]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['создатели, а не судьба.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, memorycrowsofchii, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -77,17 +77,17 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [steam.update]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 105, p: [1, false]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Опыт создал Rick.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Разработчик: Rick.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Музыка от Jimmy W.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Музыка: Jimmy W.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Звуковые эффекты от Quixote/Justin.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Звуковые эффекты: Quixote/Justin.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
@@ -96,7 +96,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Особая благодарность, ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Особая благодарность для: ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Mick]}
@@ -132,7 +132,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Спасибо за игру.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Спасибо Вам за прохождение.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [999]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [999]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [999]}

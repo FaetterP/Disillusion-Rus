@@ -1013,7 +1013,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Пытается ли У.Т.К.А. освободить падших]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Пытается ли D.U.C.K. освободить падших]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['ангелов из Тартара? Что произойдет,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['если они добьются успеха?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}

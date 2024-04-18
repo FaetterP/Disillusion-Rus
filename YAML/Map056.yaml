@@ -90,9 +90,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
     id: 2
@@ -182,9 +182,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   3: !ruby/object:RPG::Event
     id: 3
@@ -274,9 +274,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   4: !ruby/object:RPG::Event
     id: 4
@@ -366,9 +366,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5
@@ -458,9 +458,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
+
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   6: !ruby/object:RPG::Event
     id: 6
@@ -550,9 +551,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   7: !ruby/object:RPG::Event
     id: 7
@@ -649,7 +650,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Монитор жизненных показателей]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Монитор жизненных показателей.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -691,9 +692,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
     id: 9
@@ -741,7 +742,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Монитор жизненных показателей]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Монитор жизненных показателей.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -783,9 +784,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -833,7 +834,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Монитор жизненных показателей]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Монитор жизненных показателей.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -875,9 +876,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11
@@ -925,7 +926,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Монитор жизненных показателей]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Монитор жизненных показателей.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -967,9 +968,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
     id: 12
@@ -1113,7 +1114,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [только потому что тебе так сказали. Но кто]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['сказал тебе туда забираться?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 261, p: [crwo]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Вороны., Атман.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Вороны., Анэ.], 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Вороны.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Чии, что вороны говорят?']}
@@ -1124,9 +1125,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [это важно. Но в конечном итоге ничего]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [не имеет смысла. Для них это всё просто игра.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Атман.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Анэ.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Атман? Кто такой Атман? Ты это сам придумал?']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Анэ? Кто такая Анэ? Ты это сам придумал?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Или ты говоришь задом наперёд?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}
@@ -1134,7 +1135,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я буду следить за тобой. Приходи]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [поговорить со мной ещё раз.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [поболтать со мной в ближайшее время.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [202, 202, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1178,7 +1179,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Дибс идиот.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Дибс - идиот.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [202, 202, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -1221,7 +1222,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Просто шучу, он один из лучших.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Шучу, он один из лучших.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [202, 202, 0, 0, 3]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
@@ -1398,9 +1399,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   15: !ruby/object:RPG::Event
     id: 15
@@ -1490,9 +1491,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   16: !ruby/object:RPG::Event
     id: 16
@@ -1582,9 +1583,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   17: !ruby/object:RPG::Event
     id: 17
@@ -1674,9 +1675,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   18: !ruby/object:RPG::Event
     id: 18
@@ -1766,9 +1767,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   19: !ruby/object:RPG::Event
     id: 19
@@ -1858,9 +1859,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   20: !ruby/object:RPG::Event
     id: 20
@@ -1908,7 +1909,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Монитор жизненных показателей]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Монитор жизненных показателей.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -1950,9 +1951,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   21: !ruby/object:RPG::Event
     id: 21
@@ -2000,7 +2001,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Монитор жизненных показателей]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Монитор жизненных показателей.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -2042,9 +2043,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   22: !ruby/object:RPG::Event
     id: 22
@@ -2092,7 +2093,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Монитор жизненных показателей]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Монитор жизненных показателей.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -2134,9 +2135,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   23: !ruby/object:RPG::Event
     id: 23
@@ -2184,7 +2185,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Монитор жизненных показателей]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Монитор жизненных показателей.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
@@ -2226,9 +2227,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   24: !ruby/object:RPG::Event
     id: 24
@@ -2318,9 +2319,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   25: !ruby/object:RPG::Event
     id: 25
@@ -2410,9 +2411,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   26: !ruby/object:RPG::Event
     id: 26
@@ -2502,9 +2503,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   27: !ruby/object:RPG::Event
     id: 27
@@ -2594,9 +2595,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   28: !ruby/object:RPG::Event
     id: 28
@@ -2686,9 +2687,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   29: !ruby/object:RPG::Event
     id: 29
@@ -2778,9 +2779,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   30: !ruby/object:RPG::Event
     id: 30
@@ -2870,9 +2871,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   31: !ruby/object:RPG::Event
     id: 31
@@ -2962,9 +2963,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   32: !ruby/object:RPG::Event
     id: 32
@@ -3054,9 +3055,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   33: !ruby/object:RPG::Event
     id: 33
@@ -3146,9 +3147,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   34: !ruby/object:RPG::Event
     id: 34
@@ -3238,9 +3239,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   35: !ruby/object:RPG::Event
     id: 35
@@ -3330,9 +3331,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли со мной отсюда, на автобусе']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Пошли туда, где они не смогут искушать']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нас своей ложью.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Come away with me, on a bus']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Come away where they can't tempt us]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [With their lies.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   36: !ruby/object:RPG::Event
     id: 36
@@ -3380,7 +3381,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [На протяжении последних дней я не могу ни о чём]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Последние несколько дней я не могу ни о чём]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['думать. Для тебя что-то имеет смысл?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да., Нет.], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да.]}
@@ -3389,7 +3390,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Видишь? Как будто кто-то пытается запутать нас']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Видишь? Как будто кто-то пытается запутать нас,']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [или что-то в таком роде.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -3460,7 +3461,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Тебе должно быть стыдно.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Позор.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -3558,7 +3559,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Дай мне подумать, чёртова лакомка.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Дай мне подумать, чёрт возьми.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   39: !ruby/object:RPG::Event
     id: 39
@@ -3612,8 +3613,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Петчид. Это значит быть слегка раздраженным.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я сегодня немного петчид!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Вот ещё одно. Моилоид. Означает быть большим.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Воу, этот кот такой толстый, чертовски моилоид!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Вот ещё одно. Мойлоид. Означает быть большим.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Воу, этот кот такой толстый, чёртов мойлоид!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   40: !ruby/object:RPG::Event
     id: 40
@@ -3661,8 +3662,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Если бы я знал тебя лучше, я бы сказал,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [что ты невежественный грубиян.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Если бы я знал больше, я бы сказал,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [что ты невежественный Курт.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   41: !ruby/object:RPG::Event
     id: 41
@@ -3759,7 +3760,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Никто не хочет свободы. Жить значит быть заточённым.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Никто не хочет свободы.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Жить - значит быть ограниченным.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   43: !ruby/object:RPG::Event
     id: 43
@@ -3811,7 +3813,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Больницы пугают детей и взрослых.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Удивительно, что это так, в конце концов,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Удивительно, что это так. В конце концов,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['это место, где ты исцеляешься.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}

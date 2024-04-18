@@ -52,9 +52,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Даже если я прикончу тебя здесь, ты вернешься.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [С каждым повторением я буду страдать всё больше.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Каждое повторение будет страдать всё больше.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я действительно чувствую вину за ту трагедию,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['которую я вызвала.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['которую я вызвала, клянусь.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прости меня, но если я позволю тебе прекратить моё']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['существование, то я не смогу остановить Мару.']}
@@ -64,12 +64,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ты слишком эгоистичный. Как я могу быть уверена, что']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['ты не попадёшься на уловки Мары? Прости меня, \n[1].']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я обещаю, что когда все это закончится, я возьму на себя']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['ответственность за то, что меня заставили сделать.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['ответственность за то, что мне пришлось создать.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, MEl49, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я создам новый цикл, свободный от трагедий.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я создам новый цикл, лишённый трагедии.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
@@ -91,49 +91,49 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Когда \n[1] возвращается к жизни, Мел противостоит Маре']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [сама.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Когда \n[1] возвращается к жизни, Мел']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [противостоит Маре сама.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Мел не смогла одолеть Мару и потерпела неудачу.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Мел не смогла одолеть Мару и потерпела поражение.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, MEl51, 0, 0, 0, -30, 95, 80, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Из-за того, что Мел не смогла её остановить,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [энергия больше не может свободно течь. Клеша]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['человека - это остриё, способное разорвать цикл']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [и создать новый мир под создателем.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [энергия больше не может свободно течь. Клеши]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['человека стали копьём, способным разорвать цикл']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [и создать новый мир под властью создателя.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Дерева Бодхи больше нет, а башня превратилась']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Дерева Бодхи больше нет, а башня обрушилась']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [в болото. Тюрьма Мары превратилась в]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['водоросли, плавающие в супе.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, Bohdi3, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Как Муза может убить бога? Ты пожинаешь, что посеяла.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Как Муза может убить Бога? Ты пожинаешь, что посеяла.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ты склонила моего Адама ко греху, за это ты станешь']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['надзирателем своей собственной тюрьмы. Ад, достойный']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['смотрителем своей собственной тюрьмы. Ад, достойный']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [падшего ангела.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Карма теперь в моих руках. Теперь]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['я создатель, не судьба.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['я создатель, а не судьба.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, memorycrowsofchii, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 105, p: [1, false]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Опыт создал Rick.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['Разработчик: Rick.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Музыка от Jimmy W.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['Музыка: Jimmy W.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Звуковые эффекты от Quixote/Justin.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['Звуковые эффекты: Quixote/Justin.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
@@ -142,7 +142,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['Особая благодарность, ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['Особая благодарность для: ']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Mick]}
@@ -178,7 +178,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Спасибо за игру.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Спасибо Вам за прохождение.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [999]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [999]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [999]}
@@ -232,18 +232,18 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Серьёзно? Ты хочешь прикончить меня только потому что']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['так сказал кот? Это мо сад, место, куда я прихожу,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['так сказал кот? Это мой сад, место, куда я прихожу,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['чтобы уйти от трагедии. Пожалуйста, давай не будем']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [тревожить его.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нарушать этот порядок.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Ты должна умереть, Мел.', 'Хорошо. Я не причиню тебе вреда.'], 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Ты должна умереть, Мел.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Если так всё и будет, то прекрасно.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Даже если я прикончу тебя здесь, ты вернешься.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [С каждым повторением я буду страдать всё больше.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Каждое повторение будет страдать всё больше.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я действительно чувствую вину за ту трагедию,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['которую я вызвала.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['которую я вызвала, клянусь.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Прости меня, но если я позволю тебе прекратить моё']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['существование, то я не смогу остановить Мару.']}
@@ -253,12 +253,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ты слишком эгоистичный. Как я могу быть уверена, что']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['ты не попадёшься на уловки Мары? Прости меня, \n[1].']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я обещаю, что когда все это закончится, я возьму на себя']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['ответственность за то, что меня заставили сделать.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['ответственность за то, что мне пришлось создать.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, MEl49, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я создам новый цикл, свободный от трагедий.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я создам новый цикл, лишённый трагедии.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
@@ -280,10 +280,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Когда \n[1] возвращается к жизни, Мел противостоит Маре']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [сама.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Когда \n[1] возвращается к жизни, Мел']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [противостоит Маре сама.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Мел не смогла одолеть Мару и потерпела неудачу.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Мел не смогла одолеть Мару и потерпела поражение.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, MEl51, 0, 0, 0, -30, 95, 80, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
@@ -293,7 +293,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['человека - это остриё, способное разорвать цикл']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [и создать новый мир под создателем.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Дерева Бодхи больше нет, а башня превратилась']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Дерева Бодхи больше нет, а башня обрушилась']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [в болото. Тюрьма Мары превратилась в]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['водоросли, плавающие в супе.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
@@ -302,27 +302,27 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Как Муза может убить бога? Ты пожинаешь, что посеяла.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Ты склонила моего Адама ко греху, за это ты станешь']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['надзирателем своей собственной тюрьмы. Ад, достойный']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['смотрителем своей собственной тюрьмы. Ад, достойный']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [падшего ангела.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Карма теперь в моих руках. Теперь]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['я создатель, не судьба.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['я создатель, а не судьба.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, memorycrowsofchii, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 105, p: [1, false]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Опыт создал Rick.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['Разработчик: Rick.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Музыка от Jimmy W.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['Музыка: Jimmy W.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Звуковые эффекты от Quixote/Justin.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['Звуковые эффекты: Quixote/Justin.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
@@ -331,7 +331,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['Особая благодарность, ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['Особая благодарность для: ']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Mick]}
@@ -367,7 +367,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Спасибо за игру.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Спасибо Вам за прохождение.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [999]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [999]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [999]}
@@ -433,17 +433,18 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Серьёзно? Ты хочешь прикончить меня только потому что']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['так сказал кот? Это мо сад, место, куда я прихожу,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['так сказал кот? Это мой сад, место, куда я прихожу,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['чтобы уйти от трагедии. Пожалуйста, давай не будем']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [тревожить его.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [нарушать этот порядок.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Ты должна умереть, Мел.', 'Хорошо. Я не причиню тебе вреда.'], 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Ты должна умереть, Мел.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Если всё так и будет, то хорошо.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Даже если я покончу с тобой здесь, ты вернёшься.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Каждая итерация будет страдать всё больше. Я чувствую вину]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['за это и за трагедию, которую я вызвала, клянусь.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Даже если я прикончу тебя здесь, ты вернешься.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Каждое повторение будет страдать всё больше.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я действительно чувствую вину за ту трагедию,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['которую я вызвала, клянусь.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Прости меня, но если я позволю тебе положить конец моему']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['существованию, то не смогу остановить Мару.']}
@@ -489,40 +490,40 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Из-за того, что Мел не смогла её остановить,']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [энергия больше не может свободно течь. Клеша]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['человека - это остриё, способное разорвать цикл']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [энергия больше не может свободно течь. Клеши]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['человека стали копьём, способное разорвать цикл']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [и создать новый мир под создателем.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Дерева Бодхи больше нет, а башня превратилась']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Дерева Бодхи больше нет, а башня обрушилась']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [в болото. Тюрьма Мары превратилась в]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['водоросли, плавающие в супе.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, Bohdi3, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Как Муза может убить бога? Ты пожинаешь, что посеяла.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Как Муза может убить Бога? Ты пожинаешь, что посеяла.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Ты склонила моего Адама ко греху, за это ты станешь']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['надзирателем своей собственной тюрьмы. Ад, достойный']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['смотрителем своей собственной тюрьмы. Ад, достойный']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [падшего ангела.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Карма теперь в моих руках. Теперь]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['я создатель, не судьба.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['я создатель, а не судьба.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, memorycrowsofchii, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 105, p: [1, false]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Опыт создал Rick.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['Разработчик: Rick.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Музыка от Jimmy W.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['Музыка: Jimmy W.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Звуковые эффекты от Quixote/Justin.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['Звуковые эффекты: Quixote/Justin.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
@@ -531,7 +532,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['Особая благодарность, ']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['Особая благодарность для: ']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Mick]}
@@ -567,7 +568,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Спасибо за игру.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 405, p: [Спасибо Вам за прохождение.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [999]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [999]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [999]}
@@ -640,7 +641,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я взвалила на тебя бремя, я заперла тебя в']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [бесконечном кармическом цикле без надежды на свободу.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Душа с твоей болезнью не может надеяться на Нирвану...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Душа с твоей болезнью не может надеяться на нирвану...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [если только я не умру....]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, MEl54, 0, 0, 0, -30, 100, 95, 255, 0]}
@@ -670,8 +671,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[Это что-то вроде Рождества....], 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, Это что-то вроде Рождества....]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Как подарки и веселье с родными? Какой']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [странный ответ....]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Как подарки и веселье с родными?']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [Какой странный ответ....]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 231, p: [1, MEl55, 0, 0, 0, -30, 100, 95, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 222, p: []}
@@ -684,7 +685,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 231, p: [1, MEl57, 0, 0, 0, -30, 100, 95, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Спасибо за то короткое время, проведённое вместе.']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Спасибо за то короткое время, что мы провели вместе.']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 231, p: [1, MEl58, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 222, p: []}
@@ -709,9 +710,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'Нет.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Это бесчестно...]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Очень жаль...]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, MEl55, 0, 0, 0, -30, 100, 95, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
@@ -724,7 +725,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, MEl57, 0, 0, 0, -30, 100, 95, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Спасибо за то короткое время, проведённое вместе.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Спасибо за то короткое время,']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['что мы провели вместе.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, MEl58, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
@@ -764,8 +766,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [[Это что-то вроде Рождества....], 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, Это что-то вроде Рождества....]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Как подарки и веселье с родными? Какой']}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [странный ответ....]}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Как подарки и веселье с родными?']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [Какой странный ответ....]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 231, p: [1, MEl55, 0, 0, 0, -30, 100, 95, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 222, p: []}
@@ -778,7 +780,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 231, p: [1, MEl57, 0, 0, 0, -30, 100, 95, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Спасибо за то короткое время, проведённое вместе.']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Спасибо за то короткое время, что мы провели вместе.']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 4, c: 231, p: [1, MEl58, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 222, p: []}
@@ -803,9 +805,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, 'Нет.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [1, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Это бесчестно...]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Очень жаль...]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, MEl55, 0, 0, 0, -30, 100, 95, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
@@ -818,7 +820,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, MEl57, 0, 0, 0, -30, 100, 95, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Спасибо за то короткое время, проведённое вместе.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Спасибо за то короткое время, что мы провели вместе.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, MEl58, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}

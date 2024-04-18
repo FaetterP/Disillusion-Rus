@@ -65,15 +65,15 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Зависимое Возникновение больше не заботится]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['о создании феноменов, поскольку я освободил']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [все души от этого кармического цикла.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['о создании феноменов, как только я освобожу']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [все души из этого кармического цикла.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Энергию не может быть создана или уничтожена,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Энергия не может быть создана или уничтожена,']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [но её можно собрать.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Собрав всю жизнь, которая проходит через']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['это царство, я создам новый мир по своему']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [образу.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['этот мир, я создам новый по своему']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [образу и подобию.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: Jimmy W - Midi Canoe - 09 Through the Mandala, volume: 70, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 283, p: ['', '']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 43, false, false]}
@@ -85,7 +85,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['С падением вознесённой Мары, потоки']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Зависимого Возникновения были восстановлены.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Вы чувствуете, как на вас нисходит тепло и']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [благодарность миллионов душ.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['благодарность миллионов душ, только что удовлетворённых.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Они все видят, как одно существо плачет.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
@@ -107,17 +107,17 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [steam.set_achievement 'NEW_ACHIEVEMENT_1_5']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 655, p: [steam.update]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 105, p: [1, false]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [Опыт создал Rick.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['Разработчик: Rick.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [Музыка от Jimmy W.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['Музыка: Jimmy W.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [Звуковые эффекты от Quixote/Justin.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['Звуковые эффекты: Quixote/Justin.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
@@ -126,7 +126,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['Особая благодарность, ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['Особая благодарность для: ']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [Mick]}
@@ -162,7 +162,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [Спасибо за игру.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 405, p: [Спасибо Вам за прохождение.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [999]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [999]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [999]}
@@ -234,8 +234,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [но её можно собрать.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Собрав всю жизнь, которая проходит через']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['это царство, я создам новый мир по своему']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [образу.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['этот мир, я создам новый по своему']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [образу и подобию.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 132, p: [!ruby/object:RPG::BGM {name: Jimmy W - Midi Canoe - 09 Through the Mandala, volume: 70, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 283, p: ['', '']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 43, false, false]}
@@ -247,7 +247,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['С падением вознесённой Мары, потоки']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Зависимого Возникновения были восстановлены.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Вы чувствуете, как на вас нисходит тепло и']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [благодарность миллионов душ.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['благодарность миллионов душ, только что удовлетворённых.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, memory1-9, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
@@ -263,8 +263,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Trueend, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Небо наполнено ослепительными огнями, дерево']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Бодхи наконец приветствует вас.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Небо наполнено ослепительными огнями,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [дерево Бодхи наконец приветствует вас.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Сесть под деревом?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Да.', 'Нет.'], 2]}
@@ -273,17 +273,17 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, Trueend, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 105, p: [1, false]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Опыт создал Rick.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['Разработчик: Rick.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Музыка от Jimmy W.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['Музыка: Jimmy W.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Звуковые эффекты от Quixote/Justin.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['Звуковые эффекты: Quixote/Justin.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
@@ -292,7 +292,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['Особая благодарность, ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['Особая благодарность для: ']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Mick]}
@@ -328,28 +328,28 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Спасибо за игру.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Спасибо Вам за прохождение.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [999]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [999]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [999]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 354, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Нет.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, memory5-5, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 105, p: [1, false]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Опыт создал Rick.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['Разработчик: Rick.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Музыка от Jimmy W.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['Музыка: Jimmy W.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Звуковые эффекты от Quixote/Justin.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['Звуковые эффекты: Quixote/Justin.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
@@ -358,7 +358,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['особая благодарность, ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['Особая благодарность для: ']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Mick]}
@@ -394,7 +394,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Спасибо за игру.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 405, p: [Спасибо Вам за прохождение.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [999]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [999]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [999]}
@@ -648,8 +648,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Этот портал вернёт тебя в библиотеку,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [если ты что-то там не доделал.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Этот портал отправит тебя в библиотеку,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [если у тебя там остались незавершённые дела.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 1
 bgm: !ruby/object:RPG::BGM {name: Jimmy W - Midi Canoe - 01 Transmission Canoe, volume: 100, pitch: 100}
