@@ -55,9 +55,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Согласен.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [11, 11, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Видишь? Некоторые говорят, что это нечестно. Я говорю,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [это научит их отстать от тебя. Я просто прикалываюсь]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["над тобой, потому что ты, очевидно, новенький."]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Видишь? Некоторые говорят, что это нечестно.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я говорю, что это научит их отстать от тебя.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я просто прикалываюсь над тобой, потому что ты,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ["очевидно, новенький."]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 318, p: [0, 1, 0, 20]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['*Выучено Отравление!*']}
