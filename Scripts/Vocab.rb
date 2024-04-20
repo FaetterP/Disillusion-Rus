@@ -7,83 +7,83 @@
 
 module Vocab
 
-  # Shop Screen
-  ShopBuy         = "Buy"
-  ShopSell        = "Sell"
-  ShopCancel      = "Cancel"
-  Possession      = "Possession"
+  # Магазин
+  ShopBuy         = "Купить"
+  ShopSell        = "Продать"
+  ShopCancel      = "Отмена"
+  Possession      = "Профессия"
 
-  # Status Screen
-  ExpTotal        = "Current Exp"
-  ExpNext         = "To Next %s"
+  # Экран статусов
+  ExpTotal        = "Текущий Опыт"
+  ExpNext         = "До след. ур. %s"
 
-  # Save/Load Screen
-  SaveMessage     = "Save to which file?"
-  LoadMessage     = "Load which file?"
-  File            = "File"
+  # Сохранение/загрузка
+  SaveMessage     = "В какой файл сохранить?"
+  LoadMessage     = "Какой файл загрузить?"
+  File            = "Файл"
 
-  # Display when there are multiple members
+  # Отображается при наличии нескольких участников
   PartyName       = "%s's Party"
 
-  # Basic Battle Messages
-  Emerge          = "%s emerged!"
-  Preemptive      = "%s got the upper hand!"
-  Surprise        = "%s was surprised!"
-  EscapeStart     = "%s has started to escape!"
-  EscapeFailure   = "However, it was unable to escape!"
+  # Обычные сообщения во время боя
+  Emerge          = "Появляется %s!"
+  Preemptive      = "%s одерживает верх!"
+  Surprise        = "%s был удивлён!"
+  EscapeStart     = "%s начал убегать!"
+  EscapeFailure   = "Однако сбежать не удалось!"
 
-  # Battle Ending Messages
-  Victory         = "%s was victorious!"
-  Defeat          = "%s was defeated."
-  ObtainExp       = "%s EXP received!"
-  ObtainGold      = "%s\\G found!"
-  ObtainItem      = "%s found!"
-  LevelUp         = "%s is now %s %s!"
-  ObtainSkill     = "%s learned!"
+  # Завершение боя
+  Victory         = "%s победил!"
+  Defeat          = "%s был побежден."
+  ObtainExp       = "Получено %s опыта!"
+  ObtainGold      = "Получено %s\\G!"
+  ObtainItem      = "Найдено: %s!"
+  LevelUp         = "%s теперь %s %s!"
+  ObtainSkill     = "Выучен навык %s!"
 
-  # Use Item
-  UseItem         = "%s uses %s!"
+  # Использование предметов
+  UseItem         = "%s использует %s!"
 
-  # Critical Hit
-  CriticalToEnemy = "An excellent hit!!"
-  CriticalToActor = "A painful blow!!"
+  # Критический урон
+  CriticalToEnemy = "Отличный удар!!"
+  CriticalToActor = "Болезненный удар!!"
 
-  # Results for Actions on Actors
-  ActorDamage     = "%s took %s damage!"
-  ActorRecovery   = "%s recovered %s %s!"
-  ActorGain       = "%s gained %s %s!"
-  ActorLoss       = "%s lost %s %s!"
-  ActorDrain      = "%s was drained of %s %s!"
-  ActorNoDamage   = "%s took no damage!"
-  ActorNoHit      = "Miss! %s took no damage!"
+  # Результат действия на игроке
+  ActorDamage     = "%s получает %s урона!"
+  ActorRecovery   = "%s восстанавливает %s %s!"
+  ActorGain       = "%s получает %s %s!"
+  ActorLoss       = "%s теряет %s %s!"
+  ActorDrain      = "%s был иссушён на %s %s!"
+  ActorNoDamage   = "%s не получает урон!"
+  ActorNoHit      = "Промах! %s не получает урон!"
 
-  # Results for Actions on Enemies
-  EnemyDamage     = "%s took %s damage!"
-  EnemyRecovery   = "%s recovered %s %s!"
-  EnemyGain       = "%s gained %s %s!"
-  EnemyLoss       = "%s lost %s %s!"
-  EnemyDrain      = "Drained %s %s from %s!"
-  EnemyNoDamage   = "%s took no damage!"
-  EnemyNoHit      = "Missed! %s took no damage!"
+  # Результат дейсвтия на врагах
+  EnemyDamage     = "%s получает %s урона!"
+  EnemyRecovery   = "%s восстанавливает %s %s!"
+  EnemyGain       = "%s получает %s %s!"
+  EnemyLoss       = "%s теряет %s %s!"
+  EnemyDrain      = "Высушено %s %s из %s!"
+  EnemyNoDamage   = "%s не получает урон!"
+  EnemyNoHit      = "Промахнулся! %s не получает урон!"
 
-  # Evasion/Reflection
-  Evasion         = "%s evaded the attack!"
-  MagicEvasion    = "%s nullified the magic!"
-  MagicReflection = "%s reflected the magic!"
-  CounterAttack   = "%s counterattacked!"
-  Substitute      = "%s protected %s!"
+  # Уклонение/отражение
+  Evasion         = "%s уклонился от атаки!"
+  MagicEvasion    = "%s нейтролизовал магию!"
+  MagicReflection = "%s отразил магию!"
+  CounterAttack   = "%s контратакует!"
+  Substitute      = "%s защитил %s!"
 
-  # Buff/Debuff
-  BuffAdd         = "%s's %s went up!"
-  DebuffAdd       = "%s's %s went down!"
-  BuffRemove      = "%s's %s returned to normal."
+  # Усиление/ослабление
+  BuffAdd         = "У %s повышена %s!"
+  DebuffAdd       = "У %s понижена %s!"
+  BuffRemove      = "У %s %s вернулась в норму."
 
-  # Skill or Item Had No Effect
-  ActionFailure   = "There was no effect on %s!"
+  # Навык или предмет не сработали
+  ActionFailure   = "На %s это не оказало эффекта!"
 
-  # Error Message
-  PlayerPosError  = "Player's starting position is not set."
-  EventOverflow   = "Common event calls exceeded the limit."
+  # Ошибки
+  PlayerPosError  = "Исходная позиция игрока не установлена."
+  EventOverflow   = "Количество вызовов обычных событий превысило лимит."
 
   # Basic Status
   def self.basic(basic_id)
