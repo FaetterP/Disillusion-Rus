@@ -683,9 +683,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['За что я здесь? Меня задержали за проникновение в']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['женские грибковые колонии. Мне только нужно было знать,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['в какой момент Женский Кордицепс поражает мой мозг,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['и как я мог бы это вызвать самостоятельно?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['женские грибковые колонии. Мне только нужно было']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['знать, в какой момент Женский Кордицепс поражает мой']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['мозг, и как я мог бы это вызвать самостоятельно?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event
     id: 9

@@ -6,7 +6,7 @@
   name: Атака
   occasion: 1
   icon_index: 255
-  message1: атакует!
+  message1: ' атакует!'
   scope: 1
   animation_id: 1
   note: "Skill #1 will be used when you select\r\nthe Attack command."
@@ -40,7 +40,7 @@
   name: Защита
   occasion: 1
   icon_index: 0
-  message1: защищает.
+  message1: ' защищает.'
   scope: 11
   animation_id: 0
   note: "Skill #2 will be used when you select\r\nthe Guard command."
@@ -74,7 +74,7 @@
   name: Двойной удар
   occasion: 1
   icon_index: 80
-  message1: атакует!
+  message1: ' атакует!'
   scope: 1
   animation_id: -1
   note: ''
@@ -108,7 +108,7 @@
   name: Двойная атака
   occasion: 1
   icon_index: 80
-  message1: атакует!
+  message1: ' атакует!'
   scope: 4
   animation_id: -1
   note: ''
@@ -142,7 +142,7 @@
   name: Тройная атака
   occasion: 1
   icon_index: 87
-  message1: атакует!
+  message1: ' атакует!'
   scope: 5
   animation_id: -1
   note: ''
@@ -176,7 +176,7 @@
   name: Побег
   occasion: 1
   icon_index: 32
-  message1: ' flees.'
+  message1: ' сбегает.'
   scope: 11
   animation_id: 0
   note: ''
@@ -210,7 +210,7 @@
   name: Ожидание
   occasion: 1
   icon_index: 0
-  message1: ожидает.
+  message1: ' ожидает.'
   scope: 0
   animation_id: 0
   note: ''
@@ -384,7 +384,7 @@
   name: Царапины
   occasion: 1
   icon_index: 0
-  message1: Царапается!
+  message1: ' царапается!'
   scope: 1
   animation_id: 7
   note: "Skill #1 will be used when you select\r\nthe Attack command."
@@ -505,7 +505,7 @@
   name: Иссушение
   occasion: 0
   icon_index: 0
-  message1: Играет на флейте
+  message1: ' играет на флейте'
   scope: 1
   animation_id: 119
   note: ''
@@ -534,7 +534,7 @@
   name: Иссушение
   occasion: 1
   icon_index: 2
-  message1: иссушает!
+  message1: ' иссушает!'
   scope: 3
   animation_id: 37
   note: ''
@@ -563,7 +563,7 @@
   name: Тост
   occasion: 1
   icon_index: 210
-  message1: жжёт!
+  message1: ' жжёт!'
   scope: 1
   animation_id: 57
   note: ''
@@ -684,7 +684,7 @@
   name: Застывание
   occasion: 1
   icon_index: 255
-  message1: Собирается встать в стойку!
+  message1: ' собирается встать в стойку!'
   scope: 11
   animation_id: 0
   note: ''
@@ -718,7 +718,7 @@
   name: Каменная плоть
   occasion: 0
   icon_index: 255
-  message1: Повышает защиту!
+  message1: ' повышает защиту!'
   scope: 11
   animation_id: 44
   note: ''
@@ -752,7 +752,7 @@
   name: Отражение магии
   occasion: 0
   icon_index: 255
-  message1: собирается отразить магию!
+  message1: ' собирается отразить магию!'
   scope: 1
   animation_id: 43
   note: ''
@@ -786,7 +786,7 @@
   name: Жертвоприношение
   occasion: 0
   icon_index: 2
-  message1: Приносит жертву!
+  message1: ' приносит жертву!'
   scope: 11
   animation_id: 37
   note: ''
@@ -825,7 +825,7 @@
   name: Dont belive
   occasion: 0
   icon_index: 564
-  message1: атакует!
+  message1: ' атакует!'
   scope: 1
   animation_id: 122
   note: ''
@@ -854,7 +854,7 @@
   name: close
   occasion: 0
   icon_index: 564
-  message1: атакует!
+  message1: ' атакует!'
   scope: 1
   animation_id: 123
   note: ''
@@ -883,7 +883,7 @@
   name: theway
   occasion: 0
   icon_index: 564
-  message1: атакует!
+  message1: ' атакует!'
   scope: 1
   animation_id: 126
   note: ''
@@ -912,7 +912,7 @@
   name: dont
   occasion: 0
   icon_index: 564
-  message1: атакует!
+  message1: ' атакует!'
   scope: 1
   animation_id: 125
   note: ''
@@ -941,7 +941,7 @@
   name: not now
   occasion: 0
   icon_index: 564
-  message1: атакует!
+  message1: ' атакует!'
   scope: 1
   animation_id: 124
   note: ''
@@ -970,7 +970,7 @@
   name: Бросок камня
   occasion: 1
   icon_index: 209
-  message1: бросает камень!
+  message1: ' бросает камень!'
   scope: 1
   animation_id: 71
   note: ''
@@ -999,7 +999,7 @@
   name: Пузыри
   occasion: 0
   icon_index: 108
-  message1: пузырит!
+  message1: ' использует Пузыри!'
   scope: 1
   animation_id: 69
   note: ''
@@ -1028,7 +1028,7 @@
   name: Порыв
   occasion: 0
   icon_index: 107
-  message1: ''
+  message1: ' использует Порыв!'
   scope: 1
   animation_id: 73
   note: ''
@@ -1057,7 +1057,7 @@
   name: Благословение.
   occasion: 0
   icon_index: 3
-  message1: благословляет!
+  message1: ' благословляет!'
   scope: 1
   animation_id: 0
   note: ''
@@ -1091,7 +1091,7 @@
   name: Тёмная магия
   occasion: 0
   icon_index: 0
-  message1: использует тёмное заклинание!
+  message1: ' использует тёмное заклинание!'
   scope: 1
   animation_id: 77
   note: ''
@@ -1120,7 +1120,7 @@
   name: Дыхание брони
   occasion: 1
   icon_index: 16
-  message1: использует Дыхание брони!
+  message1: ' использует Дыхание брони!'
   scope: 7
   animation_id: 43
   note: ''
@@ -1154,7 +1154,7 @@
   name: Божественное дыхание
   occasion: 1
   icon_index: 20
-  message1: использует Божественное дыхание!
+  message1: ' использует Божественное дыхание!'
   scope: 7
   animation_id: 43
   note: ''
@@ -1587,7 +1587,7 @@
   name: Звуковая волна
   occasion: 1
   icon_index: 141
-  message1: ' использует Звуковую волну'
+  message1: ' использует Звуковую волну!'
   scope: 2
   animation_id: 53
   note: ''
@@ -1821,7 +1821,7 @@
   name: Атака
   occasion: 1
   icon_index: 255
-  message1: атакует!
+  message1: ' атакует!'
   scope: 1
   animation_id: 127
   note: "Skill #1 will be used when you select\r\nthe Attack command."
@@ -1855,7 +1855,7 @@
   name: Смерть
   occasion: 1
   icon_index: 0
-  message1: использует тёмное заклинание!
+  message1: ' использует тёмное заклинание!'
   scope: 1
   animation_id: 50
   note: ''
@@ -1884,7 +1884,7 @@
   name: Святое копьё
   occasion: 0
   icon_index: 0
-  message1: ' использует Holy Lance!'
+  message1: ' использует Святое копьё!'
   scope: 1
   animation_id: 88
   note: ''

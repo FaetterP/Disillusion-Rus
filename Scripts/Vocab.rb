@@ -11,7 +11,7 @@ module Vocab
   ShopBuy         = "Купить"
   ShopSell        = "Продать"
   ShopCancel      = "Отмена"
-  Possession      = "Профессия"
+  Possession      = "У вас есть"
 
   # Экран статусов
   ExpTotal        = "Текущий Опыт"
@@ -36,9 +36,9 @@ module Vocab
   Victory         = "%s победил!"
   Defeat          = "%s был побежден."
   ObtainExp       = "Получено %s опыта!"
-  ObtainGold      = "Получено %s\\G!"
+  ObtainGold      = "Получено %s \\G!"
   ObtainItem      = "Найдено: %s!"
-  LevelUp         = "%s теперь %s %s!"
+  LevelUp         = "%s получил %s %s!"
   ObtainSkill     = "Выучен навык %s!"
 
   # Использование предметов
@@ -53,7 +53,7 @@ module Vocab
   ActorRecovery   = "%s восстанавливает %s %s!"
   ActorGain       = "%s получает %s %s!"
   ActorLoss       = "%s теряет %s %s!"
-  ActorDrain      = "%s был иссушён на %s %s!"
+  ActorDrain      = "%s иссушает %s %s!"
   ActorNoDamage   = "%s не получает урон!"
   ActorNoHit      = "Промах! %s не получает урон!"
 
@@ -62,7 +62,7 @@ module Vocab
   EnemyRecovery   = "%s восстанавливает %s %s!"
   EnemyGain       = "%s получает %s %s!"
   EnemyLoss       = "%s теряет %s %s!"
-  EnemyDrain      = "Высушено %s %s из %s!"
+  EnemyDrain      = "Из %s высушено %s %s!"
   EnemyNoDamage   = "%s не получает урон!"
   EnemyNoHit      = "Промахнулся! %s не получает урон!"
 

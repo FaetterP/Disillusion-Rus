@@ -268,7 +268,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Хочешь, я покажу, как это делается? Это легко.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Но ты должен по-настоящему сосредоточиться на себе.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['я видел, как мой прадедушка делал пузыри в супе.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я видел, как мой прадедушка делал пузыри в супе.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['*Выучены Пузыри!*']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 318, p: [0, 1, 0, 33]}
@@ -1081,10 +1081,10 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*10]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Бабобех-бопбопахвдоп-бабабаба]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Бабеди-бабобех-бабопбедоп-бабабапи]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Бабеди-бабобех-попбопдедоп-бабобех]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Бопбопбедоп-бабобех-попбопбедоп-бабабабабехди]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Babobeh-bopbopahdop-babababa]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Babedi-babobeh-babopbedop-bababapi]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Babedi-babobeh-popbopbedop-babobeh]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Bopbopbedop-babobeh-popbopbedop-bababababehdi]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 301, p: [0, 8, true, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 601, p: []}
       - !ruby/object:RPG::EventCommand

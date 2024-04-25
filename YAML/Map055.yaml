@@ -901,7 +901,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я чувствую страх и растерянность. Этот бедный парень,']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['должно быть, страдает от проблем с памятью...']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Почему бы тебе не попытаться помочь ему расслабиться?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Почему бы тебе не попытаться помочь ему ']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['расслабиться?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
@@ -1224,7 +1225,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я чувствую страх и растерянность. Этот бедный парень,']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['должно быть, страдает от проблем с памятью...']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Почему бы тебе не попытаться помочь ему расслабиться?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Почему бы тебе не попытаться помочь ему']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['расслабиться?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}

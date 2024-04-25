@@ -113,13 +113,13 @@ class Game_ActionResult
   def hp_damage_text
     if @hp_drain > 0
       fmt = @battler.actor? ? Vocab::ActorDrain : Vocab::EnemyDrain
-      sprintf(fmt, @battler.name, Vocab::hp, @hp_drain)
+      sprintf(fmt, @battler.name, @hp_drain, Vocab::hp)
     elsif @hp_damage > 0
       fmt = @battler.actor? ? Vocab::ActorDamage : Vocab::EnemyDamage
       sprintf(fmt, @battler.name, @hp_damage)
     elsif @hp_damage < 0
       fmt = @battler.actor? ? Vocab::ActorRecovery : Vocab::EnemyRecovery
-      sprintf(fmt, @battler.name, Vocab::hp, -hp_damage)
+      sprintf(fmt, @battler.name, -hp_damage, Vocab::hp)
     else
       fmt = @battler.actor? ? Vocab::ActorNoDamage : Vocab::EnemyNoDamage
       sprintf(fmt, @battler.name)
@@ -131,13 +131,13 @@ class Game_ActionResult
   def mp_damage_text
     if @mp_drain > 0
       fmt = @battler.actor? ? Vocab::ActorDrain : Vocab::EnemyDrain
-      sprintf(fmt, @battler.name, Vocab::mp, @mp_drain)
+      sprintf(fmt, @battler.name, @mp_drain, Vocab::mp)
     elsif @mp_damage > 0
       fmt = @battler.actor? ? Vocab::ActorLoss : Vocab::EnemyLoss
-      sprintf(fmt, @battler.name, Vocab::mp, @mp_damage)
+      sprintf(fmt, @battler.name, @mp_damage, Vocab::mp)
     elsif @mp_damage < 0
       fmt = @battler.actor? ? Vocab::ActorRecovery : Vocab::EnemyRecovery
-      sprintf(fmt, @battler.name, Vocab::mp, -@mp_damage)
+      sprintf(fmt, @battler.name, -@mp_damage, Vocab::mp)
     else
       ""
     end
@@ -148,10 +148,10 @@ class Game_ActionResult
   def tp_damage_text
     if @tp_damage > 0
       fmt = @battler.actor? ? Vocab::ActorLoss : Vocab::EnemyLoss
-      sprintf(fmt, @battler.name, Vocab::tp, @tp_damage)
+      sprintf(fmt, @battler.name, @tp_damage, Vocab::tp)
     elsif @tp_damage < 0
       fmt = @battler.actor? ? Vocab::ActorGain : Vocab::EnemyGain
-      sprintf(fmt, @battler.name, Vocab::tp, -@tp_damage)
+      sprintf(fmt, @battler.name, -@tp_damage, Vocab::tp)
     else
       ""
     end

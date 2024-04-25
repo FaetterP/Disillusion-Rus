@@ -417,7 +417,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты выглядишь уставшим, хочешь я омоложу тебя?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты выглядишь уставшим, хочешь я']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['восстановлю твои силы?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Да.', 'Нет.'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Да.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 314, p: [0, 1]}

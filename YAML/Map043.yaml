@@ -58,7 +58,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['разделение твоих функций между личностью,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['мышлением, памятью и восприятием, чтобы']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [однажды они были снова соединены.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Точно также как и Пастыри башни до тебя.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Точно также как и Пастырь башни до тебя.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Приходи ко мне, \n[1].']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}

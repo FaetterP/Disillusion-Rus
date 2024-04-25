@@ -53,7 +53,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Town, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты вернулся в город.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Вы вернулись в город.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Куда вы хотите пойти?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Городская ратуша., Тенистый дом., Стена.], 0]}
@@ -93,7 +93,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [Конец невежеству и]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [освобождение из сансары.]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [Я говорю, что невежество блаженно. Я люблю']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Я говорю, что невежество блаженно. Я люблю']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['свою обитель, у меня нет причин её покидать.']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Мы закончили? Теперь убирайся из моей обители.']}
@@ -108,7 +108,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 102, p: [['Какого Путешествия?'], 2]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 402, p: [0, 'Какого Путешествия?']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [' Освобождение от сансары, болезненного цикла.']}
+      - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Освобождение от сансары, болезненного цикла.']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: ['Восьмеричный путь - это не то, что']}
       - !ruby/object:RPG::EventCommand {i: 4, c: 401, p: [мне интересно.]}
@@ -206,7 +206,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Town, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты вернулся в город.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Вы вернулись в город.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Куда вы хотите пойти?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Городская ратуша., Тенистый дом., Стена.], 0]}
@@ -268,9 +268,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Что такое Благородный Восьмеричный Путь?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Правильное воззрение, правильное намерение, правильная речь,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['правильное поведение, правильный образ жизни, правильное,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['усилие, правильное памятование, и правильное самадхи.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Правильное воззрение, правильное намерение,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['правильная речь, правильное поведение, правильный']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['образ жизни, правильное, усилие, правильное ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['памятование, и правильное самадхи.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['А теперь проваливай. Думаю, кто-то']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ждет тебя у ратуши.]}
@@ -322,7 +323,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Town, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты вернулся в город.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Вы вернулись в город.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Куда вы хотите пойти?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Городская ратуша., Тенистый дом., Стена.], 0]}
@@ -333,9 +334,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Вот ты где. Я подумал, что тебе нужно']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Вот ты где. Я подумала, что тебе нужно']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['отдохнуть после того, как ты вырубился, поэтому']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['я привел нас сюда. Почему бы нам не продолжить?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['я привела нас сюда. Почему бы нам не продолжить?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Продолжить., 'Нет.'], 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Продолжить.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}

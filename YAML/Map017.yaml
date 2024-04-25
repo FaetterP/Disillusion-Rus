@@ -178,7 +178,7 @@ events:
       trigger: 0
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Никогда не Показывай свой живот в этой башне.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Никогда не показывай свой живот в этой башне.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Никогда не позволяй Маре соблазнить себя обещаниями]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [сексуального удовлетворения. Ты же не хочешь]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['начать всё с самого начала?']}

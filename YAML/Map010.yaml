@@ -627,14 +627,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Кожный голод., Галактика сомбреро M104., ДК Горилла.], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Кожный голод.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Класс, 10 опыта для тебя, чувачок.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Класс, 10 опыта для тебя, дружок.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 315, p: [0, 0, 0, 0, 10, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Что делает птиц счастливыми?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Если я скажу ой., Пение., Много звёзд.], 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Если я скажу ой]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Класс, 10 опыта для тебя, чувачок.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Класс, 10 опыта для тебя, дружок.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 315, p: [0, 0, 0, 0, 10, false]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [120, 120, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}

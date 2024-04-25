@@ -256,7 +256,7 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ДА НУ НАФИГ ДА НУ НАФИГ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['НЕ МОЖЕТ БЫТЬ, НЕ МОЖЕТ БЫТЬ.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 301, p: [0, 6, true, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 601, p: []}
       - !ruby/object:RPG::EventCommand
@@ -404,7 +404,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 314, p: [0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['*Полностью исцелены!*']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['*Полное восстановление!*']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [28, 28, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет.]}
@@ -453,7 +453,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Это единоразовая акция, так что потеряйся.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я могу сделать это только один раз,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['так что потеряйся.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   6: !ruby/object:RPG::Event
     id: 6
@@ -502,9 +503,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Существует старая тибетская практика, когда монахи']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [проявляли альтернативные сознательные существа]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['чтобы жить в их сознании, я думаю, что они']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [назывались Тульпами. Ум действительно странный.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['проявляли альтернативных сознательных существ,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['чтобы жить в их сознании. Я думаю, что они']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['назывались Тульпами. Сознание действительно странное.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   10: !ruby/object:RPG::Event
     id: 10
@@ -701,7 +702,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [очень странное.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 126, p: [21, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*Приобретён ключ2!*']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*Получен ключ2!*']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
@@ -763,7 +764,7 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*4]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ДА НУ НАФИГ ДА НУ НАФИГ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['НЕ МОЖЕТ БЫТЬ, НЕ МОЖЕТ БЫТЬ.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 301, p: [0, 6, true, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 601, p: []}
       - !ruby/object:RPG::EventCommand
@@ -857,7 +858,7 @@ events:
           - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*7]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ДА НУ НАФИГ ДА НУ НАФИГ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['НЕ МОЖЕТ БЫТЬ, НЕ МОЖЕТ БЫТЬ.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 301, p: [0, 6, true, false]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 601, p: []}
       - !ruby/object:RPG::EventCommand
