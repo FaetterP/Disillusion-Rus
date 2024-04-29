@@ -1,4 +1,4 @@
-Font.default_name = ("Megrim")
+Font.default_name = ("Megrim Rus")
 
 Font.default_italic = false
 
