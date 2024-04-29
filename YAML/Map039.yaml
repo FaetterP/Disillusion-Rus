@@ -54,8 +54,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: brandonbeingareee, pitch: 100, volume: 35}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [500]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Пахнет как гниль. Что-то появляется]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [из леса.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Пахнет как гниль.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Что-то появляется из леса.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, hell, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

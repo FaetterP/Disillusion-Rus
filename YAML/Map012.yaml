@@ -145,7 +145,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['хочешь ключ?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Хочешь ключ?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Да', 'Нет'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Да']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
@@ -154,7 +154,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Каждый забирается на башню., Не совсем.], 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Каждый забирается на башню.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['ты прав! Я искал способ вернуться домой, но из']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ты прав! Я искал способ вернуться домой, но из']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['этого ничего не вышло, так как теперь я понятия']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['не имею, где мой дом. Может, где-то в этой']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['покинутой земле? Нет, это не может быть! Он должен..']}

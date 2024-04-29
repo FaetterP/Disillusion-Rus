@@ -152,7 +152,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Хочешь поторговать, да?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Хочешь поторговать, даа?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да., Нет.], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 302, p: [0, 1, 1, 7, true]}
@@ -162,7 +162,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Тогда я оскорблена!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Тогда ты оскорбил меня!]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 19, false, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [60, 60, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
@@ -631,7 +631,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я хочу справиться со всем, о чём я когда-либо переживал.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Помоги мне забыть все те времена,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['когда мне приходилось волноваться.']}
       - !ruby/object:RPG::EventCommand
         i: 0
         c: 205
@@ -913,10 +914,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Жители высокогорных районов Гватемалы создают]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"кукол беспокойства", чтобы легче уснуть.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Согласно легенде, кукла-тревога олицетворяет мудрость']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [принцессы майя.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Согласно легенде, кукла-тревога олицетворяет']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [мудрость принцессы Майя.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   13: !ruby/object:RPG::Event
     id: 13
@@ -964,10 +963,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Кажется, что это просто адреналин, но твой организм']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [перерабатывает их в одно и то же.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Кажется, что это просто адреналин, но твой']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [организм перерабатывает их в одно и то же.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Интересно также прочитать научную статью 1954 года]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [о связи между адреналином и шизофренией".]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [о связи между адреналином и шизофренией.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   14: !ruby/object:RPG::Event
     id: 14
@@ -1015,9 +1014,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Миндалина отвечает за внимание, страх, тревогу, удивление,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['борьбу, бегство и оцепенение. Я пытался её разворошить']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['длинным крюком, но это только ухудшило моё состояние.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Миндалина отвечает за внимание, страх, тревогу,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['удивление, борьбу, бегство и оцепенение.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я пытался её разворошить длинным крюком, но это']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['только ухудшило моё состояние.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}

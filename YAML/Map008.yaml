@@ -52,9 +52,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Да.', 'Нет.'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Да.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Сделай два шага влево, иди по коридору, двигайся прямо,']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['наконец, поверни направо и бац! Ты закончил этот']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [этаж!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Сделай два шага влево, иди по коридору,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['двигайся прямо, наконец, поверни направо']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['и бац! Ты закончил этот этаж!']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [22, 22, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Нет.']}

@@ -106,7 +106,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Мы можем научить тебя !]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Мы можем научить тебя клёвому движению!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Однако, ты не пахнешь как тот, кто реально']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['разбирается в тайнах, чтобы использовать']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['этот навык. Как ты думаешь, как такие люди']}
@@ -268,7 +268,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Как у помойного корыта в свином аду,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['нет ни единого шанса, что кто-то переживёт такую атаку.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['нет ни единого шанса, что кто-то']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['переживёт такую атаку.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   7: !ruby/object:RPG::Event
     id: 7
@@ -1020,7 +1021,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Мои воспоминания возвращаются ко мне?'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Мои воспоминания возвращаются ко мне?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Нет, это невозможно, я так не думаю. Скорее']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Нет, это невозможно, я так не думаю.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['скорее всего, ты переживаешь чьи-то']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [воспоминания. Просмотр чужих воспоминаний]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [обычное дело в этой башне.]}
@@ -1028,9 +1029,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, MEl43, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['По совпадению, я тоже чувствую себя не лучшим образом.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Возможно, длительное пребывание в башне']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [сказывается и на мне.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Так вышло, я тоже чувствую себя не лучшим']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['образом. Возможно, длительное пребывание']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [в башне сказывается и на мне.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Не волнуйся. Давай не будем зацикливаться]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [на этом слишком долго.]}

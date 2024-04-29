@@ -630,8 +630,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Невозможно, чтобы существовало ''ничего'', потому что']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['в том состоянии, в котором ''ты'' находился до рождения,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['времени не существует. Таким образом, если мы говорим о']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['реинкарнации, она будет мгновенной.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['времени не существует. Таким образом, если мы']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['говорим о реинкарнации, она будет мгновенной.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11

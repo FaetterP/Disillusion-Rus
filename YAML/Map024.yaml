@@ -1358,8 +1358,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да., Нет.], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ну, чем дольше ты здесь проводишь, тем больше']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['обычно сходит с ума. Впрочем, на то есть причина.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ну, чем дольше ты здесь проводишь, тем больше это']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['место сводит с ума. Впрочем, на то есть причина.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Люди не должны задерживаться здесь надолго,']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ты должен завершить своё...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
@@ -1368,7 +1368,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [так как теряют их прежние эго.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [И они начинают лепетать несвязанные воспоминания...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Воспоминания эти могут быть из прошлых жизней.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Эти воспоминания могут быть из прошлых жизней.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['С тобой этого не случится. Ты уже болен, может быть']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['скоро ты переродишься?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -1444,9 +1444,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [3, Гриб.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Опёнок тёмный, гриб возрастом 8000 лет.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Он простирается на 10 километров. Как он стал таким большим?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Он простирается на 10 километров.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Как он стал таким большим?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['*10 опыта получено!*']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['*Получено 10 опыта!*']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 315, p: [0, 0, 0, 0, 10, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
@@ -1698,8 +1699,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl101, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Как ты думаешь, о чём вообще говорит половина тех, кого мы']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['встретили? Должно же быть в этом хоть немного правды?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Как ты думаешь, о чём вообще говорит половина тех,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['кого мы встретили?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Должно же быть в этом хоть немного правды?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

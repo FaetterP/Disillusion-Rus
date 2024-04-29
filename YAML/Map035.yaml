@@ -110,8 +110,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Чии говорит....]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Не обращай внимания на старика, сосредоточься на его']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [правой руке.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Не обращай внимания на старика,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [сосредоточься на его правой руке.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -432,9 +432,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Это мы представляем угрозу, наши войны, наши бомбы']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['и наш трайбализм. Мы уничтожаем больше, чем строим,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['а то, что мы строим является средством для ещё больших разрушений.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['а то, что мы строим является средством для ещё']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['больших разрушений.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Это мы, кто стоит на пороге того, чтобы стать захватчиками.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Это мы, кто стоит на пороге того, чтобы']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['стать захватчиками.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Это мы, кто должен себя сдерживать.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   9: !ruby/object:RPG::Event

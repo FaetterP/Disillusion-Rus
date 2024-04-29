@@ -118,7 +118,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Думаю, можно сказать и так. Твоя прошлая жизнь']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [закончилась и ты перешёл к следующей.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['закончилась, и ты перешёл к следующей.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Твоё пребывание здесь может быть как-то]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['связано со слухами, что тюрьма вмешивается']}

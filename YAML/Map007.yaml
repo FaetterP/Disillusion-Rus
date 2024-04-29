@@ -106,7 +106,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Да.', 'Нет.'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Да.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ты когда-нибудь ел бутерброд со свининой, бобами и желе?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ты когда-нибудь ел бутерброд']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['со свининой, бобами и желе?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Слышал, они очень хороши.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [21, 21, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}

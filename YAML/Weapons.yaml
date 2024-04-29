@@ -33,8 +33,8 @@
   etype_id: 0
   wtype_id: 1
 - !ruby/object:RPG::Weapon
-  description: A book with profaned magic powers.
-  name: Babbler bible
+  description: Книга, обладающая осквернённой магической силой.
+  name: Библия болтунов
   icon_index: 229
   price: 500
   animation_id: 7
@@ -65,7 +65,7 @@
   etype_id: 0
   wtype_id: 1
 - !ruby/object:RPG::Weapon
-  description: Лучше, чем нож для масла
+  description: Лучше, чем нож для масла.
   name: Кухонный нож
   icon_index: 128
   price: 3000

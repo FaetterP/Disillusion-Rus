@@ -399,7 +399,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Выглядишь уставшим. Хочешь, чтобы я тебя восстановил?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Выглядишь уставшим.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Хочешь, чтобы я восстановил твои силы?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да., Нет.], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 314, p: [0, 1]}

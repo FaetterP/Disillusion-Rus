@@ -51,13 +51,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, kathasseenbetterdays, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Что есть Нирвана?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Угасать., Страдать., Окончание мук.], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Окончание мук.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Что такое Нирвана?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Угасание., Страдание., Окончание мук.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Угасание.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Полагаю, в буквальном смысле ты прав...']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Окончание мук.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Страдание.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Скоро тебе нужно будет проснуться.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}

@@ -862,13 +862,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Мы продвигаемся в медицинской науке только ради]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['бессмертных хозяев! Мы, рабы, умрем от голода']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['и болезней! Инструменты будут развиваться, как и наши цепи!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Мы продвигаемся в медицине только ради бессмертных]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['хозяев! Мы, рабы, умрем от голода и болезней!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Инструменты будут развиваться, как и наши цепи!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Они могут попытаться убить бога и добраться до трона...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [но они никогда не достигнут этого места.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Мы смотрим на человеческую расу свысока, пока что мы можем']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [но они никогда не достигнут этого места. Мы смотрим]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['на человеческую расу свысока, пока что мы можем']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['смеяться, пока не придёт время снова стать рабами.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Мы аплодируем из этого святилища свиней.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -967,7 +967,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты можешь сколько угодно доказывать мне красоту жизни.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты можешь сколько угодно доказывать мне]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [красоту жизни.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Привилегированный раб - всё ещё раб.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   14: !ruby/object:RPG::Event
@@ -1016,11 +1017,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Иногда нужно в чём-то проиграть, чтобы где-то выиграть.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['У меня есть техника выживания, которую я предоставлю тебе.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Используйте её, когда отчаешься.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Иногда нужно в чём-то проиграть, чтобы где-то']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['выиграть. У меня есть техника выживания, которую']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['я предоставлю тебе. Используйте её, когда отчаешься.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*Выучено жертвоприношение!*']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*Выучено Жертвоприношение!*']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 318, p: [0, 1, 0, 26]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [68, 68, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
@@ -1160,9 +1161,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl98, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я не знаю что означает "JABA,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['но я встерчала этого парня по имени Сникс, который']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [всё время это говорил. Однажды он с гордостью сказал мне]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я не знаю что означает ДЖАБА, но я встречала']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['этого парня по имени Сникс, который всё время']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [это говорил. Однажды он с гордостью сказал мне]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"У МЕНЯ ИММУНИТЕТ К ДЕПРЕССИИ!"']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
