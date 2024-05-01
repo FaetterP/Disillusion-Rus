@@ -49,16 +49,48 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 242, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 261, p: [Mara]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, Bohdi, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 5, 5, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Принять предложение?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Да.', 'Нет.'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Да.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Перед вами находится Дерево Бодхи,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [окруженное небольшой тюрьмой.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Bohdi2, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты обладаешь неконтролируемой личностью,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['мышлением, памятью и восприятием.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Неужели ты не понимаешь, что никогда не']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['сможешь достичь нирваны?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Bohdi3, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Почему ты решил беспокоить меня?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты ничем не отличаешься от любого]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [другого пастыря. Я даю тебе шанс.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты оставишь меня. А я вылечу тебя так же,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['как это всегда делали дэвы, создавая нового']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['пастыря, кем ты и был, мой друг.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Естественный закон Зависимого Возникновения]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['даёт тебе несправедливый шанс. Ничто из того, что']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['ты делаешь здесь, не будет иметь значения, поскольку']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [твоя болезнь вынуждает тебя жить вне кармы.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Несмотря на исцеление, ты никогда не сможешь']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [достичь нирваны. Я бы даже не стала пытаться.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Живи здесь, за пределами сансары. С силой дэвы']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [все твои желания будут исполнены по щелчку пальцев.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я превращу твоё тело в совершенное.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Принять предложение?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да., Нет.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [294, 294, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Нет.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::BGM {name: Jimmy W - Midi Canoe - 09 Through the Mandala, volume: 75, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Bohdi3, 0, 0, 0, -30, 100, 100, 255, 0]}
@@ -92,7 +124,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, memory1-9, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Вы просыпаетесь рядом с пасущейся лошадью.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Вы просыпаетесь рядом с пасущейся лошадью.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, memory5-6, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
@@ -213,14 +245,42 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 46, 5, 5, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Перед вами находится Дерево Бодхи,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [окруженное небольшой тюрьмой.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты обладаешь неконтролируемой личностью,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['мышлением, памятью и восприятием.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Неужели ты не понимаешь, что никогда не']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['сможешь достичь нирваны?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Почему ты решил беспокоить меня?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты ничем не отличаешься от любого]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [другого пастыря. Я даю тебе шанс.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты оставишь меня. А я вылечу тебя так же,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['как это всегда делали дэвы, создавая нового']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['пастыря, кем ты и был, мой друг.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Естественный закон Зависимого Возникновения]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['даёт тебе несправедливый шанс. Ничто из того, что']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['ты делаешь здесь, не будет иметь значения, поскольку']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [твоя болезнь вынуждает тебя жить вне кармы.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Несмотря на исцеление, ты никогда не сможешь']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [достичь нирваны. Я бы даже не стала пытаться.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Живи здесь, за пределами сансары. С силой дэвы']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [все твои желания будут исполнены по щелчку пальцев.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я превращу твоё тело в совершенное.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Принять предложение?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Да.', 'Нет.'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Да.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да., Нет.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Да.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [294, 294, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'Нет.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 241, p: [!ruby/object:RPG::BGM {name: Jimmy W - Midi Canoe - 09 Through the Mandala, volume: 75, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, Bohdi3, 0, 0, 0, -30, 100, 100, 255, 0]}
@@ -252,7 +312,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, memory1-9, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Вы просыпаетесь рядом с пасущейся лошадью.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Вы просыпаетесь рядом с пасущейся лошадью.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, memory5-6, 0, 0, 0, -30, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
@@ -267,8 +327,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [дерево Бодхи наконец приветствует вас.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Сесть под деревом?']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Да.', 'Нет.'], 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Да.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Да., Нет.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Да.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, Trueend, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
