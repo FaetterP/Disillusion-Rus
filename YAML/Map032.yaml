@@ -252,7 +252,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я НЕНАВИЖУ ТЕБЯ. Я НЕНАВИЖУ ТЕБЯ. ПРОВАЛИВАЙ ОТСЮДА.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я НЕНАВИЖУ ТЕБЯ. Я НЕНАВИЖУ ТЕБЯ.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ПРОВАЛИВАЙ ОТСЮДА.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   5: !ruby/object:RPG::Event
     id: 5

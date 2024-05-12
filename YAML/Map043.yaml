@@ -827,11 +827,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Какие у меня варианты?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Без сомнения, Мара попытается переубедить тебя.']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Однако мы с тобой можем освободиться от нашего проклятия]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [и перестать сходить ума от бесконечного существования.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Однако, мы с тобой можем освободиться от нашего']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [проклятия и перестать сходить ума от бесконечного]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [существования.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Если ты убьёшь музу трагедии, душам вроде меня и']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['тебя будет дозволено достичь нирваны. Суровая правда,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Если ты убьёшь музу трагедии, душам вроде меня']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['и тебя будет дозволено достичь нирваны. Суровая правда,']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [но это путь к абсолютной свободе.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [1, 486, 0, 1, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
@@ -844,7 +845,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 231, p: [1, Untitled-1-Recovered4, 0, 0, 0, -30, 100, 70, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Я верь, что ты сделаешь правильный выбор. Освободи нас.]}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Я верю, что ты сделаешь правильный выбор.']}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: ['Освободи нас.']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 401, p: [Пожалуйста..... Я так устал...]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 50, 5, 11, 0, 0]}

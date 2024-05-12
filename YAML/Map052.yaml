@@ -63,8 +63,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ты слишком эгоистичный. Как я могу быть уверена, что']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['ты не попадёшься на уловки Мары? Прости меня, \n[1].']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я обещаю, что когда все это закончится, я возьму на себя']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['ответственность за то, что мне пришлось создать.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я обещаю, что когда все это закончится, я возьму на']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['себя ответственность за то, что мне пришлось создать.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, MEl49, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
@@ -83,7 +83,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 201, p: [0, 53, 5, 9, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl52, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прощай, голем мыслей.?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прощай, голем мыслей.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
@@ -256,8 +256,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ты слишком эгоистичный. Как я могу быть уверена, что']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['ты не попадёшься на уловки Мары? Прости меня, \n[1].']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я обещаю, что когда все это закончится, я возьму на себя']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['ответственность за то, что мне пришлось создать.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я обещаю, что когда все это закончится, я возьму на']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['себя ответственность за то, что мне пришлось создать.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, MEl49, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
@@ -276,7 +276,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 53, 5, 9, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl52, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прощай, голем мыслей.?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прощай, голем мыслей.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
@@ -461,8 +461,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ты слишком эгоистичен, как я могу верить, что ты']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['не поддашься на уловки Мары? Прости меня, \n[1].']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я обещаю, что когда всё закончится, я возьму на себя']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['ответственность за то, что мне пришлось создать.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я обещаю, что когда всё закончится, я возьму на']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['себя ответственность за то, что мне пришлось создать.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 231, p: [1, MEl49, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
@@ -481,7 +481,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 53, 5, 9, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl52, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прощай, голем мыслей.?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прощай, голем мыслей.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
@@ -719,7 +719,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 53, 5, 9, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl52, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прощай, голем мыслей.?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прощай, голем мыслей.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 222, p: []}
@@ -764,7 +764,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 53, 5, 9, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl52, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прощай, голем мыслей.?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прощай, голем мыслей.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
@@ -822,7 +822,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 4, c: 201, p: [0, 53, 5, 9, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl52, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прощай, голем мыслей.?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прощай, голем мыслей.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 4, c: 222, p: []}
@@ -866,7 +866,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 201, p: [0, 53, 5, 9, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl52, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прощай, голем мыслей.?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прощай, голем мыслей.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}

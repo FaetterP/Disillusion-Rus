@@ -534,7 +534,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Эта монетка небезопасна. Спрячь её.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Эта монета небезопасна. Убери её.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   8: !ruby/object:RPG::Event
     id: 8
@@ -766,15 +766,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Демоны существуют. Только это не как в кино,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['когда какая-то странная личность завладевает тобой,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['как будто ты - мясной костюм. Это эмоциональное,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['невербальное ядро, которое заменяется или подавляется,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['как будто ты мясной костюм. Это эмоциональное,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['невербальное ядро, которое заменяется или']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['так, что человек']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['подавляется, так, что человек считает, что']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [он всё ещё контролирует ситуацию. Наркотики и]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['употребление алкоголя делает тебя широко']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['открытым для подобных вещей, но это может']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['считает, что он всё ещё контролирует ситуацию. Наркотики и']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Употребление алкоголя делает вас широко открытым для такого]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['рода вещей, но это может происходить и незаметно,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['с течением времени. Депрессия, проблемы с гневом и т. д...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['происходить и незаметно, с течением времени.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Депрессия, проблемы с гневом и т. д...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   11: !ruby/object:RPG::Event
     id: 11

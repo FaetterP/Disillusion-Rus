@@ -757,7 +757,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: "Свинина, бобы, и желе. Восстанавливает \r\n100 ОЗ и лечит отравление."
-  name: Бутер
+  name: СБЖ
   consumable: true
   occasion: 0
   icon_index: 2

@@ -818,15 +818,15 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Добро пожаловать в свинячий ад, брат. Этот ублюдок']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['действительно отправил меня сюда из-за ментоловой сиги,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [но теперь это моё свиное чистилище. Я заставил]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['действительно отправил меня сюда из-за ментоловой']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['сиги, но теперь это моё свиное чистилище. Я заставил']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [этих ублюдков построить мне золотой свиной трон.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Для меня это начало новой жизни.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Возьми это, моё ожерелье с золотой свиньёй.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Эти свиные парни сделали его для меня.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*получена цепочка с золотой свиньёй!*']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*Получена цепочка с золотой свиньёй!*']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [steam = SteamUserStatsLite.instance]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [steam.set_achievement 'NEW_ACHIEVEMENT_1_12']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [steam.update]}

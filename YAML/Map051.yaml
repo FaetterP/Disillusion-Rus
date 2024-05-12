@@ -66,19 +66,18 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты. Что ты здесь делаешь? Знаешь ли ты, кто я?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Мы решили удовлетворить эту просьбу только потому,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['что ты - следующий пастырь. Какие у тебя вопросы?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['что ты следующий пастырь. Какие у тебя вопросы?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Что значит пастырь?', 'Кто ты и кто такие вороны?'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Кто ты и кто такие вороны?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Здесь был только один пастырь, но он оставил эту работу с']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['тех пор, как Мара стала тем, кем стала. Задача пастыря -']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['следить за тем, чтобы все души поднимались по башне.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Пастырь должен быть тем, у кого... разделены функции личности, мышления, памяти и восприятия.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Здесь был только один пастырь, но он оставил эту']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' работу с тех пор, как Мара стала тем, кем стала.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Задача пастыря - следить за тем, чтобы все души']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['поднимались по башне.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Проклятие, созданное музой трагедии.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['разделены функции личности, мышления, памяти и восприятия.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Пастырь должен быть тем, у кого разделены функции']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['личности, мышления, памяти и восприятия.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Проклятие, созданное музой трагедии.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Почему я пастырь?', 'Кто ты и кто такие вороны?'], 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Кто ты и кто такие вороны?']}
@@ -125,14 +124,15 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я уверен, ты встретил музу, Мел. Музы являются']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Я уверен, ты встретил музу Мел. Музы являются']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [создателями эмоций. Эмоциональная энергия -]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['мощная штука, быстро выходящая из-под контроля.']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Один человек посчитав это страданием, лишил себя чувств.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['мощная вещь, быстро выходящая из-под контроля. Один']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['человек посчитав это страданием, лишил себя чувств.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Чтобы это произошло, человек должен достичь своего рода']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['просветления. Башня была построена, чтобы способствовать']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['этому процессу. Таким образом, был создан кармический цикл.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Чтобы это произошло, человек должен достичь,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['своего рода, просветления. Башня была построена,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['чтобы способствовать этому процессу. Таким']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['образом, был создан кармический цикл.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 102, p: [['Чии, кажется, боится тебя. Почему?'], 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 402, p: [0, 'Чии, кажется, боится тебя. Почему?']}
       - !ruby/object:RPG::EventCommand {i: 3, c: 101, p: ['', 0, 0, 2]}
@@ -172,14 +172,15 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 230, p: [120]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я уверен, ты встретил музу, Мел. Музы являются']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я уверен, ты встретил музу Мел. Музы являются']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [создателями эмоций. Эмоциональная энергия -]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['мощная штука, быстро выходящая из-под контроля.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Один человек посчитав это страданием, лишил себя чувств.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['мощная штука, быстро выходящая из-под контроля. Один']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['человек посчитав это страданием, лишил себя чувств.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Чтобы это произошло, человек должен достичь своего рода']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['просветления. Башня была построена, чтобы способствовать']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['этому процессу. Таким образом, был создан кармический цикл.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Чтобы это произошло, человек должен достичь,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['своего рода, просветления. Башня была построена,']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['чтобы способствовать этому процессу. Таким']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['образом, был создан кармический цикл.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Чии, кажется, боится тебя. Почему?'], 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Чии, кажется, боится тебя. Почему?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}

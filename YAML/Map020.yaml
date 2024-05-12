@@ -98,8 +98,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Спать довольно приятно, зачем вообще просыпаться?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['В своих осознанных снах я практиковал тёмные искусства,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['то, о чем такие люди, как ты, и мечтать не могли.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['В своих осознанных снах я практиковал']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['тёмные искусства. То, о чём такие люди,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['как ты, и мечтать не могли.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Почему ты мне это не покажешь?', Жутко.], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Почему ты мне это не покажешь?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}

@@ -938,8 +938,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Так я и думал. А что я? Мой бизнес процветает.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я как-то читал на форуме, на моём форуме']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['по плетению корзин, что вы все едите как нубы.']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Меня это не устраивало, и я понял, что нужно действовать.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['по плетению корзин, что вы все едите как нубы. Меня']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['это не устраивало, и я понял, что нужно действовать.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Тогда я и придумал свой фирменный чаудер с сардинами.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Это супер еда, которая не может испортиться. Содержит']}
@@ -1165,7 +1165,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl73, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Полагаю, я должна перевести. Они говорят']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Полагаю, я должна перевести. Он говорит']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Я КОСМИЧЕСКИЙ ПРИНЦ УМАСО! Я ПРЕОДОЛЕЛ']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['МНОЖЕСТВО ЗВЁЗД НА МОЁМ КОНЕ, КИТЕ-МУАСЕ,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['МЛЕКОПИТАЮЩЕМ АСТЕРОИДЕ. ЕСЛИ ВЫ УВИДИТЕ ЕГО...']}
