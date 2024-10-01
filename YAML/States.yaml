@@ -4,7 +4,7 @@
   message2: ' is slain!'
   name: Death
   priority: 100
-  icon_index: 17
+  icon_index: 15
   message1: ' has fallen!'
   message4: ' revives!'
   restriction: 4
@@ -27,15 +27,15 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' is poisoned!'
-  name: Poison
+  message2: ' is hungry!'
+  name: Hunger
   priority: 65
-  icon_index: 18
-  message1: ' is poisoned!'
-  message4: ' is freed of poison!'
+  icon_index: 128
+  message1: ' is hungry!'
+  message4: ' is no longer hungry!'
   restriction: 0
   release_by_damage: false
-  message3: ''
+  message3: ' is hungry!'
   note: ''
   id: 2
   features:
@@ -49,14 +49,14 @@
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: false
+  remove_at_battle_end: true
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
   message2: ' is blinded!'
   name: Blind
   priority: 70
-  icon_index: 19
+  icon_index: 232
   message1: ' becomes blind!'
   message4: ' is no longer blinded!'
   restriction: 0
@@ -82,7 +82,7 @@
   message2: ' cannot cast Magic!'
   name: Silence
   priority: 75
-  icon_index: 20
+  icon_index: 63
   message1: ' cannot cast Magic!'
   message4: '''s Magic is no longer sealed!'
   restriction: 0
@@ -108,7 +108,7 @@
   message2: ' is confused!'
   name: Confusion
   priority: 80
-  icon_index: 21
+  icon_index: 143
   message1: ' becomes confused!'
   message4: ' is no longer confused!'
   restriction: 2
@@ -130,7 +130,7 @@
   message2: ' falls asleep!'
   name: Sleep
   priority: 85
-  icon_index: 22
+  icon_index: 151
   message1: ' falls asleep!'
   message4: ' wakes up!'
   restriction: 4
@@ -156,7 +156,7 @@
   message2: ' is paralyzed!'
   name: Paralysis
   priority: 90
-  icon_index: 23
+  icon_index: 173
   message1: ' becomes paralyzed!'
   message4: ' is no longer paralyzed!'
   restriction: 4
@@ -182,7 +182,7 @@
   message2: ' loses balance!'
   name: Stun
   priority: 60
-  icon_index: 24
+  icon_index: 175
   message1: ' loses balance!'
   message4: ' regains balance!'
   restriction: 4
@@ -204,7 +204,7 @@
   message2: ''
   name: Guard
   priority: 0
-  icon_index: 0
+  icon_index: 248
   message1: ''
   message4: ''
   restriction: 0
@@ -334,7 +334,7 @@
   message2: ''
   name: HP Regen
   priority: 50
-  icon_index: 26
+  icon_index: 6
   message1: ''
   message4: ''
   restriction: 0
@@ -360,7 +360,7 @@
   message2: ''
   name: MP Regen
   priority: 50
-  icon_index: 26
+  icon_index: 68
   message1: ''
   message4: ''
   restriction: 0
@@ -410,9 +410,9 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: Ironbody
+  name: Stoneflesh
   priority: 50
-  icon_index: 29
+  icon_index: 7
   message1: ''
   message4: ''
   restriction: 0
@@ -436,9 +436,9 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: Counterattack
+  name: Stanced
   priority: 50
-  icon_index: 27
+  icon_index: 192
   message1: ''
   message4: ''
   restriction: 0
@@ -490,7 +490,7 @@
   message2: ''
   name: Magic Reflect
   priority: 50
-  icon_index: 31
+  icon_index: 0
   message1: ''
   message4: ''
   restriction: 0
@@ -687,6 +687,84 @@
   steps_to_remove: 100
   remove_by_walking: false
   remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: Is poisoned!
+  name: Poison
+  priority: 50
+  icon_index: 14
+  message1: Is poisoned!
+  message4: Is no longer poisoned!
+  restriction: 0
+  message3: Is poisoned!
+  note: ''
+  id: 26
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: -0.12
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: test on
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 27
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 1
+    value: 0.0
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: test off
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 28
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 64
+    data_id: 1
+    value: 0.0
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
   description: ''

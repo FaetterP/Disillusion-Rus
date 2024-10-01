@@ -105,7 +105,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 35, 1, 18, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 35, 1, 18, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, memory5-1, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -865,6 +865,15 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You are kind of short, huh? or maybe I am just']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [tall.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['you shrink with age, I reckon.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [maybe that's it!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [When I was a young girl I lived in a vast]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [industrial city.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['If there was ever a place to make you shrink,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [that would be it!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Makes me white with fear thinking of it.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

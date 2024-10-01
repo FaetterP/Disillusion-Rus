@@ -47,7 +47,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 7, 8, 4, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 7, 8, 4, 8, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -101,17 +101,17 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 28, 16, 10, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 28, 16, 10, 4, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, cigs, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I must explain to you how all this mistaken idea]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [of denouncing pleasure and praising pain was]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [born and I will give you a complete account of]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [born. And I will give you a complete account of]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the system, and expound the actual teachings...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' of the great explorer of the truth,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the master-builder of human happiness]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['of the great explorer of the truth,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [the master-builder of human happiness.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -161,7 +161,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['This area is actually pretty safe, just a']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [bit confusing. rooms are mirrored]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [bit confusing. Rooms are mirrored]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [sometimes.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   4: !ruby/object:RPG::Event

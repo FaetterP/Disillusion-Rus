@@ -1,16 +1,43 @@
 ---
 - 
 - !ruby/object:RPG::CommonEvent
-  trigger: 0
-  name: ''
-  switch_id: 1
+  trigger: 2
+  name: steps
+  switch_id: 98
   list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [197, 197, 0, 3, 5, -1, 0]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 122, p: [198, 198, 0, 3, 5, -1, 1]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 285, p: [196, 0, 1, 197, 198]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [1, 196, 0, 1, 0]}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [11, 2]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 230, p: [15]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 250, p: [!ruby/object:RPG::SE {name: fst_wood_light_walk_006, pitch: 150, volume: 80}]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 111, p: [11, 8]}
+  - !ruby/object:RPG::EventCommand {i: 3, c: 230, p: [15]}
+  - !ruby/object:RPG::EventCommand {i: 3, c: 250, p: [!ruby/object:RPG::SE {name: fst_wood_light_walk_006, pitch: 150, volume: 80}]}
+  - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 411, p: []}
+  - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 111, p: [1, 196, 0, 2, 0]}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 411, p: []}
+  - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 412, p: []}
+  - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
   - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   id: 1
 - !ruby/object:RPG::CommonEvent
-  trigger: 0
-  name: ''
-  switch_id: 1
+  trigger: 2
+  name: 'Muisc '
+  switch_id: 81
   list:
   - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   id: 2

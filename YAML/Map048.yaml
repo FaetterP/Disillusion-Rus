@@ -409,7 +409,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [you are covered form head to tow in nectar]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and pollen. please give it to me.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 49, 14, 2, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 49, 14, 2, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [10]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
@@ -1935,6 +1935,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Hey I''m brandon. is your sister single?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [steam = SteamUserStatsLite.instance]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [steam.set_achievement 'NEW_ACHIEVEMENT_1_14']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [steam.update]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No', I don't know], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
@@ -2321,7 +2324,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 35, 3, 2, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 35, 3, 2, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, tower, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}

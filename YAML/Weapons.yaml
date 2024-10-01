@@ -1,9 +1,9 @@
 ---
 - 
 - !ruby/object:RPG::Weapon
-  description: Small ax used for harvesting wood.
-  name: Hand Ax
-  icon_index: 144
+  description: "You won't be buttering up your enemies, nor\r\ndoin much harm"
+  name: Butter Knife
+  icon_index: 128
   price: 100
   animation_id: 7
   note: ''
@@ -24,7 +24,7 @@
   params:
   - 0
   - 0
-  - 15
+  - 4
   - 0
   - 0
   - 0
@@ -33,9 +33,9 @@
   etype_id: 0
   wtype_id: 1
 - !ruby/object:RPG::Weapon
-  description: Double-sided axe made for combat.
-  name: Battle Axe
-  icon_index: 144
+  description: A book with profaned magic powers.
+  name: Babbler bible
+  icon_index: 229
   price: 500
   animation_id: 7
   note: ''
@@ -56,18 +56,18 @@
   params:
   - 0
   - 0
-  - 30
   - 0
   - 0
+  - 7
   - 0
   - 0
   - 0
   etype_id: 0
   wtype_id: 1
 - !ruby/object:RPG::Weapon
-  description: Three crescent blades on this axe.
-  name: Bardiche
-  icon_index: 144
+  description: Better than the butter knife
+  name: Kitchen knife
+  icon_index: 128
   price: 3000
   animation_id: 7
   note: ''
@@ -88,7 +88,7 @@
   params:
   - 0
   - 0
-  - 50
+  - 6
   - 0
   - 0
   - 0
@@ -97,11 +97,11 @@
   etype_id: 0
   wtype_id: 1
 - !ruby/object:RPG::Weapon
-  description: Mithril axe made of the magic mineral.
-  name: Mithril Axe
-  icon_index: 144
+  description: "Given to you by The lord himself.\r\nimbued with lightning. "
+  name: Heathers Trident
+  icon_index: 173
   price: 6000
-  animation_id: 7
+  animation_id: 1
   note: ''
   id: 4
   features:
@@ -113,10 +113,14 @@
     code: 22
     data_id: 0
     value: -0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 5
+    value: 1.0
   params:
   - 0
   - 0
-  - 70
+  - 4
   - 0
   - 0
   - 0
