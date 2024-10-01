@@ -1084,20 +1084,20 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''ve no where to run, only places to stroll']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [today.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Мне некуда бежать, только гуляю']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [сегодня по некоторым местам.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['How are you today? I''m Okay.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Как ты сегодня? Я в порядке.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I'm some what unhappy with where]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [we went.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I don''t understand, why did you bring us']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['here?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Мне как-то не по себе от того, куда']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [мы пошли.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я не понимаю, зачем ты привёл нас']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['сюда?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I expected better, I expected peace.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [There is none of that.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I stand idle when I am supposed to climb.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['what is up there?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я ожидал большего, я ожидал покоя.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Но его нет.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я стою на месте, когда должен подниматься.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Что там наверху?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

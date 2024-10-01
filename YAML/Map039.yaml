@@ -993,22 +993,22 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl103, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We are getting close to the top now.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['What will we find?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I was always warned something like this]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['could happen, yet I did not listen.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Мы почти добрались до вершины.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Что нас ждёт там?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Меня всегда предупреждали, что такое']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['может случиться, но я не слушала.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Sometimes I wonder If I made the right]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [choice.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I wonder if i''m loved, or just used.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I wonder if I'll see you again after this.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Иногда я думаю, сделала ли я']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [правильный выбор.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Любят ли меня, или просто используют?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Увижу ли я тебя снова после всего этого?]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I doubt it.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Regardless I WILL protect what I worked]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [so hard for.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Сомневаюсь.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Несмотря ни на что, Я БУДУ защищать то,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [над чем я так усердно трудилась.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and as always, loneliness is']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [a power we have to give or take away.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['И как всегда, одиночество - это']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['сила, которую мы можем дать или отнять.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
@@ -1133,12 +1133,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['.....']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Here we are. The place I desired]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [so desperately to avoid.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I love you, I love you, I love you, I love you.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Вот мы и здесь. Место, которое']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [я так отчаянно избегала.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я люблю тебя, я люблю тебя, я люблю тебя.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['No matter what, all is forgiven,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [But do not accept the offer.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Что бы ни случилось, я всё прощу,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Но не принимай предложение.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

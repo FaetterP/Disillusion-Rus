@@ -1899,16 +1899,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['.....']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Oh dear.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Must I really climb?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [My previous task was much simpler.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['О, боже.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Мне действительно нужно взбираться?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Моё предыдущее задание было куда проще.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Do you miss warring?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [oh my it was so much fun.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [at least we had each other to keep us busy!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты скучаешь по войне?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['О, это было так весело.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['По крайней мере, мы были заняты друг другом!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Half the time I barely remembered my]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [enemy!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Половину времени я едва помнил своего]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [врага!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

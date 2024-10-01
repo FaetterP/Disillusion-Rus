@@ -2186,8 +2186,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['его всё время? Ты ведь болен, и я как бы']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['ухаживаю за тобой.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [that care taker can make a great cup of]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [coffee.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Тот заботливый человек умеет готовить']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['отличную чашку кофе.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -2238,16 +2238,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It seems I was wrong to doubt you fellas.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Look at us now!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Похоже, я зря сомневался в вас, ребята.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Посмотрите на нас теперь!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['From one man made hell to another,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [nothing changes.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Из одного ада, сотворённого человеком, в другой,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ничего не меняется.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Abstractions will be the fall of life,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and it will be yout fault.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Абстракции станут гибелью жизни,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [и это будет твоей виной.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I trusted you, this was the wrong path.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я доверял тебе, это быо неправильно.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

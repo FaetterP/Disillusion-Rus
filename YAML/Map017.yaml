@@ -1238,15 +1238,15 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Cough cough]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Кхе-кхе.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Goleem dat you?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Голеем, это ты?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [hate you.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Hate you lots]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ненавижу тебя.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Сильно ненавижу.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Got me kilt.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Frickin ass]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты меня угробил.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Чёртов засранец.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

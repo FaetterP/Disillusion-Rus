@@ -1161,23 +1161,23 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl98, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I can't help but feel like you'll be]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [dissapointed by the end of this.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I don't see a satisfying conclusion to all of this.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Не могу отделаться от мысли, что']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [в конце ты будешь разочарован.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Я не вижу хорошего завершения всего этого.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I've been ready for a long time though.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['a very very long time, I''ve known']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [this day would come.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Но я уже давно готова.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Очень очень давно я знала,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [что этот день настанет.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''m sorry about all the harm I''ve caused,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [regardless of if you remember or not.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I would cast my life aside for you, just as you']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [seek to protect what we worked so hard for.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прости за весь вред, который я причинила,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['независимо от того, помнишь ты об этом или нет.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я бы пожертвовала своей жизнью ради тебя, так же как и ты']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['стараешься защитить то, над чем мы так упорно трудились.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sorry, didn''t mean to get all doom']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and gloom on ya all of a sudden....]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прости, не хотела навеять всё это мрачное']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [настроение так внезапно....]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Get a move on it!!!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Давай, пошли!!!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}

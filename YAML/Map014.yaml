@@ -1089,13 +1089,13 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Oh.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ох.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I honk and honk and yet you don't smile.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You look at me with disgust.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я сигналю и сигналю, а ты всё равно не']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [улыбаешься. Ты смотришь на меня с отвращением.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [you put me here!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You asked me to keep dancing!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Это ты меня сюда запихнул!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты сам попросил меня продолжать танцевать!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

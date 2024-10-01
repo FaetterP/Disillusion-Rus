@@ -828,16 +828,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Oh.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ох.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Hello, golem.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Привет, Голем.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['What happened to gomi you ask? she was']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['ripped apart by hounds, unfortunately.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты спрашиваешь, что случилось с Гоми?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['К сожалению, её разорвали на части собаки.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This place is far more dangerous]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [than the naraka.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Do you live free of guilt?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Это место гораздо опаснее,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [чем Нарака.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты живёшь без чувства вины?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

@@ -1386,22 +1386,22 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Golem? is that really you!']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I thought I would never see you again!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Голем? Это правда ты!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я думал, что больше никогда тебя не увижу!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Are you doing important things again?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['How''s mel? I miss her....']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Опять занимаешься важными делами?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Как Мел? Я скучаю по ней...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I love you, friend. My day is better']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [having seen you again.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я люблю тебя, друг. Мой день стал лучше']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['после того, как я снова тебя увидел.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I felt so lost without you....]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Without you I would probably still be caught]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [up in petty fights.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я так потерялся без тебя....']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Без тебя я бы, наверное, до сих пор был втянут']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['в мелкие стычки.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I won't keep you too much longer.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I know you are here to do something important]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [again.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Не буду тебя долго задерживать.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я знаю, что ты здесь, чтобы снова сделать']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['что-то важное.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -1452,10 +1452,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['You again? strange.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I've put aside my differences with that frog.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Опять ты? Странно.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я отложил свои разногласия с этой лягушкой.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Do you not believe me? I promise.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты мне не веришь? Я обещаю.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
