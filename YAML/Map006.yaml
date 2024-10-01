@@ -101,7 +101,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Убедись, что ты исследовал весь этаж']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['полностью. Никогда не знаешь, что']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['можешь найти или научиться.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['можешь найти или чему научиться.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event
     id: 2
