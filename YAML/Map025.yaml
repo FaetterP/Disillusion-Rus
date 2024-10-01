@@ -1160,12 +1160,26 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl98, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I don''t actually know what "jaba" means,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [but I met this fellow named Sneeks who keeps]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [saying it. Told me once very proudly]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"I AM IMMUNE TO DEPRESSION!"']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I can't help but feel like you'll be]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [dissapointed by the end of this.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I don't see a satisfying conclusion to all of this.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I've been ready for a long time though.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['a very very long time, I''ve known']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [this day would come.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I''m sorry about all the harm I''ve caused,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [regardless of if you remember or not.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I would cast my life aside for you, just as you']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [seek to protect what we worked so hard for.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sorry, didn''t mean to get all doom']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and gloom on ya all of a sudden....]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Get a move on it!!!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0

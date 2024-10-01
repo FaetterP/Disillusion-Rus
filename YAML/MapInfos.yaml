@@ -67,7 +67,7 @@
   name: FPLE_floor6
   expanded: false
   order: 10
-  scroll_y: 466
+  scroll_y: 400
   parent_id: 8
 11: !ruby/object:RPG::MapInfo
   scroll_x: 320

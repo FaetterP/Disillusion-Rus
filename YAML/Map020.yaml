@@ -1313,6 +1313,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl93, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Do you like my hair long?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I used to keep it much shorter....]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I can't choose.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [By the way.....]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Wanna know a secret about the Muse?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Yes., No.], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Yes.]}
@@ -1326,7 +1331,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, No.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Suit yourself, forget I asked.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['after all we''ve gone through, this is']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['how you treat me?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}

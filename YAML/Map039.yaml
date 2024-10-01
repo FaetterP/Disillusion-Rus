@@ -993,11 +993,25 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl103, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [You know not only earthlings that come]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [through this place. Nobody keeps their original]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [form here either.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [We are getting close to the top now.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['What will we find?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I was always warned something like this]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['could happen, yet I did not listen.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Sometimes I wonder If I made the right]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [choice.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I wonder if i''m loved, or just used.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I wonder if I'll see you again after this.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I doubt it.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Regardless I WILL protect what I worked]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [so hard for.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['and as always, loneliness is']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [a power we have to give or take away.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   12: !ruby/object:RPG::Event
@@ -1070,6 +1084,64 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Then skedaddle, ugly.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  13: !ruby/object:RPG::Event
+    id: 13
+    name: EV013
+    x: 10
+    y: 4
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: '!$mazeduedes24'
+        character_index: 0
+        direction: 2
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: true
+      through: false
+      priority_type: 1
+      trigger: 2
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['.....']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Here we are. The place I desired]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [so desperately to avoid.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I love you, I love you, I love you, I love you.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['No matter what, all is forgiven,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [But do not accept the offer.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 0
 bgm: !ruby/object:RPG::BGM {name: Jimmy W - Midi Canoe - 11 It Was Evening All Afternoon, volume: 75, pitch: 100}

@@ -11,7 +11,7 @@ elements:
 - Wind
 - Holy
 - Dark
-start_y: 11
+start_y: 12
 airship: !ruby/object:RPG::System::Vehicle
   start_y: 0
   bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
@@ -30,14 +30,14 @@ test_battlers:
   - 0
   - 1
 _: 7829367
-edit_map_id: 39
+edit_map_id: 4
 battle_end_me: !ruby/object:RPG::ME
   name: ''
   pitch: 100
   volume: 100
 party_members:
 - 1
-start_x: 7
+start_x: 9
 ship: !ruby/object:RPG::System::Vehicle
   start_y: 0
   bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
@@ -574,7 +574,7 @@ variables:
 - muses job
 - MUse joins you
 battle_bgm: !ruby/object:RPG::BGM {name: '', volume: 70, pitch: 100}
-version_id: 72628617
+version_id: 82078236
 start_map_id: 4
 battler_name: lilguy
 magic_number: 77696160

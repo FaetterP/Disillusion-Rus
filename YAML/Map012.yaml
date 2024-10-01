@@ -853,6 +853,18 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [and goes from this tower and I heard he sells]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['rare items. We should seek him out, dontcha']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['think?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Hey did you talk to froggy?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['...........']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Do you remember at all?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's been a long.... long time.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [He.... he loves you a lot. he missed you.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I missed him as well, but....']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I can't let others see me here.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [It's important.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

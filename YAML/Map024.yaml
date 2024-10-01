@@ -1709,6 +1709,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [What do you think half the folks we have met]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['are even talkin about? This has to be a bit right?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [This is why I find folks going mad]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['so intimidating, could get a knife in your ribs']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [or just a lick on the cheek!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I remember a strange whorish sugar cube]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [who I saw being licked at a bar once....]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [That lady gave me the creeps.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

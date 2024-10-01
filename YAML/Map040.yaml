@@ -678,7 +678,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Do I know you?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I gave you my eyes, yet this is how']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['you repay me?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
     - !ruby/object:RPG::Event::Page
       condition: !ruby/object:RPG::Event::Page::Condition
