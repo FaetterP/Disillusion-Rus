@@ -1318,9 +1318,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl93, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Тебе нравится мои длинные волосы?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Тебе нравятся мои длинные волосы?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Раньше они были намного короче....']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я не могу их выбрать.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Не могу определиться.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Кстати.....']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Хочешь узнать секрет о Музе?']}

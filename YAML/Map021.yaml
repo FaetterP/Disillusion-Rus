@@ -2186,8 +2186,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['его всё время? Ты ведь болен, и я как бы']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['ухаживаю за тобой.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Тот заботливый человек умеет готовить']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['отличную чашку кофе.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Тот заботливый человек может приготовить']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['чашечку отличного кофе.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

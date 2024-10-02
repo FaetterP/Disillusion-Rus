@@ -1395,7 +1395,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я люблю тебя, друг. Мой день стал лучше']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['после того, как я снова тебя увидел.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я так потерялся без тебя....']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я чувствовал себя таким потерянным без тебя....']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Без тебя я бы, наверное, до сих пор был втянут']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['в мелкие стычки.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
@@ -1455,7 +1455,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Опять ты? Странно.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я отложил свои разногласия с этой лягушкой.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты мне не веришь? Я обещаю.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты мне не веришь? Честное слово.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
