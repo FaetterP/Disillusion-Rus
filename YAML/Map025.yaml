@@ -1169,10 +1169,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Очень очень давно я знала,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [что этот день настанет.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прости за весь вред, который я причинила,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['независимо от того, помнишь ты об этом или нет.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я бы пожертвовала своей жизнью ради тебя, так же как и ты']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['стараешься защитить то, над чем мы так упорно трудились.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прости за весь вред, который я причинила, независимо']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['от того, помнишь ты об этом или нет. Я бы пожертвовала']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['своей жизнью ради тебя, так же как и ты стараешься']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['защитить то, над чем мы так упорно трудились.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прости, не хотела навеять всё это мрачное']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [настроение так внезапно....]}

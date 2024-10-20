@@ -1017,7 +1017,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Миндалина отвечает за внимание, страх, тревогу,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['удивление, борьбу, бегство и оцепенение.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я пытался её разворошить длинным крюком, но это']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я пыталась её разворошить длинным крюком, но это']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['только ухудшило моё состояние.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   15: !ruby/object:RPG::Event

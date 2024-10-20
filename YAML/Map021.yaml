@@ -2247,7 +2247,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Абстракции станут гибелью жизни,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [и это будет твоей виной.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я доверял тебе, это быо неправильно.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я доверял тебе, это было неправильно.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

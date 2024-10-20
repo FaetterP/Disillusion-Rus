@@ -590,7 +590,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, memory6-8, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Они кажется знакомыми. Я думаю, я был здесь']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Они кажутся знакомыми. Я думаю, я была здесь']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [раньше.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
@@ -736,7 +736,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Они кажется знакомыми. Я думаю, я был здесь']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Они кажутся знакомыми. Я думаю, я была здесь']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [раньше.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [В прошлой жизни...]}

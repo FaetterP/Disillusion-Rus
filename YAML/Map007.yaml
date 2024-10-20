@@ -1057,7 +1057,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Узнать имя мастера?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Хорошо, а какой ТВОЁ имя?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Хорошо, а какое ТВОЁ имя?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

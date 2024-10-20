@@ -1094,9 +1094,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я не понимаю, зачем ты привёл нас']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['сюда?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я ожидал большего, я ожидал покоя.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я ожидала большего, я ожидала покоя.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Но его нет.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я стою на месте, когда должен подниматься.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я стою на месте, когда должна подниматься.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Что там наверху?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}

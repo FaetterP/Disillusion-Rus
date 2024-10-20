@@ -2925,9 +2925,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Нахождение за пределами башни служит хорошей]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['передышкой, но я всё ещё чувствую себя невероятно слабой....']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Башня способна вернуть любое существо обратно в сансару,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [поскольку это одно из её предназначений.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['передышкой, но я всё ещё чувствую себя крайне слабой....']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Башня способна вернуть любое существо обратно в ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['сансару, поскольку это одно из её предназначений.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl78, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
