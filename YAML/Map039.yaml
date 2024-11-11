@@ -78,7 +78,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Мы прокляты разлагаться в стенах сансары, пока']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [пока берега Пуруши не иссякнут.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ни для кого из на нет надежды. Каждое']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ни для кого из нас нет надежды. Каждое']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [следующее воплощение ввергает нас всё больше в]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [безумие....]}

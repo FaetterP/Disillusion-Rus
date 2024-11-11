@@ -1358,8 +1358,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Да., Нет.], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Нет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ну, чем дольше ты здесь проводишь, тем больше это']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['место сводит с ума. Впрочем, на то есть причина.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ну, чем дольше ты здесь проводишь времени, тем больше']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['это место сводит с ума. Впрочем, на то есть причина.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Люди не должны задерживаться здесь надолго,']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [ты должен завершить своё...]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
@@ -1706,7 +1706,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['сходящих с ума, они могут всадить нож тебе в рёбра']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [или просто лизнуть тебе щёку!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Помню один странный шлюший кубих сахара,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Помню один странный шлюховатый кубих сахара,']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['я видела, как её однажды лизали в баре...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [У меня от этой леди мурашки по коже.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}

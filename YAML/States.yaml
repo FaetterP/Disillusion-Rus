@@ -691,14 +691,14 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: отравлен!
+  message2: ' отравлен!'
   name: Яд
   priority: 50
   icon_index: 14
-  message1: отравлен!
-  message4: больше не отравлен!
+  message1: ' отравлен!'
+  message4: ' больше не отравлен!'
   restriction: 0
-  message3: отравлен!
+  message3: ' отравлен!'
   note: ''
   id: 26
   features:
