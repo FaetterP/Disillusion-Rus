@@ -985,6 +985,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 3, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 3, c: 122, p: [464, 464, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 3, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 3, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 603, p: []}
@@ -1434,7 +1435,7 @@ events:
         tile_id: 0
         character_name: '!$mazeduedes2'
         character_index: 0
-        direction: 4
+        direction: 2
         pattern: 1
       move_type: 0
       move_speed: 3
