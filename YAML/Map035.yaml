@@ -628,7 +628,7 @@ events:
         tile_id: 0
         character_name: '!$mazeduedes2'
         character_index: 0
-        direction: 4
+        direction: 2
         pattern: 1
       move_type: 0
       move_speed: 3

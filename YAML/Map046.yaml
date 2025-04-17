@@ -67,8 +67,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [мёртвых до и после их телесного воскрешения.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Будь пророком моего нового мира.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Карма теперь в наших руках. Теперь мы]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['создатели, а не судьба.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Карма теперь в наших руках. Теперь]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['создатели мы, а не судьба.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, memorycrowsofchii, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}

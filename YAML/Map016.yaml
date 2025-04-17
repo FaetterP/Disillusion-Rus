@@ -260,7 +260,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [['Что такое сансара?', 'Что такое Благородный Восьмеричный Путь?'], 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, 'Что такое сансара?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Ты еще не готов это услышать.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Ты ещё не готов это услышать.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['А теперь проваливай. Думаю, кто-то']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ждет тебя у ратуши.]}

@@ -995,7 +995,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: "Водный урон по 1 врагу. Не надо \r\nесть пузыри. тратит 6 ОМ."
+  description: "Водный урон по 1 врагу. Не надо \r\nесть пузыри. Тратит 6 ОМ."
   name: Пузыри
   occasion: 0
   icon_index: 108
@@ -1024,7 +1024,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Воздушный урон по 1 врагу. тратит 6 ОМ.
+  description: Воздушный урон по 1 врагу. Тратит 6 ОМ.
   name: Порыв
   occasion: 0
   icon_index: 107
@@ -1150,7 +1150,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Повышает магическую защиту одному союзнику. Тратит 7 ОМ.
+  description: "Повышает магическую защиту одному союзнику. \r\nТратит 7 ОМ."
   name: Божественное дыхание
   occasion: 1
   icon_index: 20

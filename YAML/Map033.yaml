@@ -1015,8 +1015,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, MEl42, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты не выглядишь так, будто у тебя всё хорошо,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['как ты себя чувствуешь?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты не выглядишь, будто у тебя всё хорошо.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Как ты себя чувствуешь?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Мои воспоминания возвращаются ко мне?'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Мои воспоминания возвращаются ко мне?']}

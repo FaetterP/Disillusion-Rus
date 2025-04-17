@@ -388,7 +388,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Да.', 'Нет.'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Да.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Я все еще чувствую желание сразиться с тобой.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Я всё ещё чувствую желание сразиться с тобой.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 3, true, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
       - !ruby/object:RPG::EventCommand

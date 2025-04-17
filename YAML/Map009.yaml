@@ -46,7 +46,7 @@ events:
       trigger: 3
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Это все еще в раннем доступе и не завершено.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Это всё ещё в раннем доступе и не завершено.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 4, 8, 6, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   2: !ruby/object:RPG::Event

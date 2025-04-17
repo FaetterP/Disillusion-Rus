@@ -529,7 +529,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Дай мне спросить тебя кое о чём...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я сказочная страна, похожая на прекрасный сон, но']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['для многих я могу быть ужасающей, когда порываю']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['для многих я могу быть ужасающей, когда покрываю']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['землю льдом. Что я?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Девятый круг ада., Купол Фудзи., 'Мать Россия.', Зима.], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Девятый круг ада.]}
@@ -552,7 +552,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 102, p: [[Люблю., Ненавижу., Никогда не видел зиму...], 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [0, Люблю.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Полагаю, я должен показать тебе как  замораживать']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Полагаю, я должен показать тебе как замораживать']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['своих врагов. Только осторожнее, не']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [отморозь себе пальцы на ногах!]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 318, p: [0, 1, 0, 21]}
@@ -947,7 +947,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*6]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты знаешь, я слышал в магазине свинины, бобов']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [и желе кафа появился новый пункт в меню.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [и желе Кафа появился новый пункт в меню.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Что это?', 'Это связано с бобами?', 'Я рад, потому что это сочетание звучит отвратительно.'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Что это?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
@@ -2259,7 +2259,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Мы можем поладить.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ясно, тупой хиппи, или соси']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ясно, тупой хиппи, иди соси']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [одуванчик.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 7, true, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}

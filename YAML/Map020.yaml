@@ -1210,7 +1210,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я не могу даже представить, насколько ужасно']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [адреналин ощущаться во время отдыха.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [адреналин ощущается во время отдыха.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [А ещё я зависим от сиропа от кашля.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   16: !ruby/object:RPG::Event

@@ -564,7 +564,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Они называют меня Семянным Сэмом, и я']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [разнесу это ПО ВСЕМУ МИРУ.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [разнесусь ПО ВСЕМУ МИРУ.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Сорвать красивый цветок., Собрать пыльцу.], 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Сорвать красивый цветок.]}
       - !ruby/object:RPG::EventCommand

@@ -329,8 +329,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, wallaltx, 0, 0, 0, -30, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Что может бежать, но никогда не ходит, имеет рот, но']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['никогда не говорит, имеет голову, но никогда не рыдает?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Что может бежать, но никогда не ходит, шумит, но']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['не разговаривает, имеет рукава, но без рук?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Дверь.', 'Вилка.', 'Река.', 'Свеча.'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Дверь.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
@@ -675,7 +675,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*4]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Чееееел, забираться на эту башню скучно.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Но почему мне все еще хочется это сделать??']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Но почему мне всё ещё хочется это сделать??']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Пройди через это, я знаю, что ты сможешь.','Сдавайся, в этом нет смысла.'], 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Пройди через это, я знаю, что ты сможешь.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}

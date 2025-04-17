@@ -629,7 +629,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Я знаю, что это неправда.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ты не знаешь всего. Единственный человек, который']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['знает всё - это я, а я прожил всего лишь']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['знает всё - это я, а я прожила всего лишь']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [восемнадцать лет.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я думаю, тебе пора проснуться.']}
@@ -863,7 +863,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты хоть что-нибудь помнишь?']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Прошло так много... много времени.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Он... он очень любит тебя. Он скучал по тебе.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я тоже скучал по нему, но....']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я тоже скучала по нему, но....']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я не могу позволить другим увидеть меня здесь.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Это важно.']}

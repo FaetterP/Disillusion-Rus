@@ -52,7 +52,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Парящий высоко в небе,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Отрази свой полет с небес.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Отрази свой полёт с небес.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Тайны жизни на твоем пути.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Глядя на них не произноси ни слова.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
@@ -105,11 +105,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['У меня есть кое-что для тебя, приятель, послушай это.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['У меня есть кое-что для тебя, приятель, послушай.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты должен по-настоящему сосредоточиться']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['на своей мудрости, учёба для слабаков,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [но я научу тебя маленькой хитрости.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['на своей мудрости. Учёба для слабаков,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['но я научу тебя маленькой хитрости.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 318, p: [0, 1, 0, 44]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*Выучено усиливающее заклинание*!']}
@@ -471,7 +471,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Ты был создан для страданий. То, как ты думаешь,']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['поступаешь выражаешь эмоции и воспринимаешь']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['поступаешь, выражаешь эмоции и воспринимаешь']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['реальность, всё это было подделано таким образом,']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['чтобы не создавать ничего, кроме страданий.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 221, p: []}

@@ -214,7 +214,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [1, MEl39, 0, 0, -4, 3, 100, 75, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Тебе еще предстоит доказать мне это. Почему бы]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Тебе ещё предстоит доказать мне это. Почему бы]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [нам не забыть этот разговор и не двигаться дальше.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [485, 485, 0, 0, 1]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 122, p: [491, 491, 0, 0, 0]}
@@ -250,8 +250,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [есть настоящая трагедия.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Болезнь, которую невозможно вылечить, сколько']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [бы твоих воплощений не прошло бы через это]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [царство. Ты всегда будешь напуган и замкнут]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [бы твоих перерождений не прошло бы через этот]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [мир. Ты всегда будешь напуган и замкнут]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['так и не обретя ясного представление о своих...']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [прошлых и будущих жизнях. Я чувствую себя виноватой]}

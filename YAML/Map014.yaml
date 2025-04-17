@@ -1091,7 +1091,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ох.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я сигналю и сигналю, а ты всё равно не']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я бибикаю и бибикаю, а ты всё равно не']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [улыбаешься. Ты смотришь на меня с отвращением.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Это ты меня сюда запихнул!]}

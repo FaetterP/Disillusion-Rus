@@ -1428,16 +1428,16 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Какой самый большой организм на Земле?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Земле?', Кит., Слон., Гриб.], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Гриб.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Земля?', Кит., Слон., Гриб.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Земля?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Ты так долго не спал, ты не помнишь?']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Гриб.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Кит.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я не знаю, что это такое, и ты тоже.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Гриб.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [2, Слон.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Я не знаю, что это такое, и ты тоже.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}

@@ -637,7 +637,7 @@ events:
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Stretch]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Уходи отсюда, пока еще можешь!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Уходи отсюда, пока ещё можешь!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   6: !ruby/object:RPG::Event
     id: 6

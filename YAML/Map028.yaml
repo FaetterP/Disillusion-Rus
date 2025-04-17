@@ -620,10 +620,10 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Ты выглядишь ужасно знакомо.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Хотя я уже не тороплюсь, как раньше.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Не то чтобы я забыл, просто, ну...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Не то чтобы я забыла, просто, ну...']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Мы проиграли!]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Но, наверное, теперь, когда всё закончилось и всё']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Но, наверное, теперь, когда всё закончилось, и всё']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['разрушено, мы можем стать отличными друзьями.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}

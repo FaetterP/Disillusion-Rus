@@ -1907,7 +1907,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['О, это было так весело.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['По крайней мере, мы были заняты друг другом!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Половину времени я едва помнил своего]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Половину времени я едва помнила своего]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [врага!]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}

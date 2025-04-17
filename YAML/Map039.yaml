@@ -71,7 +71,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: agony, pitch: 70, volume: 35}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [300]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Сколько воплощений мы ещё будем страдать...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Сколько перерождений мы ещё будем страдать...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Позволь мне забыть... Позволь мне быть свободным от]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [ментальных болезней. Действительно ли таким как мы]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['безнадёжно надеяться на нирвану?']}
@@ -79,7 +79,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Мы прокляты разлагаться в стенах сансары, пока']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [пока берега Пуруши не иссякнут.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ни для кого из нас нет надежды. Каждое']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [следующее воплощение ввергает нас всё больше в]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [следующее перерождение ввергает нас всё больше в]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [безумие....]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
@@ -1134,11 +1134,11 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['.....']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Вот мы и здесь. Место, которое']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['я так отчаянно избегала.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['я так отчаянно избегал.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я люблю тебя, я люблю тебя, я люблю тебя.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Что бы ни случилось, я всё прощу,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Но не принимай предложение.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Несмотря ни на что, я всё простил,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['но не соглашайся на предложение.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
