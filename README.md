@@ -1,10 +1,15 @@
 # Disillusion-Rus
 
-Русификатор для Disillusion.
+Русификатор для игры [Disillusion](https://store.steampowered.com/app/1490060).  
+Буду рад *звёздочке ⭐* на этом репозитории.
+
+Поддержать автора перевода можно здесь:  
+https://boosty.to/faetterp
+
+---
 
 ![2024-04-19_014959](https://github.com/FaetterP/Disillusion-Rus/assets/56697273/82db48e7-65cb-4579-bcb9-e926dbbe6b72)
 ![2024-04-19_015131](https://github.com/FaetterP/Disillusion-Rus/assets/56697273/e528087c-412f-472b-9965-0d9b39db3ce6)
-
 
 ## Установка
 
