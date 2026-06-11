@@ -892,7 +892,7 @@ events:
         tile_id: 0
         character_name: '!$mazeduedes2'
         character_index: 0
-        direction: 4
+        direction: 2
         pattern: 1
       move_type: 0
       move_speed: 3
@@ -915,7 +915,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Жители высокогорных районов Гватемалы создают]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"кукол беспокойства", чтобы легче уснуть.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Согласно легенде, кукла-тревога олицетворяет']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Согласно легенде, кукла тревоги олицетворяет']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [мудрость принцессы Майя.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   13: !ruby/object:RPG::Event

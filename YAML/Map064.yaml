@@ -1229,7 +1229,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['можно найти внутри. Но имей в виду, что']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['бхул бхулайя - это огромный запутанный лабиринт....']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Внутри лабиринта разбросаны письмена, это сделано']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Внутри лабиринта разбросаны письмена. Это сделано']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['для того, чтобы сдержать женщину по имени Мара и не']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [дать ей войти и прочитать эти письмена.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
@@ -1239,9 +1239,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [разных мест лабиринта.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Возьми этот канделябр, но не потеряй его.']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Если ты захочешь попасть в лабиринт, обращайся']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ко мне в любое время. Если ты захочешь вернуться]}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['к нам позже, канделябр откроет тебе порталы.']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Если ты захочешь попасть в лабиринт, поговори']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [со мной в любое время. Если ты захочешь вернуться]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['сюда позже, канделябр откроет тебе порталы.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Библиотека находится на поздних этажах башни.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Желаю удачи.]}

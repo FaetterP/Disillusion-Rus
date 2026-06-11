@@ -1588,7 +1588,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 3.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Возьми эти носки, хороши для ходьбы.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Возьми эти носки, они хороши для ходьбы.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ["используй ESC, чтобы открыть меню"]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [и надеть классные вещи.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}

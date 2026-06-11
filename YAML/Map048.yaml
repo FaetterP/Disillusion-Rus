@@ -2942,7 +2942,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Каждой музе был дарован свой личный сад.]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Это помогает нам жить даже дольше, чем дэвы.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Это помогает нам жить даже дольше, чем дэвам.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Если я вернусь туда, я снова буду чувствовать']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['себя собой. Не волнуйся, всё будет в порядке.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}

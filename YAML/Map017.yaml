@@ -668,8 +668,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты что-то хотел?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Я хочу встретиться с Дэвами., Я хочу уйти домой.], 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Я хочу встретиться с Дэвами.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Я хочу встретиться с дэвами., Я хочу уйти домой.], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Я хочу встретиться с дэвами.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Полагаю, это проще сказать, чем сделать.']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Только самые старые из присутствующих здесь]}

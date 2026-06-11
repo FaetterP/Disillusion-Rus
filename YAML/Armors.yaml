@@ -47,8 +47,8 @@
   etype_id: 3
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: Он выглядит счастливым. Даёт 3 защиты.
-  name: Футболка со смайликом
+  description: "На ней нарисован смайлик.\r\nОн выглядит счастливым. Даёт 3 защиты."
+  name: Футболка
   icon_index: 0
   price: 2000
   note: ''
@@ -71,7 +71,7 @@
   atype_id: 1
 - !ruby/object:RPG::Armor
   description: "Бренд Pit Snake. Не одобрен отделом\r\nбезопасности. Дают 4 магической защиты."
-  name: Тёмные очки Pit Snake
+  name: Тёмные очки
   icon_index: 0
   price: 5000
   note: ''
@@ -94,7 +94,7 @@
   atype_id: 1
 - !ruby/object:RPG::Armor
   description: "Разве парень написавший ту песню о меньшем дожде \r\nне носил его? Даёт 7 магической защиты."
-  name: Ожерелье из погнутой вилки
+  name: Ожерелье из вилки
   icon_index: 0
   price: 8000
   note: ''
@@ -162,7 +162,7 @@
   etype_id: 2
   atype_id: 1
 - !ruby/object:RPG::Armor
-  description: "Стикер со смеющимся демоном. \r\nГоворят, он дает божественную силу. Только правда ли это?"
+  description: "Стикер со смеющимся демоном. Говорят,\r\nон даёт божественную силу. Только правда ли это?"
   name: Демонический стикер
   icon_index: 0
   price: 1

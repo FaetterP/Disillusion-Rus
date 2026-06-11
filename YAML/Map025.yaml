@@ -1019,7 +1019,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Иногда нужно в чём-то проиграть, чтобы где-то']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['выиграть. У меня есть техника выживания, которую']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['я предоставлю тебе. Используйте её, когда отчаешься.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['я предоставлю тебе. Используй её, когда отчаешься.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['*Выучено Жертвоприношение!*']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 318, p: [0, 1, 0, 26]}

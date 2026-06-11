@@ -1843,7 +1843,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Zoom 2.0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [V-Align 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я знаю, что обещал тебе найти дэва, с которым можно']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я знаю, что обещал тебе найти дэвов, с которыми можно']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['поговорить, но я не думаю, что смогу. Однако, есть']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['библиотека, хранители которой старше многих. Я не']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['знаю, как туда попасть, но есть много слухов про это.']}

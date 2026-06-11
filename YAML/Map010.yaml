@@ -73,8 +73,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Красную.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Тебя колют и кромсают с такой жестокостью, что']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['кровь разбрызгивается повсюду, пропитывая твоё тело']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['и это похоже на то, как если бы на тебе был надета']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['кровь разбрызгивается повсюду, пропитывая твоё тело,']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['и это похоже на то, как если бы на тебе надета']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['ярко-красная накидка!']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 6, true, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
@@ -114,7 +114,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Синюю.]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Из твоего тела высасывают кровь, оставляя тебя']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [мертвым с посиневшим лицом на полу!]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['на полу мёртвым с посиневшим лицом!']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 301, p: [0, 6, true, false]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 601, p: []}
       - !ruby/object:RPG::EventCommand

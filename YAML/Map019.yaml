@@ -25,7 +25,7 @@ events:
         actor_id: 1
       graphic: !ruby/object:RPG::Event::Page::Graphic
         tile_id: 0
-        character_name: '!$mazeduedes2'
+        character_name: '!$mazeduedes8'
         character_index: 0
         direction: 6
         pattern: 2

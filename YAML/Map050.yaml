@@ -103,7 +103,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['всё время, и я прошу прощения.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Я пришла сюда против воли многих, чтобы']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['разобраться, почему всё меньше душ не попадают']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['разобраться, почему всё больше душ не попадают']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['туда, где им место. Видишь ли, души приходят']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['сюда, чтобы пройти испытание. Эта башня - загробная']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}

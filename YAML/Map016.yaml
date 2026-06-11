@@ -263,18 +263,18 @@ events:
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [Ты ещё не готов это услышать.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['А теперь проваливай. Думаю, кто-то']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ждет тебя у ратуши.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ждёт тебя у ратуши.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [33, 33, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 402, p: [1, 'Что такое Благородный Восьмеричный Путь?']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['Правильное воззрение, правильное намерение,']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['правильная речь, правильное поведение, правильный']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['образ жизни, правильное, усилие, правильное ']}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['образ жизни, правильное усилие, правильное ']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['памятование, и правильное самадхи.']}
       - !ruby/object:RPG::EventCommand {i: 2, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: ['А теперь проваливай. Думаю, кто-то']}
-      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ждет тебя у ратуши.]}
+      - !ruby/object:RPG::EventCommand {i: 2, c: 401, p: [ждёт тебя у ратуши.]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 122, p: [33, 33, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 2, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 404, p: []}

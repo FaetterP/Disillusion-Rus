@@ -1025,10 +1025,10 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: Воздушный урон по 1 врагу. Тратит 6 ОМ.
-  name: Порыв
+  name: Шквал
   occasion: 0
   icon_index: 107
-  message1: ' использует Порыв!'
+  message1: ' использует Шквал!'
   scope: 1
   animation_id: 73
   note: ''

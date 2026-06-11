@@ -310,8 +310,8 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Ты с ним разобрался? Класс. Я скажу тебе как']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['выбраться отсюда. Я это выяснил, пока ты был']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['занят. Видишь центральный зал перед картиной?']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Иди прямо и пройди направо...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['занят. Видишь небольшой зал, а рядом на стене']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [картина. Стань справа от неё и сделай шаг...]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Сквозь стену.]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
